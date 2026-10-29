@@ -92,6 +92,11 @@ def main() -> None:
 
     day = date.fromisoformat(args.date) if args.date else datetime.now(KST).date()
     analyzer = Analyzer(mock=args.mock)
+    if analyzer.mock and not args.mock:
+        # 키가 빠진 채 자동 실행되면 가짜 결과가 실제 데이터로 저장되므로, 조용히 넘어가지 않고 멈춘다
+        raise SystemExit("LLM_API_KEY / LLM_MODEL이 설정되지 않았습니다. "
+                         ".env(내 PC) 또는 GitHub Secrets·Variables(자동 실행)를 확인하세요. "
+                         "테스트 모드로 돌리려면 --mock을 붙이세요.")
     print(f"기준일 {day} · AI {'테스트 모드' if analyzer.mock else analyzer.model}")
 
     html = None
