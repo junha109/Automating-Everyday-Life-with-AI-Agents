@@ -1,5 +1,7 @@
 # GitHub Trending 한국어 대시보드
 
+**사이트: https://github-trending-ko.pages.dev**
+
 매일 아침 GitHub Trending을 수집해 분야별로 분류하고, 한국어로 요약·번역해 웹페이지로 보여줍니다.
 관심 분야(재료공학·이차전지·분석기기) 레포는 스타 증가량으로 별도 Trending을 계산합니다.
 
