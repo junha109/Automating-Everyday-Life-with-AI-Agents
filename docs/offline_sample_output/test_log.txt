@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0 -- /home/claude/github-trending-ko/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/claude/github-trending-ko
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1
+collecting ... collected 11 items
+
+tests/test_history_interest.py::test_first_day_is_baseline PASSED        [  9%]
+tests/test_history_interest.py::test_delta_ranking_and_skip_gap_day PASSED [ 18%]
+tests/test_history_interest.py::test_streak_counts_consecutive_days PASSED [ 27%]
+tests/test_history_interest.py::test_category_counts_interest_excludes_irrelevant PASSED [ 36%]
+tests/test_pipeline_parts.py::test_parse_trending_fields PASSED          [ 45%]
+tests/test_pipeline_parts.py::test_parse_ignores_non_repo_rows PASSED    [ 54%]
+tests/test_pipeline_parts.py::test_extract_json_with_code_fence PASSED   [ 63%]
+tests/test_pipeline_parts.py::test_normalize_fixes_unknown_category PASSED [ 72%]
+tests/test_pipeline_parts.py::test_normalize_interest_keeps_relevance PASSED [ 81%]
+tests/test_pipeline_parts.py::test_language_hint PASSED                  [ 90%]
+tests/test_pipeline_parts.py::test_warnings PASSED                       [100%]
+
+============================== 11 passed in 0.36s ==============================

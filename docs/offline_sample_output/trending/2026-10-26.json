@@ -1,0 +1,185 @@
+{
+ "date": "2026-10-26",
+ "tab": "trending",
+ "status": "ok",
+ "model": "mock",
+ "category_counts": {
+  "LLM·에이전트": 2,
+  "AI/ML (그 외)": 0,
+  "Web·Frontend": 0,
+  "DevTools·CLI": 1,
+  "Infra·Cloud·DevOps": 1,
+  "Data·DB": 0,
+  "Security": 0,
+  "Mobile·Desktop 앱": 0,
+  "학습자료": 1,
+  "기타": 1
+ },
+ "repos": [
+  {
+   "rank": 1,
+   "full_name": "acme/agent-kit",
+   "url": "https://github.com/acme/agent-kit",
+   "description": "A framework for building LLM agents with tool calling and memory",
+   "language": "Python",
+   "stars": 18200,
+   "forks": 1820,
+   "stars_today": 415,
+   "topics": [
+    "llm",
+    "agent",
+    "mcp"
+   ],
+   "readme_excerpt": "# agent-kit\n\nBuild LLM agents with tools, memory and MCP servers.\n\nUsage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs. Usage docs.",
+   "readme_chars": 786,
+   "ai": {
+    "category": "LLM·에이전트",
+    "summary_ko": "[테스트 모드 요약] acme/agent-kit 레포입니다.",
+    "description_ko": "[테스트 모드 번역] A framework for building LLM agents with tool calling and memory",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "rank": 2,
+   "full_name": "cloudops/kubeslim",
+   "url": "https://github.com/cloudops/kubeslim",
+   "description": "Shrink your Kubernetes clusters automatically",
+   "language": "Go",
+   "stars": 5100,
+   "forks": 510,
+   "stars_today": 609,
+   "topics": [
+    "kubernetes",
+    "cloud"
+   ],
+   "readme_excerpt": "# kubeslim\n\nAutoscaler that right-sizes node pools.\n\nInstall with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Install with helm. Instal",
+   "readme_chars": 812,
+   "ai": {
+    "category": "Infra·Cloud·DevOps",
+    "summary_ko": "[테스트 모드 요약] cloudops/kubeslim 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Shrink your Kubernetes clusters automatically",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "rank": 3,
+   "full_name": "shadow/nodesc",
+   "url": "https://github.com/shadow/nodesc",
+   "description": "",
+   "language": "Rust",
+   "stars": 2300,
+   "forks": 230,
+   "stars_today": 706,
+   "topics": [],
+   "readme_excerpt": "# nodesc\n\nWIP",
+   "readme_chars": 13,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "[테스트 모드 요약] shadow/nodesc 레포입니다.",
+    "description_ko": "[테스트 모드 번역]",
+    "confidence": "low",
+    "confidence_reason": "README가 짧아 판단 근거가 부족함",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 매우 짧음",
+    "레포 설명 없음",
+    "AI 확신 낮음: README가 짧아 판단 근거가 부족함"
+   ],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "rank": 4,
+   "full_name": "dragon/zh-rag",
+   "url": "https://github.com/dragon/zh-rag",
+   "description": "检索增强生成工具包",
+   "language": "Python",
+   "stars": 7700,
+   "forks": 770,
+   "stars_today": 803,
+   "topics": [
+    "rag"
+   ],
+   "readme_excerpt": "# zh-rag\n\n这是一个用于检索增强生成的工具包。支持多种向量数据库和大语言模型。\n\n使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。使用方法说明。",
+   "readme_chars": 605,
+   "ai": {
+    "category": "LLM·에이전트",
+    "summary_ko": "[테스트 모드 요약] dragon/zh-rag 레포입니다.",
+    "description_ko": "[테스트 모드 번역] 检索增强生成工具包",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주"
+   ],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "rank": 5,
+   "full_name": "learn/awesome-ai-tools",
+   "url": "https://github.com/learn/awesome-ai-tools",
+   "description": "A curated list of awesome AI developer tools",
+   "language": null,
+   "stars": 15600,
+   "forks": 1560,
+   "stars_today": 997,
+   "topics": [
+    "awesome",
+    "awesome-list"
+   ],
+   "readme_excerpt": "# Awesome AI Tools\n\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](https://x) description\n- [tool](htt",
+   "readme_chars": 2579,
+   "ai": {
+    "category": "학습자료",
+    "summary_ko": "[테스트 모드 요약] learn/awesome-ai-tools 레포입니다.",
+    "description_ko": "[테스트 모드 번역] A curated list of awesome AI developer tools",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "rank": 6,
+   "full_name": "termy/termy",
+   "url": "https://github.com/termy/termy",
+   "description": "A modern terminal emulator written in Zig",
+   "language": "Zig",
+   "stars": 6600,
+   "forks": 660,
+   "stars_today": 1094,
+   "topics": [
+    "terminal",
+    "cli"
+   ],
+   "readme_excerpt": "# termy\n\nGPU-accelerated terminal.\n\nFeatures list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list. Features list.",
+   "readme_chars": 635,
+   "ai": {
+    "category": "DevTools·CLI",
+    "summary_ko": "[테스트 모드 요약] termy/termy 레포입니다.",
+    "description_ko": "[테스트 모드 번역] A modern terminal emulator written in Zig",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  }
+ ]
+}
