@@ -1,0 +1,191 @@
+{
+ "date": "2026-10-29",
+ "tab": "interest",
+ "status": "ok",
+ "compared_with": "2026-10-28",
+ "candidates": 7,
+ "model": "mock",
+ "category_counts": {
+  "재료 시뮬레이션": 0,
+  "재료 데이터·ML": 1,
+  "이차전지": 2,
+  "분석기기·데이터 처리": 1,
+  "과학계산 일반": 0,
+  "기타": 0
+ },
+ "repos": [
+  {
+   "full_name": "phoneguy/battery-saver",
+   "url": "https://github.com/phoneguy/battery-saver",
+   "description": "Android app to extend your phone battery life",
+   "language": "Kotlin",
+   "stars": 3489,
+   "forks": 436,
+   "topics": [
+    "battery",
+    "android"
+   ],
+   "pushed_at": "2026-10-28T00:00:00Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 18,
+   "rank": 1,
+   "readme_excerpt": "# Battery Saver\n\nSave your phone battery with smart profiles.\n\nScreens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens. Screens.",
+   "readme_chars": 422,
+   "ai": {
+    "category": "이차전지",
+    "summary_ko": "[테스트 모드 요약] phoneguy/battery-saver 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Android app to extend your phone battery life",
+    "confidence": "high",
+    "confidence_reason": "",
+    "relevant": false,
+    "relevance_reason": "테스트 모드 키워드 규칙",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "cellmodel/pybatt",
+   "url": "https://github.com/cellmodel/pybatt",
+   "description": "Physics-based lithium-ion battery cell modeling (P2D, SPMe)",
+   "language": "Python",
+   "stars": 1823,
+   "forks": 227,
+   "topics": [
+    "battery",
+    "lithium-ion",
+    "electrochemistry"
+   ],
+   "pushed_at": "2026-10-28T00:00:00Z",
+   "matched_queries": [
+    "topic:battery",
+    "topic:lithium-ion",
+    "topic:electrochemistry",
+    "battery in:name,description"
+   ],
+   "stars_delta": 11,
+   "rank": 2,
+   "readme_excerpt": "# pybatt\n\nDFN/P2D models for Li-ion cells.\n\nEquations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equations. Equation",
+   "readme_chars": 923,
+   "ai": {
+    "category": "이차전지",
+    "summary_ko": "[테스트 모드 요약] cellmodel/pybatt 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Physics-based lithium-ion battery cell modeling (P2D, SPMe)",
+    "confidence": "high",
+    "confidence_reason": "",
+    "relevant": true,
+    "relevance_reason": "테스트 모드 키워드 규칙",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "bms/open-bms",
+   "url": "https://github.com/bms/open-bms",
+   "description": "Open-source battery management system firmware",
+   "language": "C",
+   "stars": 2409,
+   "forks": 301,
+   "topics": [
+    "battery-management-system",
+    "embedded"
+   ],
+   "pushed_at": "2026-10-28T00:00:00Z",
+   "matched_queries": [
+    "topic:battery-management-system",
+    "battery in:name,description"
+   ],
+   "stars_delta": 8,
+   "rank": 3,
+   "readme_excerpt": "# open-bms\n\nCell balancing and SOC estimation.\n\nDocs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs.",
+   "readme_chars": 407,
+   "ai": {
+    "category": "이차전지",
+    "summary_ko": "[테스트 모드 요약] bms/open-bms 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Open-source battery management system firmware",
+    "confidence": "high",
+    "confidence_reason": "",
+    "relevant": true,
+    "relevance_reason": "테스트 모드 키워드 규칙",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "matsci/pymatgen-lite",
+   "url": "https://github.com/matsci/pymatgen-lite",
+   "description": "Lightweight materials analysis built on pymatgen",
+   "language": "Python",
+   "stars": 1073,
+   "forks": 134,
+   "topics": [
+    "pymatgen",
+    "materials-science"
+   ],
+   "pushed_at": "2026-10-28T00:00:00Z",
+   "matched_queries": [
+    "topic:materials-science",
+    "topic:pymatgen"
+   ],
+   "stars_delta": 6,
+   "rank": 4,
+   "readme_excerpt": "# pymatgen-lite\n\nCrystal structure utilities.\n\nDocs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs. Docs.",
+   "readme_chars": 526,
+   "ai": {
+    "category": "재료 데이터·ML",
+    "summary_ko": "[테스트 모드 요약] matsci/pymatgen-lite 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Lightweight materials analysis built on pymatgen",
+    "confidence": "high",
+    "confidence_reason": "",
+    "relevant": true,
+    "relevance_reason": "테스트 모드 키워드 규칙",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "xraylab/xrd-fit",
+   "url": "https://github.com/xraylab/xrd-fit",
+   "description": "Rietveld-free XRD peak fitting and phase quantification",
+   "language": "Python",
+   "stars": 479,
+   "forks": 59,
+   "topics": [
+    "xrd",
+    "x-ray-diffraction"
+   ],
+   "pushed_at": "2026-10-28T00:00:00Z",
+   "matched_queries": [
+    "topic:xrd",
+    "topic:x-ray-diffraction"
+   ],
+   "stars_delta": 3,
+   "rank": 5,
+   "readme_excerpt": "# xrd-fit\n\nFit XRD patterns quickly.\n\nExamples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples. Examples.",
+   "readme_chars": 637,
+   "ai": {
+    "category": "분석기기·데이터 처리",
+    "summary_ko": "[테스트 모드 요약] xraylab/xrd-fit 레포입니다.",
+    "description_ko": "[테스트 모드 번역] Rietveld-free XRD peak fitting and phase quantification",
+    "confidence": "high",
+    "confidence_reason": "",
+    "relevant": true,
+    "relevance_reason": "테스트 모드 키워드 규칙",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  }
+ ]
+}

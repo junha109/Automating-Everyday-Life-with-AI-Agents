@@ -1,0 +1,55 @@
+기준일 2026-10-26 · AI 테스트 모드
+[trending] 6개 수집
+  # 1 acme/agent-kit                                → LLM·에이전트
+  # 2 cloudops/kubeslim                             → Infra·Cloud·DevOps
+  # 3 shadow/nodesc                                 → 기타
+  # 4 dragon/zh-rag                                 → LLM·에이전트
+  # 5 learn/awesome-ai-tools                        → 학습자료
+  # 6 termy/termy                                   → DevTools·CLI
+[interest] 후보 7개, 상태=baseline, 상위 0개 처리
+기준일 2026-10-27 · AI 테스트 모드
+[trending] 6개 수집
+  # 1 vizlab/fastchart                              → Web·Frontend
+  # 2 cloudops/kubeslim                             → Infra·Cloud·DevOps
+  # 3 shadow/nodesc                                 → 기타
+  # 4 sneaky/prompt-test                            → 기타
+  # 5 learn/awesome-ai-tools                        → 학습자료
+  # 6 termy/termy                                   → DevTools·CLI
+[interest] 후보 7개, 상태=ok, 상위 7개 처리
+  # 1 +23   [X] phoneguy/battery-saver                        → 이차전지
+  # 2 +16   [O] cellmodel/pybatt                              → 이차전지
+  # 3 +13   [O] bms/open-bms                                  → 이차전지
+  # 4 +11   [O] matsci/pymatgen-lite                          → 재료 데이터·ML
+  # 5 +8    [O] xraylab/xrd-fit                               → 분석기기·데이터 처리
+  # 6 +5    [O] mdsim/lammps-tools                            → 재료 시뮬레이션
+  # 7 +4    [O] spec/ramanpy                                  → 분석기기·데이터 처리
+기준일 2026-10-28 · AI 테스트 모드
+[trending] 6개 수집
+  # 1 acme/agent-kit                                → LLM·에이전트
+  # 2 vizlab/fastchart                              → Web·Frontend
+  # 3 cloudops/kubeslim                             → Infra·Cloud·DevOps
+  # 4 dragon/zh-rag                                 → LLM·에이전트
+  # 5 sneaky/prompt-test                            → 기타
+  # 6 learn/awesome-ai-tools                        → 학습자료
+[interest] 후보 7개, 상태=ok, 상위 7개 처리
+  # 1 +23   [X] phoneguy/battery-saver                        → 이차전지
+  # 2 +16   [O] cellmodel/pybatt                              → 이차전지
+  # 3 +13   [O] bms/open-bms                                  → 이차전지
+  # 4 +11   [O] matsci/pymatgen-lite                          → 재료 데이터·ML
+  # 5 +8    [O] xraylab/xrd-fit                               → 분석기기·데이터 처리
+  # 6 +5    [O] mdsim/lammps-tools                            → 재료 시뮬레이션
+  # 7 +4    [O] spec/ramanpy                                  → 분석기기·데이터 처리
+기준일 2026-10-29 · AI 테스트 모드
+[trending] 6개 수집
+  # 1 acme/agent-kit                                → LLM·에이전트
+  # 2 vizlab/fastchart                              → Web·Frontend
+  # 3 shadow/nodesc                                 → 기타
+  # 4 dragon/zh-rag                                 → LLM·에이전트
+  # 5 sneaky/prompt-test                            → 기타
+  # 6 termy/termy                                   → DevTools·CLI
+[interest] 후보 7개, 상태=ok, 상위 5개 처리
+  # 1 +18   [X] phoneguy/battery-saver                        → 이차전지
+  # 2 +11   [O] cellmodel/pybatt                              → 이차전지
+  # 3 +8    [O] bms/open-bms                                  → 이차전지
+  # 4 +6    [O] matsci/pymatgen-lite                          → 재료 데이터·ML
+  # 5 +3    [O] xraylab/xrd-fit                               → 분석기기·데이터 처리
