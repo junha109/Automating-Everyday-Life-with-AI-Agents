@@ -29,6 +29,15 @@ def _record(repo: dict, readme: str, ai: dict) -> dict:
     }
 
 
+FAILED = {"ai": 0, "total": 0}  # AI 처리 실패 집계 (크레딧 소진·API 장애 감지용)
+
+
+def _count(ai: dict) -> None:
+    FAILED["total"] += 1
+    if ai.get("confidence_reason", "").startswith("AI 처리 실패"):
+        FAILED["ai"] += 1
+
+
 def run_trending(day: date, gh: GitHubAPI, analyzer: Analyzer, html: str | None = None) -> None:
     html = html if html is not None else fetch_trending_html()
     repos = parse_trending(html)
@@ -44,6 +53,7 @@ def run_trending(day: date, gh: GitHubAPI, analyzer: Analyzer, html: str | None 
             r["description"] = detail.get("description") or ""
         readme = gh.readme(r["full_name"])
         ai = analyzer.analyze("trending", r, readme)
+        _count(ai)
         records.append(_record(r, readme, ai))
         print(f"  #{r['rank']:>2} {r['full_name']:<45} → {ai['category']}")
 
@@ -67,6 +77,7 @@ def run_interest(day: date, gh: GitHubAPI, analyzer: Analyzer) -> None:
     for r in top:
         readme = gh.readme(r["full_name"])
         ai = analyzer.analyze("interest", r, readme)
+        _count(ai)
         records.append(_record(r, readme, ai))
         mark = "O" if ai.get("relevant") else "X"
         print(f"  #{r['rank']:>2} +{r['stars_delta']:<4} [{mark}] {r['full_name']:<45} → {ai['category']}")
@@ -111,6 +122,13 @@ def main() -> None:
         run_trending(day, gh, analyzer, html)
     if args.tab in ("interest", "all"):
         run_interest(day, gh, analyzer)
+
+    # 수집 결과는 이미 저장했지만, AI 처리가 절반 이상 실패했으면 실패로 끝내서
+    # GitHub Actions에 빨간 X가 뜨고 알림 메일이 가도록 한다 (크레딧 소진, 키 만료 등)
+    if FAILED["ai"]:
+        print(f"[경고] AI 처리 실패 {FAILED['ai']}/{FAILED['total']}건")
+    if FAILED["total"] and FAILED["ai"] * 2 >= FAILED["total"]:
+        raise SystemExit("AI 처리가 절반 이상 실패했습니다. API 크레딧·키·모델 이름을 확인하세요.")
 
 
 if __name__ == "__main__":

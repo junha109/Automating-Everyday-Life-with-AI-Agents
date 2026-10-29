@@ -33,6 +33,7 @@ jobs:
         run: uv run python -m trending.pipeline
 
       - name: Commit data
+        if: always()   # AI 처리가 실패해도 그날 수집한 Trending 기록은 남긴다 (지나면 다시 못 구함)
         run: |
           git config user.name "trending-bot"
           git config user.email "trending-bot@users.noreply.github.com"
