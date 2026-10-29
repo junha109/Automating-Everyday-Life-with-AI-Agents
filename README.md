@@ -51,8 +51,8 @@ uv run python -m http.server -d site 8000
    - **Variables**: `LLM_MODEL`
 3. Actions 탭 → `daily-collect` → Run workflow로 한 번 수동 실행해서 확인
 
-## 배포 (Cloudflare)
+## 배포 (Cloudflare Pages)
 
-`wrangler.jsonc`에 배포 설정이 있어요. Cloudflare 대시보드 **Workers & Pages → Create application**에서 이 저장소를 연결하고,
-프로젝트 이름을 `github-trending-ko`로 하면 기본 Deploy command(`npx wrangler deploy`)로 `site` 폴더가 배포돼요.
+Cloudflare 대시보드 **Workers & Pages → Create application → Pages → Connect to Git**에서 이 저장소를 연결.
+Framework preset `None`, Build command 비움, Build output directory `site`.
 매일 데이터 커밋이 올라오면 자동으로 다시 배포됩니다.
