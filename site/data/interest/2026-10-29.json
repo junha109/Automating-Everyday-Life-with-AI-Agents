@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-29",
+ "tab": "interest",
+ "status": "baseline",
+ "compared_with": null,
+ "candidates": 573,
+ "model": "anthropic/claude-haiku-4.5",
+ "prompt_version": "v2",
+ "category_counts": {
+  "재료 시뮬레이션": 0,
+  "재료 데이터·ML": 0,
+  "이차전지": 0,
+  "분석기기·데이터 처리": 0,
+  "과학계산 일반": 0,
+  "기타": 0
+ },
+ "repos": []
+}
