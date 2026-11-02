@@ -1,0 +1,1049 @@
+{
+ "date": "2026-11-02",
+ "tab": "interest",
+ "status": "ok",
+ "compared_with": "2026-11-01",
+ "candidates": 610,
+ "model": "anthropic/claude-haiku-4.5",
+ "prompt_version": "v2",
+ "category_counts": {
+  "재료 시뮬레이션": 1,
+  "재료 데이터·ML": 0,
+  "이차전지": 2,
+  "분석기기·데이터 처리": 1,
+  "과학계산 일반": 2,
+  "기타": 0
+ },
+ "repos": [
+  {
+   "full_name": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "language": "Python",
+   "stars": 55687,
+   "forks": 4901,
+   "topics": [
+    "agent-skills",
+    "ai-scientist",
+    "bioinformatics",
+    "chemoinformatics",
+    "claude",
+    "claude-skills",
+    "claudecode",
+    "clinical-research",
+    "computational-biology",
+    "data-analysis",
+    "drug-discovery",
+    "genomics",
+    "materials-science",
+    "metabolomics",
+    "proteomics",
+    "scientific-computing",
+    "scientific-visualization"
+   ],
+   "pushed_at": "2026-10-26T09:36:15Z",
+   "matched_queries": [
+    "topic:materials-science"
+   ],
+   "stars_delta": 131,
+   "rank": 1,
+   "readme_excerpt": "# Scientific Agent Skills\n\n> 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude.\n\n> New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here.",
+   "readme_chars": 78749,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "과학계산, 데이터 분석, 재료과학 등 과학 분야의 실제 연구 워크플로우를 지원하는 라이브러리로, 재료 시뮬레이션과 분석기기 데이터 처리에 활용될 수 있다.",
+    "category": "과학계산 일반",
+    "category_reason": "생물정보학, 화학정보학, 단백체학, 질량분석, 데이터 분석 등 다양한 과학 분야를 포괄하는 종합 도구 모음이므로 특정 분야에 국한되지 않는 일반 과학계산 카테고리에 해당한다.",
+    "summary_ko": "AI 에이전트를 과학자로 전환하는 라이브러리로, 생물학, 화학, 의학, 물리학, 공학 등 다양한 과학 분야를 다루는 177개의 검증된 스킬과 100개 이상의 과학 데이터베이스를 제공한다. Cursor, Claude Code 등 여러 AI 에이전트 플랫폼과 호환되며 Agent Skills 오픈 표준을 따른다.",
+    "description_ko": "모든 AI 에이전트를 AI 과학자로 변환할 수 있게 해주는 라이브러리다. 생물학, 화학, 의학, 약물 발견을 포괄하는 177개의 검증된 스킬과 100개 이상의 과학 데이터베이스를 포함하는 에이전트 스킬 라이브러리로, 전 세계 25만 명 이상의 과학자가 사용 중이다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준을 지원하는 플랫폼과 호환된다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "lingyired/status-trio",
+   "url": "https://github.com/lingyired/status-trio",
+   "description": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
+   "language": "Swift",
+   "stars": 1272,
+   "forks": 64,
+   "topics": [
+    "appkit",
+    "battery",
+    "dock",
+    "duobar",
+    "iphone-duo",
+    "macos",
+    "macos-app",
+    "menu-bar",
+    "menubar",
+    "menubar-app",
+    "status-bar",
+    "statusbar",
+    "swift",
+    "swiftui",
+    "three-in-one",
+    "utility",
+    "volume",
+    "wifi"
+   ],
+   "pushed_at": "2026-11-01T14:07:15Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 89,
+   "rank": 2,
+   "readme_excerpt": "Three system signals. One native macOS status icon — in your menu bar or the Dock.\n\nWant to see it in action first? Open statustrio.lingai.net to simulate every icon state in your browser.\n\nStatus Trio is a native macOS status app that combines Wi-Fi, battery, and volume into one compact, configurable icon, shown in the menu bar, in the Dock, or in both. Its popover goes deeper than the icon: a Wi-Fi panel for nearby networks and link details, a Bluetooth panel for paired devices, a Battery Details page, and the audio devices that are playing. It is inspired by the iPhone Duo's combined status bar icon for Wi-Fi, Battery, and Cellular Data, adapted for Mac with Volume instead of Cellular Data.\n\n> Status Trio is an independent project and is not affiliated with Apple.\n\n# Highlights\n\n• One icon, three signals — battery, Wi-Fi, and volume share one icon in the menu bar, the Dock, or both, and a Bluetooth device that is playing can take the middle spot with its own symbol.",
+   "readme_chars": 14273,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "macOS 상태 표시 앱으로, 배터리 잔량 표시는 기능일 뿐 재료공학·이차전지·분석기기·과학계산과 관련 없다.",
+    "category": "기타",
+    "category_reason": "이 프로젝트는 개인용 유틸리티 앱으로 과학·재료 분야와 무관하다.",
+    "summary_ko": "Status Trio는 macOS의 메뉴 바나 독에 표시되는 네이티브 앱으로, Wi-Fi, 배터리, 음량 정보를 하나의 컴팩트한 아이콘으로 통합해 보여준다. iPhone Duo의 결합된 상태 표시줄에서 영감을 받아 Mac 용으로 적응시켰으며, 12개 언어를 지원하고 세밀한 커스터마이징 옵션을 제공한다.",
+    "description_ko": "Status Trio — 네이티브 macOS 앱으로, Wi-Fi, 배터리, 음량을 하나의 컴팩트하고 설정 가능한 상태 아이콘으로 통합하여 메뉴 바, 독, 또는 둘 다에 표시한다. iPhone Duo의 결합된 상태 표시줄에서 영감을 받았다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "langchain-ai/deepagents",
+   "url": "https://github.com/langchain-ai/deepagents",
+   "description": "The batteries-included agent harness.",
+   "language": "Python",
+   "stars": 30872,
+   "forks": 4341,
+   "topics": [
+    "ai",
+    "deepagents",
+    "harness",
+    "harness-engineering",
+    "langchain",
+    "langgraph",
+    "python",
+    "typescript"
+   ],
+   "pushed_at": "2026-11-02T00:46:12Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 40,
+   "rank": 3,
+   "readme_excerpt": "The batteries-included agent harness.\n\nDeep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece.\n\n• Opinionated — defaults tuned for long-horizon, multi-step work\n\n• Extensible — override or replace any piece without forking\n\n• Model-agnostic — works with any LLM that supports tool calling: frontier, open-weight, or local\n\n• Production-ready — built on LangGraph (streaming, persistence, checkpointing) with first-class tracing, evaluation, and deployment via LangSmith\n\n• Sub-agents — delegate tasks to agents with isolated context windows\n\n• Filesystem — read, write, edit, or search over pluggable local, sandboxed, or remote backends\n\n• Context management — summarize long threads and offload tool outputs to disk\n\n• Shell access — run commands in your sandbox of choice\n\n• Persistent memory — pluggable state and store backends for cross-session recall",
+   "readme_chars": 5875,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "Deep Agents는 AI 에이전트 프레임워크로, 재료공학·이차전지·분석기기·과학계산과 실제로 관련이 없다.",
+    "category": "기타",
+    "category_reason": "소프트웨어 개발 도구(LangGraph 기반 AI 에이전트 프레임워크)로, 과학·공학 분야 전문 도구가 아니다.",
+    "summary_ko": "Deep Agents는 LangChain 기반의 오픈소스 AI 에이전트 프레임워크다. 파일시스템, 하위 에이전트, 문맥 관리 등 기능을 내장하고 있으며, 설정 없이 즉시 사용 가능하고 모든 부분을 커스터마이징할 수 있다.",
+    "description_ko": "배터리를 포함한 에이전트 환경",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "exelban/stats",
+   "url": "https://github.com/exelban/stats",
+   "description": "macOS system monitor in your menu bar",
+   "language": "Swift",
+   "stars": 43031,
+   "forks": 1607,
+   "topics": [
+    "battery",
+    "bluetooth",
+    "clock",
+    "cpu",
+    "disk",
+    "fans",
+    "gpu",
+    "macos",
+    "menubar",
+    "monitor",
+    "network",
+    "sensors",
+    "stats",
+    "temperature"
+   ],
+   "pushed_at": "2026-11-01T12:01:15Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 28,
+   "rank": 4,
+   "readme_excerpt": "# Stats\n\nmacOS system monitor in your menu bar\n\n# Installation\n\n# Manual\n\nYou can download the latest version here. This will download a file called Stats.dmg. Open it and move the app to the application folder.\n\n# Homebrew\n\nTo install it using Homebrew, open the Terminal app and type:\n\n# Headless (SSH)\n\nTo install Stats remotely over SSH and set it up as a remote monitoring agent, run:\n\nThe script installs the app, enables the Remote module and prints a URL with an authorization code - open it on any device and sign in to your System Stats account to authorize the machine. After that Stats starts streaming metrics to your account and is registered to launch automatically at login and restart if it stops. The Mac needs an active user session (a locked screen is fine) to run the app; on a fully headless machine Stats will start at the next login.\n\n# Uninstall\n\nRun the uninstall script bundled with the app (requires administrator privileges to remove the SMC helper):",
+   "readme_chars": 11568,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "macOS 시스템 모니터링 앱으로, 배터리 잔량 표시 등 단어만 겹치며 재료공학·이차전지·분석기기·과학계산과는 무관한 일반 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "시스템 성능 모니터링용 데스크톱 애플리케이션으로, 과학 및 재료 연구 관련 카테고리에 해당하지 않는다.",
+    "summary_ko": "Stats는 macOS 메뉴바에서 실시간으로 CPU, GPU, 메모리, 디스크, 네트워크, 배터리, 온도 센서, 블루투스 기기 등의 시스템 정보를 모니터링하는 앱이다. Swift로 작성되었으며, 수동 설치, Homebrew, SSH 원격 설치를 지원한다.",
+    "description_ko": "macOS 메뉴바의 시스템 모니터",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "dikeckaan/mu300-linux",
+   "url": "https://github.com/dikeckaan/mu300-linux",
+   "description": "Linux (Ubuntu 24.04/26.04 or OpenWrt) next to Android on the ZTE F50 / MU300 and U30 Air 5G hotspots (Unisoc T760 / UMS9620): installer, vendor 5.4 and mainline 6.18 / 7.2 kernels, 5G modem, Wi-Fi, battery, LEDs, NFC, findings",
+   "language": "C",
+   "stars": 767,
+   "forks": 121,
+   "topics": [
+    "5g",
+    "embedded-linux",
+    "linux",
+    "linux-kernel",
+    "openwrt",
+    "ubuntu",
+    "unisoc",
+    "zte"
+   ],
+   "pushed_at": "2026-11-01T23:25:19Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 17,
+   "rank": 5,
+   "readme_excerpt": "# Linux on the ZTE F50 / MU300 and U30 Air\n\nNews and new releases are announced on the Telegram channel: t.me/mu300project. Follow it to hear\n\nThe ZTE F50 is a pocket 5G router. This project turns it into a small Linux computer: Ubuntu (24.04 or 26.04 LTS) or OpenWrt (plain, or with a control panel for the modem), with SSH, Wi-Fi, Bluetooth and its 5G modem working. Android stays on the device, and you can go back to it at any time.\n\nThink of it as a Raspberry Pi that already has a 5G modem, a Wi-Fi access point and 32 GB of storage inside.\n\nThe ZTE U30 Air is supported too: the same board and chip with a battery. The installer recognises which one it is talking to; see Supported devices.",
+   "readme_chars": 102351,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "ZTE F50/MU300 5G 핫스팟 장치에 Linux를 설치하는 프로젝트로, 재료공학·이차전지 소재·분석기기·과학계산과는 무관한 임베디드 Linux 포팅 프로젝트다.",
+    "category": "기타",
+    "category_reason": "재료·배터리 관련 범주에 속하지 않으며, 임베디드 시스템 Linux 포팅 프로젝트로 분류된다.",
+    "summary_ko": "ZTE F50/MU300과 U30 Air 5G 핫스팟 장치에 Ubuntu 또는 OpenWrt 리눅스를 설치하는 프로젝트입니다. 기존 Android는 유지하면서 SSH, Wi-Fi, Bluetooth, 5G 모뎀을 지원하는 Linux 환경을 구축할 수 있습니다.",
+    "description_ko": "ZTE F50/MU300 및 U30 Air 5G 핫스팟(Unisoc T760/UMS9620 칩)에 Linux(Ubuntu 24.04/26.04 또는 OpenWrt)를 설치하는 프로젝트입니다. 설치 프로그램, vendor 5.4 및 mainline 6.18/7.2 커널, 5G 모뎀, Wi-Fi, 배터리, LED, NFC 지원 정보를 포함합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "mohammadrezwankhan/matlab-simulink-energy-lab",
+   "url": "https://github.com/mohammadrezwankhan/matlab-simulink-energy-lab",
+   "description": "Run reduced-order battery, thermal, converter and BESS control models with transparent equations and repeatable testing.",
+   "language": "MATLAB",
+   "stars": 524,
+   "forks": 23,
+   "topics": [
+    "battery-modeling",
+    "battery-thermal-management",
+    "bess",
+    "control-systems",
+    "dc-dc-converter",
+    "engineering-education",
+    "extended-kalman-filter",
+    "grid-following",
+    "grid-forming",
+    "interactive-dashboard",
+    "matlab",
+    "model-based-design",
+    "power-electronics",
+    "simulation",
+    "simulink",
+    "state-of-charge"
+   ],
+   "pushed_at": "2026-11-01T09:16:13Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 11,
+   "rank": 6,
+   "readme_excerpt": "> Version 1.12.0 — 2026-10-21. Release archives, verification evidence, > and SHA-256 checksums are available on the releases page. > See release readiness and migration for the > exact gates and the distinction between current source and historical CI.\n\nThe native repository contains Base MATLAB and generated Simulink models for batteries, thermal response, converters, and BESS control. A second-order response exercise develops control intuition before the bounded native examples.\n\nNative-source lesson guide · Offline interactive lab · Lesson configuration · Configuration schema\n\n# One-command MATLAB quickstart\n\nFrom the cloned repository root, with MATLAB installed:\n\nThis focused check needs Base MATLAB only. Expected output includes Battery RC check passed, final SOC 0.767, and voltage range 3.425 V to 3.877 V. These are deterministic illustrative results, not measured-cell accuracy. See Your First Result for plots and validation profiles for broader checks.",
+   "readme_chars": 40811,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "이차전지 모델링, 열관리, 컨버터, BESS 제어 등 에너지 저장 시스템의 공학 시뮬레이션을 다루는 레포다.",
+    "category": "이차전지",
+    "category_reason": "배터리 RC 모델, 충방전 상태(SOC), 열응답, BESS 제어 등 이차전지 시스템 전체를 MATLAB과 Simulink로 모델링하고 검증하는 교육용 도구다.",
+    "summary_ko": "MATLAB과 Simulink를 이용해 배터리, 열, 컨버터, BESS 제어 모델을 축약된 차수로 구현한 교육용 시뮬레이션 랩이다. 투명한 방정식과 반복 가능한 테스트를 통해 에너지 시스템의 동작 원리를 학습할 수 있으며, 오프라인 대시보드에서 상호작용 가능하다.",
+    "description_ko": "축약된 차수의 배터리, 열, 컨버터, BESS 제어 모델을 투명한 방정식과 반복 가능한 테스트를 통해 실행한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+   "language": "Rust",
+   "stars": 9686,
+   "forks": 422,
+   "topics": [
+    "adb",
+    "android",
+    "bloatware-list",
+    "bloatware-removal",
+    "debloat",
+    "debloater",
+    "debloating",
+    "privacy"
+   ],
+   "pushed_at": "2026-10-26T23:16:52Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 10,
+   "rank": 7,
+   "readme_excerpt": "# Universal Android Debloater Next Generation\n\n> DISCLAIMER: Use at your own risk. We're not responsible for anything that could happen to your devices.\n\nThis is a detached fork of the UAD project. This aims to improve privacy and efficiency (energy, speed, memory) by removing unnecessary and obscure system apps. This can also improve security by reducing the attack surface. Read the wiki for more details.\n\n# Documentation\n\nEverything about UAD-ng (and related stuff) can be found on the Wiki, such as:\n\n• Features of this app\n\n• Suggested Android app replacements\n\n• How to get the cutting-edge version by building the source-code\n\n• Weird things OEMs do\n\n• Suggested apps for analyzing APKs\n\n# Privacy\n\nUAD-ng does not collect or transmit any user data. The only external connections are GET requests to GitHub for fetching the package list (crates/uad-core/src/uad_lists.rs) and checking for updates (crates/uad-core/src/update.rs).",
+   "readme_chars": 3364,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "Android 시스템 앱 제거 도구로, 재료공학·이차전지·분석기기·과학계산과 무관한 일반 소프트웨어입니다.",
+    "category": "기타",
+    "category_reason": "Android 기기 최적화 유틸리티로 과학기술 분야가 아닌 일반 애플리케이션입니다.",
+    "summary_ko": "Universal Android Debloater Next Generation(UAD-ng)은 루트 권한 없이 Android 기기의 불필요한 시스템 앱을 제거하는 크로스 플랫폼 GUI 도구입니다. Rust로 작성되었으며 ADB를 사용하여 프라이버시, 보안, 배터리 지속 시간을 개선합니다.",
+    "description_ko": "Rust로 작성된 크로스 플랫폼 GUI로, ADB를 사용하여 루트 권한이 필요 없는 Android 기기의 불필요한 앱을 제거합니다. 기기의 프라이버시, 보안, 배터리 수명을 개선합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "jackyzha0/quartz",
+   "url": "https://github.com/jackyzha0/quartz",
+   "description": "🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites",
+   "language": "TypeScript",
+   "stars": 13511,
+   "forks": 4141,
+   "topics": [
+    "digital-garden",
+    "networked-thought",
+    "obsidian",
+    "obsidian-md",
+    "quartz-ssg",
+    "static-site-generator"
+   ],
+   "pushed_at": "2026-11-01T20:20:02Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 9,
+   "rank": 8,
+   "readme_excerpt": "# Quartz v5\n\n> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming\n\nQuartz is a set of tools that helps you publish your digital garden and notes as a website for free.\n\n🔗 Read the documentation and get started: https://quartz.jzhao.xyz/\n\nJoin the Discord Community",
+   "readme_chars": 485,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "Quartz는 마크다운 기반 정적 사이트 생성기로, 재료공학·이차전지·분석기기·과학계산과 무관한 웹 개발 도구다.",
+    "category": "기타",
+    "category_reason": "과학·공학 분야와 무관한 웹사이트 생성 도구이므로 분류 대상이 아니다.",
+    "summary_ko": "Quartz는 마크다운 콘텐츠를 풀기능 웹사이트로 변환하는 빠른 정적 사이트 생성기입니다. Obsidian, 디지털 가든, 네트워크 지식 등과 연계하여 개인 노트를 웹으로 공개할 수 있게 도와줍니다.",
+    "description_ko": "빠르고 완비된 정적 사이트 생성기로, 마크다운 콘텐츠를 완전히 기능하는 웹사이트로 변환합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "description": "A batteries-included framework for building web apps",
+   "language": "Rust",
+   "stars": 6296,
+   "forks": 224,
+   "topics": [],
+   "pushed_at": "2026-11-01T10:22:06Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 9,
+   "rank": 9,
+   "readme_excerpt": "The full full-stack framework for Rust\n\nTopcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See Learn Topcoat to get started, or the Roadmap for what's coming next.\n\nEarly-stage and experimental. Expect breaking changes.\n\n# What makes Topcoat different\n\n# Client reactivity without the boilerplate\n\nTopcoat renders all markup on the server: components can be async and query the database directly, eliminating all the traditional boilerplate needed for a separate API layer. Interactivity does not have to cost a round-trip, though. A $(...) expression is ordinary type-checked Rust that Topcoat evaluates on the server for the initial render and also translates to JavaScript, so it re-runs instantly in the browser. No wasm bundle, no client build step:",
+   "readme_chars": 11523,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "이 레포는 Rust 웹 프레임워크로, 재료공학·이차전지·분석기기·과학계산과는 무관한 소프트웨어 개발 도구이다.",
+    "category": "기타",
+    "category_reason": "웹 애플리케이션 프레임워크로, 과학·기술 분야의 전문 도구가 아니다.",
+    "summary_ko": "Topcoat은 Rust로 풀스택 웹 애플리케이션을 구축하기 위한 배터리 포함 프레임워크다. 서버 사이드 렌더링, 클라이언트 반응성, 모듈 기반 라우팅, UI 컴포넌트 라이브러리를 특징으로 한다.",
+    "description_ko": "웹 앱 구축을 위한 배터리 포함 프레임워크",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "SpriteOvO/AirPodsDesktop",
+   "url": "https://github.com/SpriteOvO/AirPodsDesktop",
+   "description": "☄️ AirPods desktop user experience enhancement program, for Windows and Linux (WIP)",
+   "language": "C++",
+   "stars": 3853,
+   "forks": 231,
+   "topics": [
+    "airpods",
+    "battery",
+    "bluetooth",
+    "desktop",
+    "helper",
+    "media-control",
+    "monitor",
+    "power",
+    "tool",
+    "windows"
+   ],
+   "pushed_at": "2026-10-27T19:49:50Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 9,
+   "rank": 10,
+   "readme_excerpt": "Enhance your AirPods experience on Windows\n\n# 🔍 Preview\n\n# ✨ Features\n\n• 🔋 Battery information in the notification area.\n\n• 👂 Automatic ear detection and media playback control.\n\n• 🚀 Low audio latency mode.\n\n• 🌈 Animated device popups and light, dark, or system themes.\n\n# 💻 System requirements\n\nOfficial builds support Windows 10 1809 or newer and Windows 11 on x64. 32-bit Windows and ARM64 are not supported. Existing Qt 5/Win32 users can migrate through the in-app updater while keeping\n\n# 🛠️ Build and test\n\nSee the Build Instructions for Windows prerequisites, build commands, and tests.\n\n# 🤝 Contribute\n\nAirPodsDesktop is an open source project, here are some ways you can contribute:\n\n• Open an issue to report bugs or suggest new features.\n\n• Submit a PR to fix bugs, improve documentation, or add features.\n\n• Translate to other languages or improve existing translations.",
+   "readme_chars": 3045,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "AirPods 데스크톱 연결 경험을 개선하는 유틸리티로, 배터리 잔량 표시는 단순 정보 표시일 뿐 재료공학·이차전지·분석기기·과학계산과 무관한 소비자용 응용 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "배터리 단어가 포함되어 있으나 실제로는 Bluetooth 헤드폰의 사용자 경험 향상 도구일 뿐이므로 기타로 분류한다.",
+    "summary_ko": "Windows와 Linux에서 AirPods의 사용 경험을 개선하는 데스크톱 프로그램입니다. 배터리 정보 표시, 자동 귀 감지, 미디어 제어, 저지연 오디오 모드 등의 기능을 제공합니다.",
+    "description_ko": "Windows와 Linux용 AirPods 데스크톱 사용자 경험 개선 프로그램 (개발 중)",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "evcc-io/evcc",
+   "url": "https://github.com/evcc-io/evcc",
+   "description": "smart charging ☀️🚘",
+   "language": "Go",
+   "stars": 7493,
+   "forks": 1605,
+   "topics": [
+    "battery",
+    "charger",
+    "eebus",
+    "emobility",
+    "golang",
+    "home-automation",
+    "modbus",
+    "mqtt",
+    "ocpp",
+    "pv",
+    "semp",
+    "solar",
+    "sunspec",
+    "wallbox"
+   ],
+   "pushed_at": "2026-11-01T19:03:42Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 8,
+   "rank": 11,
+   "readme_excerpt": "# evcc 🚘☀️\n\nevcc is an extensible EV Charge Controller and home energy management system.\n\nOur goal is to provide local energy management, without relying on cloud services. Featured in PV Magazine and c’t Magazin.\n\n# Features\n\n• simple and clean user interface\n\n• support for many EV chargers:",
+   "readme_chars": 7528,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "전기차 충전 제어 및 가정용 에너지 관리 시스템으로, 배터리 셀·소재·재료 과학이나 분석기기와는 무관한 IoT/에너지 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "이 레포는 재료공학이나 이차전지 기술 범위를 벗어나며, 전력 관리 소프트웨어로 분류되지 않는 영역에 속한다.",
+    "summary_ko": "evcc는 태양광 발전과 전기차 충전을 통합하는 오픈소스 에너지 관리 시스템입니다. 클라우드에 의존하지 않고 로컬에서 수백 종의 충전기, 에너지 미터, 전기차와 연동하여 스마트 충전을 제공합니다.",
+    "description_ko": "스마트 충전 ☀️🚘",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "hang-jin/editaplot",
+   "url": "https://github.com/hang-jin/editaplot",
+   "description": "AI-guided editable scientific figures with Codex and local Origin/OriginPro",
+   "language": "Python",
+   "stars": 1067,
+   "forks": 36,
+   "topics": [
+    "codex-skill",
+    "editable-figures",
+    "research",
+    "scientific-visualization",
+    "windows",
+    "xps",
+    "xrd"
+   ],
+   "pushed_at": "2026-11-01T07:36:00Z",
+   "matched_queries": [
+    "topic:xrd"
+   ],
+   "stars_delta": 7,
+   "rank": 12,
+   "readme_excerpt": "把表格交给 Codex，把可编辑的科研图带回 Origin 理解数据 · 选择表达 · 定制样式 · 检查交付 三步开始 · 看图选模板 · 复制提示词 · 完整教程 · English\n\n我做 EditaPlot，是想少花一些时间反复调图，多留一些时间讨论数据本身。你把表格和想表达的问题告诉 Codex，它会先说明每列的用途，等你确认后，再调用本机 Origin 绘图和检查结果。\n\n它是一个 Codex Skill，不是独立绘图软件。你仍然可以在 Origin 中继续编辑曲线、坐标轴和图例；配色、线宽与版式也可以在已支持的范围内按你的需求调整。\n\n使用前提：Windows 10/11 x64 实体电脑 + Codex + 本机 Origin/OriginPro。 日常使用不需要提前打开 Origin；Mac、Linux、WSL 和虚拟机暂不支持。\n\n# 先看看能画什么\n\n按实际列展示背景、包络和组分，不补造缺失峰。 同时看组间分布和每个观测，而不只看一根柱子。 使用上游已提供的逐样本 SHAP；绘图层不训练模型。 保留全部 900 个源值与行列顺序，不插值、不自动聚类。\n\n这些示例都用合成教学数据，由真实 Origin 生成，不代表实验或临床结论。点击图片可以看原图。\n\n浏览全部 45 条绘图路线 → 荧光 / EEG 研究信号 English gallery\n\n# 开始使用\n\n# 1 / 安装：这段话交给 Codex\n\n不会 GitHub 也没关系，把下面这段话复制给 Codex：\n\n请下载并保留完整仓库（包括 runtime），运行根目录 editaplot.cmd setup 和 doctor。 优先复用已有的 64 位 Python 3.11/3.12；需要安装 Python 时先问我。 不要安装或修改 Origin，不要修改注册表、DCOM，也不要申请管理员权限或控制鼠标。 完成后用中文告诉我环境是否就绪，再让我提供数据。\n\n也可以下载完整 ZIP，完整解压后让 Codex 在该文件夹里安装。不要只复制 skill/editaplot 子目录，它需要仓库中的绘图引擎。\n\n首次运行缺少兼容 Python 时，先按安装指南完成确认与配置。项目依赖只进入本项目环境，不修改全局 Python。",
+   "readme_chars": 6769,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "과학 연구 데이터 시각화와 XPS, XRD 등 분석기기 스펙트럼 처리를 직접 지원하므로 분석기기·데이터 처리 분야와 관련있다.",
+    "category": "분석기기·데이터 처리",
+    "category_reason": "XPS, XRD, 열분석, 분광 등 과학 기기의 데이터를 Origin에서 AI 기반 자동 시각화하고, 교정·검증하는 도구이기 때문이다.",
+    "summary_ko": "EditaPlot은 데이터표를 OpenAI의 Codex에 제공하면 각 열의 용도를 분석한 후 로컬 Origin/OriginPro를 호출하여 과학 논문용 편집 가능한 그래프를 자동 생성하는 Codex Skill이다. XPS, XRD, SHAP, 박스플롯, 열지도 등 45개의 과학 시각화 템플릿을 지원하며, 생성된 OPJU 파일은 Origin에서 계속 수정할 수 있다.",
+    "description_ko": "Codex와 로컬 Origin/OriginPro를 이용한 AI 기반 편집 가능 과학 그래프 생성",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주"
+   ],
+   "streak": 4,
+   "is_new": false
+  },
+  {
+   "full_name": "steel-dev/steel-browser",
+   "url": "https://github.com/steel-dev/steel-browser",
+   "description": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+   "language": "TypeScript",
+   "stars": 7903,
+   "forks": 1002,
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "llm"
+   ],
+   "pushed_at": "2026-10-31T22:53:20Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 5,
+   "rank": 13,
+   "readme_excerpt": "The open-source browser API for AI agents & apps. The best way to build live web agents and browser automation tools.\n\n# ✨ Highlights\n\nSteel.dev is an open-source browser API that makes it easy to build AI apps and agents that interact with the web. Instead of building automation infrastructure from scratch, you can focus on your AI application while Steel handles the complexity.\n\nUnder the hood, it manages sessions, pages, and browser processes, allowing you to perform complex browsing tasks programmatically without any of the headaches:\n\n• Full Browser Control: Uses Puppeteer and CDP for complete control over Chrome instances -- allowing you to connect using Puppeteer, Playwright, or Selenium.\n\n• Session Management: Maintains browser state, cookies, and local storage across requests\n\n• Proxy Support: Built-in proxy chain management for IP rotation\n\n• Extension Support: Load custom Chrome extensions for enhanced functionality",
+   "readme_chars": 13231,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "이 레포는 AI 에이전트용 브라우저 자동화 API로, 재료공학·이차전지·분석기기·과학계산과 무관한 웹 자동화 도구입니다.",
+    "category": "기타",
+    "category_reason": "재료·배터리·분석기기·과학계산 분야와 관련이 없으므로 기타로 분류됩니다.",
+    "summary_ko": "Steel은 AI 에이전트와 앱이 웹과 상호작용하도록 지원하는 오픈소스 브라우저 API입니다. 세션 관리, 프록시 지원, Chrome 확장 프로그램 로드 등을 포함한 완전한 브라우저 제어 기능을 제공하며, 개발자가 웹 자동화 인프라를 직접 구축하지 않고도 AI 애플리케이션 개발에 집중할 수 있게 해줍니다.",
+    "description_ko": "AI 에이전트와 앱용 오픈소스 브라우저 API입니다. Steel Browser는 인프라 걱정 없이 웹을 자동화할 수 있는 완비된 브라우저 샌드박스입니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "Tan-TanZi/InphicBatteryTray",
+   "url": "https://github.com/Tan-TanZi/InphicBatteryTray",
+   "description": "给英菲克（INPHIC）无线鼠标加一个任务栏电量显示",
+   "language": "C#",
+   "stars": 29,
+   "forks": 3,
+   "topics": [
+    "battery",
+    "inphic",
+    "inphic-in10",
+    "inphic-in9",
+    "inphic-mouse",
+    "mouse",
+    "system-tray",
+    "windows"
+   ],
+   "pushed_at": "2026-10-27T18:07:45Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 4,
+   "rank": 14,
+   "readme_excerpt": "# Inphic 鼠标电量托盘\n\n给英菲克（INPHIC）无线鼠标加一个任务栏电量显示。支持 IN10（设备主动上报）与 IN9（Feature Report 主动查询）两代。\n\n不修改原厂驱动、不注入原厂软件、不写入设备——只是监听鼠标本来就每 2 秒主动发出的电量报告，然后画在托盘上。\n\n# 为什么做这个\n\n原厂配置工具 INPHIC HUB 只在它自己的界面里显示电量，而且必须打开软件、点进设备页才看得到。托盘不显示电量，关掉程序就什么都不知道了。\n\nWindows 自带的\"蓝牙设备电量\"对 2.4G 接收器无效，所以只能自己做一个。\n\n# 特性\n\n# 托盘状态\n\n# 快速开始\n\n# 方式一：直接用\n\n• 右键图标 → 勾选「开机自动启动」\n\n> 建议不要放在原厂软件目录里——卸载或重装 INPHIC HUB 时可能被一起删掉，开机自启就失效了。\n\n# 方式二：自己编译\n\n# 使用\n\n# 工作原理\n\n# 传输层\n\n原厂软件是纯用户态程序，用 hidapi 走 HID Output/Input Report，没有内核驱动。本工具直接用 Windows 的 hid.dll + setupapi.dll 枚举和读取，连 hidapi.dll 都不需要。\n\n关键点：用 FILE_SHARE_READ | FILE_SHARE_WRITE 共享方式打开。HID 输入报告会复制给所有打开该接口的句柄，所以本工具可以和原厂软件同时运行，互不干扰。\n\n# 电量报告格式（已实测）\n\n电量走在 Usage Page 0x000A 那个接口上（注意不是 64 字节的厂商通道），固定 5 字节：\n\n# 上报规律（已实测）\n\n最后两条是离线检测只能靠超时的原因：设备不会告诉你它走了，只能靠\"沉默 8 秒\"推断。\n\n# 为什么是 8 秒\n\n上报周期 2 秒，8 秒 = 连续漏掉 4 帧，不会因为一次抖动误判，也不至于关机后太久才变灰。\n\n# 连接方式怎么判断\n\n不是问设备，是看 HID 接口路径：蓝牙设备走 BTHENUM 路径，其余判为 USB。这和厂商自己的做法一致（原厂软件靠 VID 区分不同连接模式）。\n\n# 图标渲染\n\n托盘图标是运行时用 GDI+ 逐像素画的，不是预先做好的图片：\n\n• 把 MouseIcon.png 缩放到系统实际图标尺寸（通常 16×16）",
+   "readme_chars": 6525,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "이 레포는 영피크(INPHIC) 무선 마우스의 배터리 잔량을 Windows 시스템 트레이에 표시하는 유틸리티로, 배터리 잔량 표시 애플리케이션일 뿐 재료공학·이차전지 셀·소재·BMS·분석기기와는 무관하다.",
+    "category": "기타",
+    "category_reason": "과학·공학 분야의 소프트웨어가 아니라 일반 사용자 대상 Windows 시스템 유틸리티이므로 과학계산 카테고리에 속하지 않는다.",
+    "summary_ko": "영피크(INPHIC) 무선 마우스의 배터리 잔량을 Windows 시스템 트레이에 아이콘으로 표시해주는 C# 애플리케이션이다. IN10과 IN9 두 세대의 프로토콜을 지원하며, 원본 드라이버를 수정하지 않고 HID 인터페이스를 통해 배터리 보고서를 수신해 실시간으로 상태를 표시한다.",
+    "description_ko": "영피크(INPHIC) 무선 마우스에 시스템 트레이 배터리 잔량 표시 기능을 추가한다. IN10(능동 보고)과 IN9(Feature Report 능동 조회) 두 세대를 지원한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "fullstackhero/dotnet-starter-kit",
+   "url": "https://github.com/fullstackhero/dotnet-starter-kit",
+   "description": "Production Grade Cloud-Ready .NET 10 Starter Kit (Web API + React Client) with Multitenancy Support, and Clean/Modular Architecture that saves roughly 200+ Development Hours! All Batteries Included.",
+   "language": "C#",
+   "stars": 6844,
+   "forks": 2011,
+   "topics": [
+    "aws",
+    "blazor",
+    "boilerplate",
+    "clean-architechture",
+    "clean-architecture",
+    "codewithmukesh",
+    "docker",
+    "dotnet",
+    "dotnet8",
+    "fullstackhero",
+    "modular-monolith",
+    "multitenancy",
+    "starter-kit",
+    "template",
+    "terraform",
+    "vertical-slice-architecture",
+    "webapi"
+   ],
+   "pushed_at": "2026-10-09T04:09:06Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 15,
+   "readme_excerpt": "# ⚡ FullStackHero .NET 10 Starter Kit\n\nA production-ready, modular .NET 10 monolith + two React 19 apps — the fastest way to ship a multi-tenant SaaS.\n\nIdentity, multitenancy, billing, auditing, webhooks, files, chat, real-time, caching, jobs, storage, OpenAPI and OpenTelemetry — already wired, fully tested, and 100% yours as source (no black-box packages).\n\n# 📖 Documentation · 🚀 Get Started · 🧩 Modules · 🏗️ Architecture · 📦 Changelog\n\n# Why FullStackHero?\n\nMost starter kits give you a login page and a TODO list. This one gives you the boring, hard parts already done right — multitenancy, auth, billing, auditing, background jobs, real-time, file storage, observability — across a clean Vertical Slice backend and two polished React 19 front-ends, orchestrated locally with one command via .NET Aspire, and deployable to Docker or AWS.",
+   "readme_chars": 9728,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "재료공학, 이차전지, 분석기기, 과학계산과 무관한 소프트웨어 개발 프레임워크다.",
+    "category": "기타",
+    "category_reason": "이 레포는 과학·공학 분야가 아니라 엔터프라이즈 웹 애플리케이션 개발용 스타터 킷이다.",
+    "summary_ko": "FullStackHero .NET 10 Starter Kit은 다중 테넌트 SaaS 애플리케이션을 빠르게 구축하기 위한 프로덕션급 스타터 킷이다. 모듈식 백엔드(C# · .NET 10 · PostgreSQL · Valkey), React 19 기반 두 개의 프론트엔드, 인증·결제·감사·웹훅·실시간 통신·파일 저장소 등 복잡한 기능들을 미리 구성하여 약 200시간의 개발 시간을 절약할 수 있다.",
+    "description_ko": "프로덕션급 클라우드 준비 완료 .NET 10 스타터 킷(Web API + React 클라이언트). 다중 테넌시 지원과 깔끔하고 모듈식 아키텍처로 대략 200시간 이상의 개발 시간을 단축할 수 있으며, 필요한 모든 기능이 포함되어 있다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "openmm/openmm",
+   "url": "https://github.com/openmm/openmm",
+   "description": "OpenMM is a toolkit for molecular simulation using high performance GPU code. ",
+   "language": "C++",
+   "stars": 2026,
+   "forks": 659,
+   "topics": [
+    "molecular-dynamics",
+    "simulation"
+   ],
+   "pushed_at": "2026-10-30T19:50:08Z",
+   "matched_queries": [
+    "topic:molecular-dynamics"
+   ],
+   "stars_delta": 3,
+   "rank": 16,
+   "readme_excerpt": "# OpenMM: A High Performance Molecular Dynamics Library\n\n# Introduction\n\nOpenMM is a toolkit for molecular simulation. It can be used either as a stand-alone application for running simulations, or as a library you call from your own code. It provides a combination of extreme flexibility (through custom forces and integrators), openness, and high performance (especially on recent GPUs) that make it truly unique among simulation codes.\n\n# Getting Help\n\nNeed help using OpenMM? There are several places that you can find it:\n\n# License Information\n\nOpenMM is free and open-source software. There are several licenses which cover different parts of OpenMM, but most of the source code is covered by the MIT license or the GNU Lesser General Public License (LGPL). Portions copyright © 2008-2025 Stanford University and the Authors. For more details, see",
+   "readme_chars": 2009,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "분자 동역학 시뮬레이션을 위한 과학계산 툴킷으로, 재료 시뮬레이션과 계산화학 분야에 직접 활용된다.",
+    "category": "재료 시뮬레이션",
+    "category_reason": "분자 동역학(molecular dynamics) 시뮬레이션을 위한 고성능 계산 라이브러리이며, GPU를 활용한 원자·분자 수준의 구조 및 동적 거동 시뮬레이션을 목적으로 한다.",
+    "summary_ko": "OpenMM은 분자 시뮬레이션을 위한 고성능 툴킷으로, GPU 코드를 활용하여 분자 동역학 시뮬레이션을 수행합니다. 독립 실행형 애플리케이션 또는 사용자 코드에서 호출하는 라이브러리로 모두 사용할 수 있으며, 유연성, 개방성, 높은 성능을 특징으로 합니다.",
+    "description_ko": "분자 시뮬레이션을 위한 고성능 GPU 코드 기반의 툴킷입니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "mnh-jansson/open-battery-information",
+   "url": "https://github.com/mnh-jansson/open-battery-information",
+   "description": "",
+   "language": "C++",
+   "stars": 1818,
+   "forks": 279,
+   "topics": [],
+   "pushed_at": "2026-09-30T16:41:55Z",
+   "matched_queries": [
+    "(watchlist)"
+   ],
+   "stars_delta": 3,
+   "rank": 17,
+   "readme_excerpt": "# Open Battery Information\n\nThis project aims to provide tools and information about various batteries in order to aid repair. It is very common for manufacturers to lock the BMS when a fault is detected to protect the device and the user. Very important feature! So when is it a problem? Well, there is always a chance for false triggering of this protection, or the fault could have been temporary or even repaired. In this case it would be wasteful to throw out a perfectly good BMS just because its software says it is faulty.\n\nThis is the problem we would like to solve!",
+   "readme_chars": 3293,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "BMS(배터리 관리 시스템) 소프트웨어 잠금 해제 및 배터리 상태 정보 읽기를 목표로 하는 이차전지 관련 프로젝트",
+    "category": "이차전지",
+    "category_reason": "배터리 BMS 펌웨어, 셀 전압·온도·충전 횟수 등 배터리 상태 정보 분석 및 복구를 다루는 이차전지 기술 프로젝트",
+    "summary_ko": "배터리 BMS 오류로 인한 오동작을 해결하기 위한 도구 모음입니다. Arduino/ESP32 펌웨어와 웹 기반 OBI-1 도구를 제공하여 배터리 정보를 읽고 BMS 상태를 진단할 수 있으며, 수리 가능한 배터리의 낭비를 방지합니다.",
+    "description_ko": "",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "레포 설명 없음"
+   ],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "MDAnalysis/mdanalysis",
+   "url": "https://github.com/MDAnalysis/mdanalysis",
+   "description": "MDAnalysis is a Python library to analyze molecular dynamics simulations.",
+   "language": "Python",
+   "stars": 1678,
+   "forks": 876,
+   "topics": [
+    "computational-chemistry",
+    "mdanalysis",
+    "molecular-dynamics",
+    "molecular-dynamics-simulation",
+    "molecular-simulation",
+    "python",
+    "science",
+    "trajectory-analysis"
+   ],
+   "pushed_at": "2026-10-26T17:19:29Z",
+   "matched_queries": [
+    "topic:molecular-dynamics"
+   ],
+   "stars_delta": 3,
+   "rank": 18,
+   "readme_excerpt": "MDAnalysis_ is a Python library for the analysis of computer simulations of many-body systems at the molecular scale, spanning use cases from interactions of drugs with proteins to novel materials. It is widely used in the scientific community and is written by scientists for scientists.\n\nIt works with a wide range of popular simulation packages including GROMACS, Amber, NAMD, CHARMM, DL_POLY, HOOMD, LAMMPS and many others — see the lists of supported trajectory formats_ and topology formats_. MDAnalysis also includes widely used analysis algorithms in the MDAnalysis.analysis_ module.\n\nThe MDAnalysis project uses an open governance model_ and is fiscally sponsored by NumFOCUS_. Consider making a tax-deductible donation_ to help the project pay for developer time, professional services, travel, workshops, and a variety of other needs.\n\n:alt: NumFOCUS (Fiscally Sponsored Project)\n\nThis project is bound by a Code of Conduct_.",
+   "readme_chars": 9734,
+   "ai": {
+    "relevant": true,
+    "relevance_reason": "분자 동역학 시뮬레이션 분석은 재료과학, 약물-단백질 상호작용 연구 등 과학계산의 핵심 도구이다.",
+    "category": "과학계산 일반",
+    "category_reason": "다양한 시뮬레이션 패키지의 궤적 데이터를 분석하는 범용 과학계산 라이브러리로, 재료 시뮬레이션과 분자 스케일 다체계 분석을 아우른다.",
+    "summary_ko": "MDAnalysis는 분자 동역학 시뮬레이션 결과를 분석하기 위한 Python 라이브러리다. GROMACS, Amber, NAMD, CHARMM, LAMMPS 등 주요 시뮬레이션 패키지의 궤적 및 위상 형식을 지원하며, 원자 선택, 위치·속도·힘 데이터 접근, 궤적 반복 처리 등 광범위한 분석 알고리즘을 제공한다.",
+    "description_ko": "분자 규모 다체계 컴퓨터 시뮬레이션 분석을 위한 Python 라이브러리로, 약물-단백질 상호작용부터 신규 소재까지 다양한 연구에 활용된다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "utajum/g-helper-linux",
+   "url": "https://github.com/utajum/g-helper-linux",
+   "description": "Forget Armoury Crate and Windows. This unofficial Linux port of G-Helper turns your ASUS ROG, TUF, Flow, Z13, Ally, Zenbook, Vivobook or ProArt into a power user's dream. Fan curves, AURA RGB, MUX, battery limits, GPU mode. No bloat. No telemetry. And much more.",
+   "language": "C#",
+   "stars": 541,
+   "forks": 31,
+   "topics": [
+    "ally",
+    "armoury-crate",
+    "asus",
+    "aura",
+    "battery-management",
+    "cachyos",
+    "fan",
+    "fedora",
+    "g-helper",
+    "linux",
+    "mux",
+    "proart",
+    "rgb",
+    "rog",
+    "tuf",
+    "ubuntu",
+    "vivobook",
+    "wayland",
+    "zenbook"
+   ],
+   "pushed_at": "2026-11-01T23:57:05Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 19,
+   "readme_excerpt": "Click on the screenshot to view full size.\n\n# ░▒▓█ ╔══[ WEBSITE ]══╗ █▓▒░\n\n# ░▒▓█ ╔══[ MOTIVATION ]══╗ █▓▒░\n\nSince asusctl doesn't really care about Ubuntu, I decided to port most functionality from the original G-Helper for Windows.\n\nThe application is tested on KDE but other desktop environments should also work.\n\nPull requests and feature requests are welcome!\n\n# ░▒▓█ ╔══[ FEATURES ]══╗ █▓▒░\n\nExperimental Lenovo support (IdeaPad / Legion / LOQ / Yoga): performance modes, battery conservation, fan monitoring, PPT limits and keyboard backlight via the mainline ideapad-laptop and lenovo-wmi kernel drivers (kernel 6.17+ for power limits).\n\n# ░▒▓█ ╔══[ GPU MODE SWITCHING ]══╗ █▓▒░\n\nG-Helper manages the ASUS dGPU (discrete GPU) power state and MUX switch through four modes:",
+   "readme_chars": 24850,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "ASUS 노트북의 팬, RGB, 배터리 등을 제어하는 시스템 유틸리티로, 재료공학·이차전지 기술·분석기기·과학계산과 무관한 데스크톱 애플리케이션이다.",
+    "category": "기타",
+    "category_reason": "Linux 기반 ASUS 하드웨어 제어 도구로 과학·기술 소프트웨어의 범주에 맞지 않는다.",
+    "summary_ko": "G-Helper는 Linux에서 ASUS ROG, TUF, Flow, Zenbook 등 노트북의 하드웨어를 제어하는 비공식 포팅 애플리케이션이다. 팬 곡선, AURA RGB, MUX, 배터리 한계, GPU 모드 등 다양한 기능을 제공한다.",
+    "description_ko": "Armoury Crate와 Windows를 대체하는 G-Helper의 비공식 Linux 포팅 버전으로, ASUS ROG, TUF, Flow, Z13, Ally, Zenbook, Vivobook, ProArt를 고급 사용자 수준으로 제어할 수 있다. 팬 곡선, AURA RGB, MUX, 배터리 한계, GPU 모드 등을 지원하며, 불필요한 기능 없이 텔레메트리도 없다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "byrencheema/airstats",
+   "url": "https://github.com/byrencheema/airstats",
+   "description": "A menu bar system monitor for macOS. CPU, memory, GPU, network, disk, battery and thermals at 0.046% CPU.",
+   "language": "Swift",
+   "stars": 487,
+   "forks": 22,
+   "topics": [
+    "appkit",
+    "macos",
+    "menu-bar",
+    "swift",
+    "swiftui",
+    "system-monitor"
+   ],
+   "pushed_at": "2026-10-15T23:46:28Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 20,
+   "readme_excerpt": "An ultra lightweight macOS system monitor.\n\nAirStats is a system monitor for the Mac menu bar. It reads CPU, memory, GPU, network, disk, battery, temperature, process and host statistics from the kernel and shows them in three places: the menu bar itself, a panel that drops down when you click the status item, and a desktop widget you can leave on screen.\n\nIt is built to be genuinely light. A menu bar monitor runs all day, every day, so AirStats holds a few megabytes and a fraction of a percent of one core rather than the tens of megabytes its peers take. It has no Dock icon, and reads the system through Mach, IOKit,\n\n# Requirements\n\n• macOS 14 or later\n\n# Install\n\nDownload it from airstats.app, open the dmg and drag the app to Applications. It is signed and notarized, so it opens with no warning.",
+   "readme_chars": 3207,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "macOS 메뉴 바 시스템 모니터로, 재료공학, 이차전지, 분석기기, 과학계산과 무관한 일반 시스템 유틸리티이다.",
+    "category": "기타",
+    "category_reason": "재료·에너지·과학 분야와 무관한 소프트웨어 도구이므로 기타로 분류된다.",
+    "summary_ko": "AirStats는 macOS 메뉴 바에 표시되는 극도로 가벼운 시스템 모니터다. CPU, 메모리, GPU, 네트워크, 디스크, 배터리, 온도 등의 시스템 정보를 메뉴 바, 드롭다운 패널, 데스크톱 위젯에서 보여준다.",
+    "description_ko": "macOS용 메뉴 바 시스템 모니터. CPU, 메모리, GPU, 네트워크, 디스크, 배터리 및 열 정보를 CPU 사용률 0.046%로 표시한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "ResistanceTo/MiniWatts",
+   "url": "https://github.com/ResistanceTo/MiniWatts",
+   "description": "An iPhone battery, charging and thermal instrument built on private iOS APIs — real charger watts, what actually reaches the cell, all 30 temperature sensors, and the USB-PD handshake.",
+   "language": "Swift",
+   "stars": 455,
+   "forks": 29,
+   "topics": [
+    "battery",
+    "battery-monitor",
+    "charging",
+    "ios",
+    "ios-app",
+    "iphone",
+    "iphone-app",
+    "private-api",
+    "reverse-engineering",
+    "swift",
+    "swiftui",
+    "swiftui-app"
+   ],
+   "pushed_at": "2026-10-27T03:10:05Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 21,
+   "readme_excerpt": "# MiniWatts\n\nAn iPhone and iPad battery and charging monitor built on Apple's private APIs. It reads the device's own power-management sensors — the ones iOS uses to run the charge — and shows what the charger is delivering, how much of it reaches the cell, where the rest goes as heat, and what every temperature sensor in the device is doing while it happens.\n\n> Sideload only. Private APIs mean this can never be on the App Store — you sign > and install it yourself. There is no network code of any kind: nothing it reads > leaves your phone.\n\n# Install\n\nDownload the latest MiniWatts-unsigned.ipa from Releases and sign it with your own Apple ID — Sideloadly, AltStore, SideStore and Xcode all do this. A free Apple ID works; the app then expires after seven days and you re-sign it.\n\nRequires iPhone or iPad, iOS 17 or later.\n\nOr add the source to SideStore or AltStore — including the SideStore bundled with LiveContainer — and install from there, so new versions show up as updates:",
+   "readme_chars": 4676,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "iPhone 배터리 잔량·충전·온도 모니터링 앱으로, 재료공학·이차전지 셀·BMS·분석기기와 직접 관련이 없는 소비자용 iOS 애플리케이션이다.",
+    "category": "기타",
+    "category_reason": "배터리 용어를 다루지만 실질적으로는 개인용 iOS 앱 개발 프로젝트이며, 과학 연구나 산업용 분석과는 무관하다.",
+    "summary_ko": "MiniWatts는 Apple의 비공개 API를 이용해 iPhone과 iPad의 배터리 및 충전 상태를 모니터링하는 iOS 앱이다. 충전기 전력, 배터리 셀에 도달하는 실제 전력, 30개 온도 센서 데이터, USB-PD 핸드셰이크 정보를 표시한다.",
+    "description_ko": "비공개 iOS API를 기반으로 제작한 iPhone 배터리, 충전 및 온도 측정 도구로, 실제 충전기 와트수, 배터리 셀에 도달하는 전력, 모든 30개 온도 센서 데이터, USB-PD 핸드셰이크를 보여준다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "Itosang/BatteryRecorder",
+   "url": "https://github.com/Itosang/BatteryRecorder",
+   "description": "利用特权进行后台充放电功率记录，并支持 App 预览功率数据，并续航预测，支持 Root & Shell",
+   "language": "Kotlin",
+   "stars": 451,
+   "forks": 20,
+   "topics": [],
+   "pushed_at": "2026-10-30T18:37:37Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 22,
+   "readme_excerpt": "# BatteryRecorder\n\n# 介绍\n\n一个电池功率记录 App，旨在使用更低的 CPU 开销来记录更精确的功率数据，并为用户提供较为精准的续航预测。\n\n# 功能\n\n• 精细化记录调参，更切合你的需求\n\n• 原始、趋势功耗图，各种需求都能覆盖\n\n• 息屏功耗记录，探索🧐未知场景\n\n# 文档\n\n# 贡献\n\nBatteryRecorder 仓库存放的是旧版本源码，如需要最新版源码，请在最新版 app 找联系方式联系维护者，或者直接在本仓库提 Issue\n\n# ToDo\n\n# app\n\n• [ ] 以库仑计代 SOC 为基准的的续航预测\n\n# server\n\n• [ ] 通知栏/状态栏功率可选带单位\n\n> 用户描述：充放电记录能否设置一个常开的过滤规则：比如我的场景下，开了充电保护95就停止充电，然后上班时又是丢在无线充上面的，经常用一会放一会，记录就会一堆个位数的充电记录\n\n• [ ] ~~亮屏判断改为以屏幕亮度为准~~\n\n# ext\n\n# 下载\n\n# 反馈\n\n• App 关于页直接联系维护者 (不推荐)",
+   "readme_chars": 967,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "휴대폰의 배터리 잔량과 소비 전력을 모니터링하는 소프트웨어 앱으로, 이차전지 재료·소자·분석과 무관한 기기 모니터링 유틸리티다.",
+    "category": "기타",
+    "category_reason": "배터리 모니터링 앱은 과학 기술 범주보다는 일반 소프트웨어 도구에 가깝다.",
+    "summary_ko": "안드로이드 기기의 배터리 충방전 전력을 기록하고 시각화하는 앱이다. 낮은 CPU 오버헤드로 정밀한 전력 데이터를 수집하고 배터리 지속 시간을 예측하는 기능을 제공한다.",
+    "description_ko": "권한을 활용하여 백그라운드에서 충방전 전력을 기록하고, 앱에서 전력 데이터 미리보기와 배터리 지속 시간 예측을 지원하며, Root 및 Shell을 지원한다.",
+    "confidence": "medium",
+    "confidence_reason": "원문이 중국어이고 일부 기술 용어의 정확한 번역 의도를 완전히 파악하기 어려우며, 이 레포가 과학·재료학 범주와의 관련성이 명확하지 않다.",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주"
+   ],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "xzeldon/razer-battery-report",
+   "url": "https://github.com/xzeldon/razer-battery-report",
+   "description": "Shows the battery level of your wireless Razer mouse in the system tray.",
+   "language": "Rust",
+   "stars": 44,
+   "forks": 15,
+   "topics": [
+    "battery",
+    "razer",
+    "synapse",
+    "tray"
+   ],
+   "pushed_at": "2026-10-30T10:33:18Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 3,
+   "rank": 23,
+   "readme_excerpt": "# Razer Battery Report\n\nShows the battery level of your wireless Razer mouse in the Windows system tray.\n\n> The app reads the battery level directly from the mouse. You do not need Razer Synapse.\n\n> The app works only on Windows at this time. Linux and macOS support is planned.\n\n# The tray icon\n\nThe icon is a mouse. The fill of the mouse shows the battery level. To see the exact percentage, put the pointer on the icon.\n\n# Install\n\n• Download the file that ends in -setup.exe from the\n\n• Run the file. The app installs for your Windows user only. It does not ask for administrator\n\n• If Windows hides the icon, drag the icon from the overflow area to the taskbar.\n\n• To start the app with Windows, right-click the icon and select Start at login.\n\nPortable version. The release also has a portable exe, without an installer. Put the exe in a folder and run it. The portable version has the same functions and also updates itself.",
+   "readme_chars": 9789,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "Razer 무선 마우스의 배터리 잔량을 시스템 트레이에 표시하는 유틸리티로, 배터리 셀·소재·BMS·분석기기와는 무관한 단순 소비자용 애플리케이션이다.",
+    "category": "기타",
+    "category_reason": "재료공학이나 과학계산과 무관한 일반 컴퓨터 유틸리티로, 강제로 분류하면 카테고리 어느 것에도 속하지 않는다.",
+    "summary_ko": "이 레포는 Windows 시스템 트레이에서 Razer 무선 마우스의 배터리 잔량을 표시하는 Rust 기반 애플리케이션이다. 설치형과 휴대용 버전을 제공하며, 저전력 알림, 자동 업데이트 등의 기능을 포함한다.",
+    "description_ko": "Windows 시스템 트레이에서 무선 Razer 마우스의 배터리 잔량을 표시합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "Blinks44/monny",
+   "url": "https://github.com/Blinks44/monny",
+   "description": "See what your Mac is doing and keep its battery healthy with a charge limit. Free, open source and native.",
+   "language": "Swift",
+   "stars": 30,
+   "forks": 2,
+   "topics": [
+    "activity-monitor",
+    "apple-silicon",
+    "battery",
+    "battery-health",
+    "charge-limit",
+    "cpu-monitor",
+    "macos",
+    "macos-app",
+    "menu-bar-app",
+    "swift",
+    "swiftui",
+    "system-monitor",
+    "temperature-monitor"
+   ],
+   "pushed_at": "2026-10-30T18:30:23Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 3,
+   "rank": 24,
+   "readme_excerpt": "See what your Mac is doing, and keep its battery healthy while it stays plugged in. Free, open source, native on macOS 15+.\n\nA native macOS menu bar utility for resource monitoring and battery charge control. A click on the menu bar icon shows CPU, memory, disk, network, cores and battery at a glance; a dashboard window adds history charts, top processes and temperature sensors. Battery controls use the built-in macOS charge limit where available; macOS manages charging.\n\nDownload the latest version from GitHub Releases; what changed in each version is in the changelog.\n\nMade by Sergey V. News and updates: @TheBlinks182 on X.\n\n# Repository layout\n\n# Features\n\n• Menu bar popover with Overview, Battery and Processes tabs, refreshed every few seconds, and a global shortcut (⌥⌘M by default).\n\n• Processes: find what holds a port or PID (3002, localhost:3002), see where it was started from, and quit just that process. Processes that keep a core busy show at the top.",
+   "readme_chars": 6884,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "macOS 메뉴바 시스템 모니터링 앱으로, 배터리 잔량 표시 기능만 있을 뿐 재료공학·이차전지·분석기기·과학계산과는 무관한 데스크톱 유틸리티다.",
+    "category": "기타",
+    "category_reason": "macOS 시스템 리소스 모니터링 앱으로 재료과학 및 과학계산 분야와 직접 관련이 없다.",
+    "summary_ko": "Monny는 macOS 메뉴바에서 작동하는 시스템 모니터링 유틸리티로, CPU·메모리·디스크·네트워크·배터리 상태를 한눈에 보여주고 배터리 충전 한계를 설정하여 배터리 건강을 유지할 수 있다. Swift와 SwiftUI로 개발된 오픈소스 앱이며 Apple Silicon Mac의 macOS 15 이상에서 작동한다.",
+    "description_ko": "Mac이 하는 일을 확인하고 충전 한계 설정으로 배터리 건강을 유지할 수 있는 무료 오픈소스 네이티브 앱.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "zellij-org/zellij",
+   "url": "https://github.com/zellij-org/zellij",
+   "description": "A terminal workspace with batteries included",
+   "language": "Rust",
+   "stars": 35915,
+   "forks": 1519,
+   "topics": [
+    "multiplexer",
+    "terminal",
+    "workspace"
+   ],
+   "pushed_at": "2026-10-30T16:09:49Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 2,
+   "rank": 25,
+   "readme_excerpt": "[ Screencasts & Tutorials ]\n\n# What is this?\n\nZellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called \"Terminal Multiplexers\".\n\nZellij is designed around the philosophy that one must not sacrifice simplicity for power, taking pride in its great experience out of the box as well as the advanced features it places at its users' fingertips.\n\nZellij is geared toward beginner and power users alike - allowing deep customizability, personal automation through layouts, true multiplayer collaboration, unique UX features such as floating and stacked panes, and a plugin system allowing one to create plugins in any language that compiles to WebAssembly.\n\nZellij includes a built-in web-client, making a terminal optional.\n\nYou can get started by installing Zellij and checking out the Screencasts & Tutorials.\n\nFor more details about our future plans, read about upcoming features in our roadmap.",
+   "readme_chars": 2021,
+   "ai": {
+    "relevant": false,
+    "relevance_reason": "이 레포는 터미널 멀티플렉서로, 재료공학·이차전지·분석기기·과학계산과는 무관한 개발자 도구입니다.",
+    "category": "기타",
+    "category_reason": "Zellij는 터미널 워크스페이스 도구로, 과학·공학 분야가 아닌 소프트웨어 개발 도구에 해당합니다.",
+    "summary_ko": "Zellij는 개발자와 터미널 사용자를 위한 터미널 멀티플렉서입니다. 복잡한 기능을 갖춘 동시에 직관적인 사용성을 제공하며, 플로팅 패인, 스택 패인, 플러그인 시스템, 웹 클라이언트 등 다양한 기능을 포함합니다.",
+    "description_ko": "완전한 기능을 갖춘 터미널 워크스페이스",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [],
+   "streak": 4,
+   "is_new": false
+  }
+ ]
+}
