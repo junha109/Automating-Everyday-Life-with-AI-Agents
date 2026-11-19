@@ -49,9 +49,13 @@ uv run python -m http.server -d site 8000
 
 1. 이 폴더를 GitHub 저장소로 올리기
 2. Settings → Secrets and variables → Actions
-   - **Secrets**: `LLM_API_KEY`, `LLM_BASE_URL`
+   - **Secrets**: `LLM_API_KEY`(`tgpt_sk_…`), `LLM_BASE_URL`
    - **Variables**: `LLM_MODEL`
-3. Actions 탭 → `daily-collect` → Run workflow로 한 번 수동 실행해서 확인
+   - Claude: 주소 `https://hello.timelyai.io/api/v2/chat/direct/anthropic`, 모델 `claude-haiku-4-5`
+   - GPT: 주소 `https://hello.timelyai.io/api/v2/chat/direct/openai/v1`, 모델 예 `gpt-5-mini`
+   - 모델 이름에 `anthropic/` 같은 접두사를 붙이지 않음 (옛 브리지 주소는 2026-11-18 종료)
+3. 키·주소를 바꾼 뒤 내 PC에서 `uv run python -m trending.check_llm`으로 요청 1번 보내 확인
+4. Actions 탭 → `daily-collect` → Run workflow로 한 번 수동 실행해서 확인
 
 ## 배포 (Cloudflare Pages)
 

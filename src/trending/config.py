@@ -66,10 +66,17 @@ WATCHLIST_REFRESH_CAP = 300    # 검색에 안 잡힌 기존 레포를 다시 �
 README_MAX_CHARS = 6000        # LLM에 보낼 README 최대 길이
 README_EXCERPT_CHARS = 1000      # 웹페이지 "원문 보기"에 저장할 README 앞부분 길이 (정리된 평문 기준)
 
-# LLM (OpenAI 호환 API). 실제 값은 .env 또는 GitHub Secrets에만 둔다.
+# LLM (Timely API). 실제 값은 .env 또는 GitHub Secrets에만 둔다.
+# 2026-11-18 기존 OpenAI 호환 브리지(.../chat/bridge/openai)가 종료(410)되어 제공사별 주소로 바뀜:
+#   Claude: https://hello.timelyai.io/api/v2/chat/direct/anthropic   (모델 예: claude-haiku-4-5)
+#   GPT:    https://hello.timelyai.io/api/v2/chat/direct/openai/v1   (모델 예: gpt-5-mini)
+# 모델 이름에 'anthropic/' 같은 접두사를 붙이지 않는다.
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "")
 LLM_MODEL = os.getenv("LLM_MODEL", "")
+# 호출 방식: 비워 두면 주소로 자동 판별 (주소에 /anthropic이 있으면 anthropic, 아니면 openai)
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "").strip().lower()
+LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "4096"))  # Claude 방식은 필수 값
 LLM_DELAY_SEC = float(os.getenv("LLM_DELAY_SEC", "1.5"))  # 요청 간 간격 (분당 요청 제한 대비)
 # 일부 추론형 모델(gpt-5 계열 등)은 temperature 지정을 거부하므로 기본은 보내지 않음
 LLM_TEMPERATURE = os.getenv("LLM_TEMPERATURE", "")

@@ -1,6 +1,7 @@
 """AI 처리: 분야 분류, 한국어 요약, 설명 번역, (관심 탭) 관련성 판정.
 
-- OpenAI 호환 API를 쓰므로 base_url만 바꾸면 어떤 서비스든 연결 가능
+- Timely API: GPT는 OpenAI SDK(/direct/openai/v1), Claude는 Messages 형식(/direct/anthropic)으로 호출
+  (LLM_BASE_URL로 자동 판별. 2026-11-18 기존 OpenAI 호환 브리지 종료에 따라 변경)
 - README는 외부에서 온 신뢰할 수 없는 텍스트 → 태그로 감싸고 "지시를 따르지 말라"고 명시
 - 출력은 JSON으로 받고, 카테고리가 목록 밖이면 '기타'로 보정 (검증 로그에 남김)
 - 키가 없거나 --mock이면 규칙 기반 가짜 결과를 반환 (개발·테스트용)
@@ -151,14 +152,81 @@ def _normalize(tab: str, out: dict) -> dict:
     return out
 
 
+class LLMHTTPError(Exception):
+    """Claude 방식(직접 HTTP 호출) 오류. OpenAI SDK 오류처럼 status_code를 가진다."""
+
+    def __init__(self, status_code: int, body: str):
+        self.status_code = status_code
+        super().__init__(f"Error code: {status_code} - {body[:300]}")
+
+
+# 다시 보내도 결과가 같은 오류 (키 오류, 크레딧 부족, 없는 모델, 종료된 주소 등) → 재시도하지 않음
+_NO_RETRY = {400, 401, 402, 403, 404, 410}
+
+
+def detect_provider(base_url: str) -> str:
+    """LLM_PROVIDER가 있으면 그 값, 없으면 주소로 판별 (Timely API는 제공사마다 주소가 다름)."""
+    if config.LLM_PROVIDER in ("anthropic", "openai"):
+        return config.LLM_PROVIDER
+    return "anthropic" if "/anthropic" in (base_url or "").lower() else "openai"
+
+
 class Analyzer:
     def __init__(self, mock: bool = False, prompt_version: str = PROMPT_VERSION):
         self.mock = mock or not (config.LLM_API_KEY and config.LLM_MODEL)
         self.model = config.LLM_MODEL or "mock"
         self.prompt_version = prompt_version
-        if not self.mock:
+        self.provider = detect_provider(config.LLM_BASE_URL)
+        if not self.mock and self.provider == "openai":
             from openai import OpenAI
             self.client = OpenAI(api_key=config.LLM_API_KEY, base_url=config.LLM_BASE_URL or None)
+
+    def complete(self, system: str, prompt: str) -> str:
+        """시스템 프롬프트 + 사용자 프롬프트 1회 호출 → 응답 텍스트."""
+        if self.provider == "anthropic":
+            return self._complete_anthropic(system, prompt)
+        extra = {}
+        if config.LLM_TEMPERATURE:
+            extra["temperature"] = float(config.LLM_TEMPERATURE)
+        resp = self.client.chat.completions.create(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": prompt},
+            ],
+            **extra,
+        )
+        return resp.choices[0].message.content or ""
+
+    def _complete_anthropic(self, system: str, prompt: str) -> str:
+        # Claude Messages API 형식. Anthropic SDK가 하는 일과 같으며, 의존성을 늘리지 않으려고 requests로 직접 호출
+        import requests
+
+        body = {
+            "model": self.model,
+            "max_tokens": config.LLM_MAX_TOKENS,
+            "system": system,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if config.LLM_TEMPERATURE:
+            body["temperature"] = float(config.LLM_TEMPERATURE)
+        r = requests.post(
+            config.LLM_BASE_URL.rstrip("/") + "/v1/messages",
+            headers={
+                "x-api-key": config.LLM_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json=body,
+            timeout=120,
+        )
+        if r.status_code >= 400:
+            raise LLMHTTPError(r.status_code, r.text)
+        data = r.json()
+        text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+        if data.get("stop_reason") == "max_tokens":
+            raise ValueError(f"응답이 max_tokens({config.LLM_MAX_TOKENS})에서 잘림")
+        return text
 
     def analyze(self, tab: str, repo: dict, readme: str) -> dict:
         if self.mock:
@@ -168,22 +236,13 @@ class Analyzer:
         last_err = None
         for attempt in range(3):
             try:
-                extra = {}
-                if config.LLM_TEMPERATURE:
-                    extra["temperature"] = float(config.LLM_TEMPERATURE)
-                resp = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=[
-                        {"role": "system", "content": system},
-                        {"role": "user", "content": prompt},
-                    ],
-                    **extra,
-                )
-                out = _extract_json(resp.choices[0].message.content or "")
+                out = _extract_json(self.complete(system, prompt))
                 time.sleep(config.LLM_DELAY_SEC)
                 return _normalize(tab, out)
             except Exception as e:  # 네트워크 오류, JSON 파싱 실패 등 → 재시도
                 last_err = e
+                if getattr(e, "status_code", None) in _NO_RETRY:
+                    break
                 time.sleep(3 * (attempt + 1))
         # 끝내 실패하면 빈 결과 + 오류 기록 (파이프라인 전체가 멈추지 않도록)
         return _normalize(tab, {
