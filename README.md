@@ -56,6 +56,9 @@ uv run python -m http.server -d site 8000
    - 모델 이름에 `anthropic/` 같은 접두사를 붙이지 않음 (옛 브리지 주소는 2026-11-18 종료)
 3. 키·주소를 바꾼 뒤 내 PC에서 `uv run python -m trending.check_llm`으로 요청 1번 보내 확인
 4. Actions 탭 → `daily-collect` → Run workflow로 한 번 수동 실행해서 확인
+5. AI 처리가 실패한 날이 있으면 Actions 탭 → `backfill-ai` → Run workflow (시작일·종료일 입력).
+   저장된 레포 목록으로 AI 결과만 다시 채움 (`trending.backfill`). 다시 채운 레포에는 `ai.backfilled_at`이 붙음.
+   README는 실행 당일 것을 쓰므로, 날짜별 일관성 분석에서는 이 레포들을 따로 봐야 함
 
 ## 배포 (Cloudflare Pages)
 
