@@ -62,6 +62,7 @@ def run_trending(day: date, gh: GitHubAPI, analyzer: Analyzer, html: str | None 
     history.save_day("trending", day, {
         "date": day.isoformat(), "tab": "trending", "status": "ok",
         "model": analyzer.model, "prompt_version": analyzer.prompt_version,
+        "temperature": config.temperature(),
         "category_counts": counts, "repos": records,
     })
     history.update_index("trending", day, counts, "ok")
@@ -88,6 +89,7 @@ def run_interest(day: date, gh: GitHubAPI, analyzer: Analyzer) -> None:
         "date": day.isoformat(), "tab": "interest", "status": status,
         "compared_with": base_day, "candidates": len(found),
         "model": analyzer.model, "prompt_version": analyzer.prompt_version,
+        "temperature": config.temperature(),
         "category_counts": counts, "repos": records,
     })
     history.update_index("interest", day, counts, status)
@@ -108,7 +110,8 @@ def main() -> None:
         raise SystemExit("LLM_API_KEY / LLM_MODEL이 설정되지 않았습니다. "
                          ".env(내 PC) 또는 GitHub Secrets·Variables(자동 실행)를 확인하세요. "
                          "테스트 모드로 돌리려면 --mock을 붙이세요.")
-    print(f"기준일 {day} · AI {'테스트 모드' if analyzer.mock else analyzer.model}")
+    print(f"기준일 {day} · AI {'테스트 모드' if analyzer.mock else analyzer.model}"
+          f" · temperature {config.temperature() if config.temperature() is not None else '기본값'}")
 
     html = None
     if args.offline:

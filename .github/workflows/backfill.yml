@@ -39,6 +39,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_TEMPERATURE: ${{ vars.LLM_TEMPERATURE }}
         run: uv run python -m trending.backfill --from "${{ inputs.from }}" --to "${{ inputs.to }}"
 
       - name: Commit data

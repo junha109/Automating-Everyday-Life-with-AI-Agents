@@ -60,6 +60,8 @@ uv run python -m http.server -d site 8000
    저장된 레포 목록으로 AI 결과만 다시 채움 (`trending.backfill`). 다시 채운 레포에는 `ai.backfilled_at`이 붙음.
    README는 실행 당일 것을 쓰므로, 날짜별 일관성 분석에서는 이 레포들을 따로 봐야 함
    (11/18~11/27일 backfilled 실행했음.)
+6. Variables에 `LLM_TEMPERATURE`=`0` (2026-11-28부터). 비워 두면 모델 기본값.
+   날짜별 결과 일관성은 `uv run python -m trending.consistency`로 temperature 설정별로 비교
 
 ## 배포 (Cloudflare Pages)
 

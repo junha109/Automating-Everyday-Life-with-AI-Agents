@@ -19,7 +19,7 @@ from __future__ import annotations
 import argparse
 from datetime import date, datetime, timedelta, timezone
 
-from . import history
+from . import config, history
 from .evidence import warnings_for
 from .github_api import default_client
 from .llm import Analyzer
@@ -103,7 +103,7 @@ def main(argv: list[str] | None = None, gh=None, analyzer: Analyzer | None = Non
                 print(f"  실패  {name}: {ai['confidence_reason'][:120]}")
                 continue  # 실패한 건 그대로 두고 다음 실행 때 다시 시도
             cache[key] = ai
-            r["ai"] = {**ai, "backfilled_at": stamp}
+            r["ai"] = {**ai, "backfilled_at": stamp, "temperature": config.temperature()}
             r["warnings"] = warnings_for(repo, readme, ai)
             fixed += 1
             print(f"  채움  {name:<45} → {ai['category']}")

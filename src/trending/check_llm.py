@@ -35,6 +35,8 @@ def main() -> int:
     print(f"호출 방식 : {analyzer.provider}")
     print(f"주소      : {config.LLM_BASE_URL or '(비어 있음)'}")
     print(f"모델      : {config.LLM_MODEL or '(비어 있음)'}")
+    t = config.temperature()
+    print(f"temperature: {t if t is not None else '보내지 않음 (모델 기본값)'}")
     print(f"키        : {(key[:8] + '…(' + str(len(key)) + '자)') if key else '(비어 있음)'}")
     for w in _warnings(config.LLM_BASE_URL, config.LLM_MODEL, analyzer.provider):
         print(f"[주의] {w}")

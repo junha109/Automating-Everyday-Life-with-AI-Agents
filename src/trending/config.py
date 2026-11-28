@@ -78,7 +78,13 @@ LLM_MODEL = os.getenv("LLM_MODEL", "")
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "").strip().lower()
 LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "4096"))  # Claude 방식은 필수 값
 LLM_DELAY_SEC = float(os.getenv("LLM_DELAY_SEC", "1.5"))  # 요청 간 간격 (분당 요청 제한 대비)
-# 일부 추론형 모델(gpt-5 계열 등)은 temperature 지정을 거부하므로 기본은 보내지 않음
-LLM_TEMPERATURE = os.getenv("LLM_TEMPERATURE", "")
+# 샘플링 온도. 비워 두면 보내지 않음 (일부 추론형 모델, gpt-5 계열 등은 지정을 거부함)
+# 0으로 두면 같은 입력에 같은 답이 나올 가능성이 높아짐 (재현성 개선, 2026-11-28부터 0)
+LLM_TEMPERATURE = os.getenv("LLM_TEMPERATURE", "").strip()
+
+
+def temperature() -> float | None:
+    """저장·표시용: 실제로 보내는 temperature 값 (보내지 않으면 None)."""
+    return float(LLM_TEMPERATURE) if LLM_TEMPERATURE else None
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
