@@ -5,16 +5,16 @@
  "model": "claude-haiku-4-5",
  "prompt_version": "v2",
  "category_counts": {
-  "LLM·에이전트": 0,
-  "AI/ML (그 외)": 0,
+  "LLM·에이전트": 9,
+  "AI/ML (그 외)": 2,
   "Web·Frontend": 0,
-  "DevTools·CLI": 0,
-  "Infra·Cloud·DevOps": 0,
+  "DevTools·CLI": 1,
+  "Infra·Cloud·DevOps": 1,
   "Data·DB": 0,
   "Security": 0,
-  "Mobile·Desktop 앱": 0,
+  "Mobile·Desktop 앱": 3,
   "학습자료": 0,
-  "기타": 16
+  "기타": 0
  },
  "repos": [
   {
@@ -47,19 +47,16 @@
    "readme_excerpt": "# claude-bughunter\n\n> A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms (DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com).\n\nBuilt by Sachin Sharma — Bug Hunting & GenAI Security Research.\n\n# What is this?\n\nclaude-bughunter is a drop-in skill bundle for the Claude Code skills system. Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
    "readme_chars": 21855,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "Claude Code 플러그인 형태의 스킬 번들로, 버그 헌팅과 레드팀 작업을 위해 Claude 에이전트에 85개 스킬과 16개 명령어를 제공하는 것이 핵심 목적이다. Security 분야도 관련이 있으나, 이 레포는 보안 도구보다는 LLM 에이전트 확장 번들로 설계되었다.",
+    "summary_ko": "Claude Code용 버그 헌팅 및 레드팀 작업 스킬 번들로, 85개의 스킬과 16개의 슬래시 명령어, 24개 취약점 클래스에 걸친 681개의 공개 보고 패턴을 포함한다. 웹 보안부터 엔터프라이즈 플랫폼 공격 체인까지 다루며, Claude가 자동으로 맥락에 맞는 스킬을 로드하여 선임 보안 연구원처럼 행동하게 만든다.",
+    "description_ko": "Claude Code용 버그 헌팅 및 외부 레드팀 작업을 위한 스킬 번들 - 82개 스킬, 15개 슬래시 명령어, 24개 핵심 취약점 클래스에 걸친 681개의 공개 보고 패턴 수집, 엔터프라이즈 신원 및 인프라 공격 행렬 포함.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 11,
    "is_new": false
   },
@@ -85,19 +82,16 @@
    "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n# Table of Contents\n\n• When Something Goes Wrong\n\n# How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it doesn't just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do.\n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest.\n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY.",
    "readme_chars": 14831,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "코딩 에이전트(Claude Code, Cursor, Codex 등) 전용 플러그인·스킬 프레임워크이며, 에이전트 기반 소프트웨어 개발 방법론이 핵심이므로 LLM·에이전트 카테고리가 적합하다.",
+    "summary_ko": "Superpowers는 코딩 에이전트용 종합 소프트웨어 개발 방법론으로, 구성 가능한 스킬들을 기반으로 한다. 에이전트가 사용자와 대화해 요구사항을 파악하고 설계안을 제시한 뒤, 구현 계획을 세우고 서브에이전트 기반 개발 프로세스로 자율적으로 작업을 진행하는 방식을 지원한다.",
+    "description_ko": "작동하는 에이전트 기반 스킬 프레임워크 및 소프트웨어 개발 방법론",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 9,
    "is_new": false
   },
@@ -114,19 +108,16 @@
    "readme_excerpt": "&nbsp; CLI-Anything: Making ALL Software Agent-Native\n\nToday's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software\n\n🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly.\n\n🎬 See Demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.\n\n🙋 [Become a Contributor, or Request a CLI]: Join us! Sign up to build a new CLI harness — once reviewed and merged, you'll gain access as one of our community contributors! Wish CLI-Anything supported a specific software or service? Submit a wishlist request!\n\nOne Command Line: Make any software agent-ready for Pi, OpenClaw, nanobot, Cursor, Claude Code, etc.&nbsp;&nbsp;中文文档 | 日本語ドキュメント | Deutsch",
    "readme_chars": 67310,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "AI 에이전트가 소프트웨어를 자동으로 사용할 수 있도록 CLI를 생성·관리하는 것이 핵심 목적이므로 LLM·에이전트 분류가 적절하다. DevTools·CLI와의 경합이 있으나, 에이전트 네이티브 환경 구축이 주목적이므로 우선순위에 따라 LLM·에이전트를 선택했다.",
+    "summary_ko": "CLI-Anything은 모든 소프트웨어를 AI 에이전트가 사용 가능한 형태로 만들어주는 프레임워크다. CLI 중추(CLI-Hub)에서 커뮤니티 기여 CLI를 한 줄 명령으로 설치·관리할 수 있으며, Pi, OpenClaw, Claude Code 같은 에이전트 플랫폼과 연동되어 CAD, 3D 모델링, 다이어그램 생성 등 실제 산출물을 만드는 에이전트 워크플로우를 가능하게 한다.",
+    "description_ko": "CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 8,
    "is_new": false
   },
@@ -146,19 +137,17 @@
    "readme_excerpt": "• 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。\n\n• MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。\n\n• 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。\n\n• MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。\n\n• 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。\n\n• 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。\n\n• 希望此项目能为更多人提供一个可复现、可理解、可扩展的起点，一起感受创造的乐趣，并推动更广泛 AI 社区的进步。\n\n> 注：本项目基于 Apache 2.0 协议开源，完全免费。“2 小时” 指 SFT 阶段在单张 NVIDIA 3090 上跑完 1 epoch 的实测耗时，“3 块钱” 指对应时段的 GPU 租用成本。\n\n# ❤️ 赞助\n\nMiniMind × Infistar.cc ：Claude、GPT、Gemini、DeepSeek等200+模型一个Key搞定，低至官方0.1折（省99%），100%官方纯血可验真，千条线路自动切换。通过 专属链接 注册即送¥5。\n\nMiniMind 以 Apache 2.0 协议完全开源、永久免费。赞助完全自愿，不换取任何特权，也不影响项目使用。感谢每一位支持者，让这个业余时间维护的项目得以持续。\n\n赞助方式包括按月占位，或直接赞助 GPU 服务器（算力可能用于项目相关或不相关的研究性探索）。\n\n如有意向，欢迎通过 邮件 联系。",
    "readme_chars": 72586,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "AI/ML (그 외)",
+    "category_reason": "LLM 모델 자체를 처음부터 훈련하는 프로젝트이므로 LLM·에이전트보다는 머신러닝 모델 학습·훈련 도구로 분류. (Tool Use, Agent RL 등 에이전트 기능도 포함되지만, 핵심은 작은 LLM 모델을 직접 훈련하는 것)",
+    "summary_ko": "MiniMind는 개인 GPU에서 2시간 안에 64M 파라미터 소형 언어모델을 처음부터 훈련할 수 있도록 설계된 오픈소스 프로젝트입니다. 사전학습, SFT, LoRA, RLHF, PPO 등 대형 언어모델의 전체 훈련 파이프라인을 PyTorch로 직접 구현하여 공개하며, 모델 증류, 도구 사용, 에이전트 강화학습 등 고급 기능도 포함합니다.",
+    "description_ko": "2시간 만에 64M 파라미터 LLM을 처음부터 훈련하세요!",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
    "warnings": [
-    "README가 중국어 위주",
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
+    "README가 중국어 위주"
    ],
    "streak": 7,
    "is_new": false
@@ -176,19 +165,16 @@
    "readme_excerpt": "# Cursor plugins\n\nOfficial Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest.\n\n# Plugins\n\nAuthor values match each plugin’s plugin.json author.name (Cursor lists plugins@cursor.com in the manifest).\n\n# Repository structure\n\nThis is a multi-plugin marketplace repository. The root .cursor-plugin/marketplace.json lists all plugins, and each plugin has its own manifest:",
    "readme_chars": 26292,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "Cursor 코딩 에이전트용 플러그인 모음으로, 에이전트 워크플로우·기술·통합을 확장하는 것이 핵심 목적이다.",
+    "summary_ko": "Cursor 코딩 에이전트를 위한 공식 플러그인 사양 및 플러그인 모음이다. 개발 도구·프레임워크·SaaS와의 통합, 에이전트 워크플로우 최적화, 그리고 Gmail·Google Drive·Salesforce 같은 외부 서비스와의 연동을 제공한다.",
+    "description_ko": "인기 있는 개발자 도구, 프레임워크, SaaS 제품용 Cursor 공식 플러그인. 각 플러그인은 저장소 루트의 독립적인 디렉토리로, 자체 `.cursor-plugin/plugin.json` 매니페스트를 가진다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 9,
    "is_new": false
   },
@@ -225,19 +211,16 @@
    "readme_excerpt": "# 🔥 Firecrawl\n\nKnowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.\n\n• Firecrawl Local. Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.\n\n• Firecrawl Cloud. Use the hosted service at firecrawl.dev for everything Local does at scale with nothing to run, plus search and the 550+ data providers in Firecrawl Alexandria for far more knowledge than scraping alone.\n\n• Self-hosting. Deploy the full Firecrawl server from apps/api with its own queues, workers and databases on your own infrastructure.\n\n_Pst. Hey, you, join our stargazers :)_",
    "readme_chars": 18654,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "웹 스크래핑·크롤링을 AI 에이전트에 연결하는 MCP 서버이자, 에이전트가 웹 데이터에 접근할 수 있게 하는 인프라로서 AI 에이전트 생태계의 핵심 도구이기 때문",
+    "summary_ko": "Firecrawl은 웹사이트를 AI 에이전트가 사용할 수 있는 깔끔한 마크다운 형식으로 변환하고, MCP 서버로 Claude, Cursor, Windsurf 등 코딩 에이전트에 직접 플러그인할 수 있는 도구입니다. 로컬 설치 버전과 클라우드 서비스로 제공되며, 550개 이상의 데이터 소스를 하나의 API로 통합합니다.",
+    "description_ko": "에이전트를 더 똑똑하게 만드는 지식 인프라입니다. 검색, 스크래핑, 550개 이상의 데이터 제공자를 하나의 API로 이용할 수 있습니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -270,19 +253,16 @@
    "readme_excerpt": "NGINX (pronounced \"engine x\" or \"en-jin-eks\") is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache.\n\nNGINX is free and open source software, distributed under the terms of a simplified 2-clause BSD-like license.\n\nEnterprise distributions, commercial support and training are available from F5, Inc.\n\n> The goal of this README is to provide a basic, structured introduction to NGINX for novice users. Please refer to the full NGINX documentation for detailed information on installing, building, configuring, debugging, and more. These documentation pages also contain a more detailed Beginners Guide, How-Tos, Development guide, and a complete module and directive reference.\n\n# Table of contents\n\n• Stable and Mainline binaries\n\n• Linux binary installation process\n\n• Getting started with NGINX\n\n• Installing SSL certificates and enabling TLS encryption\n\n• Cloning the NGINX GitHub repository\n\n• Location of binary and installation",
    "readme_chars": 13746,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "Infra·Cloud·DevOps",
+    "category_reason": "웹 서버, 로드 밸런서, 리버스 프록시, API 게이트웨이, 콘텐츠 캐시 등 인프라 핵심 소프트웨어이므로 Infra·Cloud·DevOps에 분류",
+    "summary_ko": "세계에서 가장 널리 사용되는 고성능 웹 서버이자 로드 밸런서, 리버스 프록시다. 오픈소스이며 안정적인 상태에서 활발히 개발 중이며, 모든 주요 운영체제와 Linux 배포판을 지원한다.",
+    "description_ko": "공식 NGINX 오픈소스 저장소",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -319,19 +299,16 @@
    "readme_excerpt": "Open-source software toolkit for optimizing and deploying deep learning models.\n\nDocumentation • Blog • Key Features • Tutorials • Integrations • Benchmarks • Generative AI\n\n• Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.\n\n• Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax. Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel. Convert and deploy models without original frameworks.\n\n• Broad Platform Compatibility: Reduce resource demands and efficiently deploy on a range of platforms from edge to cloud. OpenVINO™ supports inference on CPU (x86, ARM), GPU (Intel integrated & discrete GPU) and AI accelerators (Intel NPU).",
    "readme_chars": 11049,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "AI/ML (그 외)",
+    "category_reason": "딥러닝 모델의 추론 최적화와 배포를 위한 도구이며, 컴퓨터비전, 음성 인식, NLP, 생성형 AI 등 다양한 ML 작업을 지원하므로 LLM·에이전트가 아닌 일반 AI/ML 도구로 분류된다.",
+    "summary_ko": "OpenVINO는 PyTorch, TensorFlow, ONNX 등 주요 프레임워크로 학습한 딥러닝 모델을 최적화하고 CPU, GPU, NPU 등 다양한 하드웨어에 배포하는 오픈소스 툴킷입니다. 컴퓨터비전, 음성 인식, 자연어 처리, 생성형 AI 등 여러 분야의 추론 성능을 향상시키며 Hugging Face의 모델을 직접 통합할 수 있습니다.",
+    "description_ko": "AI 추론을 최적화하고 배포하기 위한 오픈소스 툴킷",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 8,
    "is_new": false
   },
@@ -357,19 +334,16 @@
    "readme_excerpt": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 52 diagram types. No shadows. No Mermaid slop.\n\nWebsite · Gallery · Changelog\n\nInstall · What it makes · Quickstart · Match your brand · Import · Export · Contributing\n\nnpx skills add cathrynlavery/diagram-design\n\nAsk your agent in plain words:\n\n• \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"\n\n• \"I need a quadrant showing Q2 projects by impact vs effort.\"\n\n• \"Give me a sequence of a bearer call with token refresh on 401.\"\n\n• \"Onboard diagram-design to https://yoursite.com\" (pulls your palette and fonts so every diagram after this one matches your site)\n\nThe agent picks the type, states its plan, and writes one .html file you can open by double-clicking.\n\n# Install\n\nWorks with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp:",
    "readme_chars": 47070,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "Claude Code, Cursor, Codex 등 코딩 에이전트용 스킬로 설계되었으며, 에이전트가 자동으로 도형 타입을 선택하고 다이어그램을 생성하는 기능이 핵심이므로",
+    "summary_ko": "Claude Code, Cursor, Codex 등 AI 에이전트를 위한 다이어그램 생성 스킬로, 자연어 지시에 따라 52개 타입의 편집용 다이어그램을 HTML+SVG 파일로 만들어냅니다. 그래픽 디자인 품질을 유지하면서 각 브랜드에 맞게 커스터마이징할 수 있습니다.",
+    "description_ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, Pi용 편집 다이어그램 설계. 52개 다이어그램 타입. 독립형 HTML + SVG. 그림자 없음. Mermaid 대용 아님.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -407,19 +381,16 @@
    "readme_excerpt": "# /last30days\n\nAn AI agent-led search engine scored by upvotes, likes, and real money - not editors.\n\nThis README tracks the current v4 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md, which is the source of truth for the latest command and setup behavior.\n\nClaude Code (recommended — auto-updates via marketplace):\n\nCodex, Cursor, Copilot, Gemini CLI, or any of 50+ Agent Skills hosts:\n\n(-g installs globally for your user, available across all projects. Drop it to scope per-project.)\n\nMore install options (claude.ai web, OpenClaw, manual) in the Install section below.\n\nZero config. Reddit, HN, Polymarket, and GitHub work immediately, and so do patent filings and careers pages when your topic is a company. Run it once and the setup wizard unlocks X, YouTube, TikTok, arXiv, Techmeme, and more in 30 seconds.",
    "readme_chars": 34028,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "Claude Code, Cursor, Copilot 등 에이전트 플랫폼용 스킬로 설계되었으며, AI 에이전트가 여러 소스를 병렬로 검색하고 종합하는 것이 핵심 기능이다.",
+    "summary_ko": "/last30days는 Reddit, X, YouTube, TikTok, Hacker News, Polymarket 등 여러 플랫폼을 동시에 검색하는 AI 에이전트 스킬입니다. 편집자가 아닌 실제 사용자의 투표(업보트, 좋아요, 조회수)와 실제 금전이 반영된 베팅 확률을 기준으로 정보를 평가해 최근 30일간의 주제를 종합한 요약을 제공합니다.",
+    "description_ko": "Reddit, X, YouTube, HN, Polymarket, 웹 전반에서 주제를 연구하는 AI 에이전트 스킬로, 근거 기반의 종합 요약을 생성합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 10,
    "is_new": false
   },
@@ -436,19 +407,16 @@
    "readme_excerpt": "# Stitch Design Skills\n\nA collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install).\n\n# Quick Start\n\n# 1. Install Plugins (Recommended)\n\nThe fastest way to set up the full Stitch plugin suite globally.\n\n# Codex\n\nAdd the Stitch Skills marketplace, then install the plugins you need.\n\n> The --sparse flags are optional — they limit the checkout to only the > listed paths for a faster clone. Omit them to pull the entire repository.\n\nVia the Codex UI\n\nNavigate to Settings → Plugin Marketplaces → Add and fill in:\n\nOnce the marketplace is registered, install any combination of:\n\n• stitch-design — design-focused skills\n\n• stitch-build — build and component skills\n\n• stitch-utilities — utility and helper skills",
    "readme_chars": 11002,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "Stitch MCP 서버와 함께 작동하도록 설계된 코딩 에이전트(Claude Code, Cursor, Codex 등) 전용 스킬 모음으로, 에이전트 기능 확장이 핵심 목적이다.",
+    "summary_ko": "Google Stitch의 Agent Skills 오픈 표준을 따르는 스킬과 플러그인 모음으로, Claude Code, Cursor, Codex 등 다양한 코딩 에이전트와 호환됩니다. 디자인 생성·관리, 빌드, 유틸리티 등 여러 카테고리의 스킬을 제공하며, Stitch MCP 서버와 함께 작동합니다.",
+    "description_ko": "Stitch MCP 서버와 함께 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor 등의 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 11,
    "is_new": false
   },
@@ -486,19 +454,16 @@
    "readme_excerpt": "# App Store Compliance Playbook\n\nCatch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person. It does not guarantee approval.\n\nRead it as a website at mjmirza.github.io/app-store-compliance.\n\nIf this saves you even one rejection, leave a star, fork it, and follow along. That is the whole ask.\n\nStar this repo &nbsp;|&nbsp; Fork it &nbsp;|&nbsp; Follow on GitHub &nbsp;|&nbsp; Follow on X &nbsp;|&nbsp; next8n.com\n\n# Start here\n\nPick one row. The time shown is for that first step.\n\nThe two commands. Needs git and bash. The first downloads this playbook. The second scans your app. Nothing is installed and nothing in your app is changed.",
    "readme_chars": 44256,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "DevTools·CLI",
+    "category_reason": "AI 에이전트 스킬 포함이지만, 핵심은 앱 스토어 거부 사유를 사전 검사하는 CLI 도구 및 체크리스트다. 코딩 에이전트는 선택적 통합일 뿐이므로 DevTools·CLI가 더 정확하다.",
+    "summary_ko": "앱 스토어와 구글 플레이 거부 원인을 제출 전에 찾아내는 오픈 소스 플레이북이자 검사 도구다. 117가지 거부 패턴과 수정법, 개인정보 보호 선언 검사, 95개 규정 준수 기한(EU AI Act, DSA, COPPA 등)을 담고 있으며, Claude Code 같은 AI 코딩 도구에 스킬로 통합할 수 있다.",
+    "description_ko": "앱 스토어와 구글 플레이 거부 원인을 사전에 방지한다. 117가지 문서화된 거부 패턴과 수정법, 개인정보 보호 선언 및 데이터 안전 검사, EU AI Act·DSA·COPPA·나이 제한법 등 95개 추적 기한을 담은 공개 플레이북이자 사전 검사 도구다. AI 코딩 에이전트용 스킬도 포함한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -531,19 +496,16 @@
    "readme_excerpt": "OpenSRE: The open-source agent for CI/CD reliability\n\nYour CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models.\n\nstyle=\"height: 30px; width: auto;\"\n\n> 🚧 Public Alpha: Core workflows are usable for early exploration, though not yet fully stable. The project is in active development, and APIs and integrations may evolve.\n\n# Before you begin\n\nMake sure you have:\n\n• A terminal open in a code project\n\n• A Git repository (recommended for the full workflow demonstration)\n\n# Step 1: Install and start opensre\n\nThe installer fetches the latest build from main without requiring sudo. If opensre is not found, follow the PATH instructions printed by the installer or open a new terminal.\n\nFor supported platforms and troubleshooting, see Install locally.\n\n# Table of Contents\n\n• Install and start opensre",
    "readme_chars": 17376,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "LLM·에이전트",
+    "category_reason": "CI/CD 파이프라인 실패를 자동으로 분석하고 수정안을 제시하는 AI 에이전트가 핵심 기능이며, LLM 기반 근본 원인 분석과 자동 수정이 주요 목적이다. DevOps 도구이기도 하지만 LLM 에이전트 기능이 핵심 가치다.",
+    "summary_ko": "OpenSRE는 CI/CD 파이프라인 실패를 자동으로 조사하고 수정안을 제시하는 오픈소스 에이전트입니다. 실패 로그를 분석해 근본 원인을 추적하고 검토용 수정안을 푸시하며, 자체 호스팅 환경에서 자신의 LLM 모델과 함께 작동합니다.",
+    "description_ko": "CI/CD 신뢰성을 위한 오픈소스 에이전트",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -579,19 +541,16 @@
    "readme_excerpt": "Write, Draw and Plan All at Once A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds.\n\nDocs, canvas and tables are hyper-merged with AFFiNE - just like the word affine (əˈfʌɪn | a-fine).\n\n# Getting started & staying tuned with us.\n\nStar us, and you will receive all release notifications from GitHub without any delay!\n\n# What is AFFiNE\n\nAFFiNE is an open-source, all-in-one workspace and an operating system for all the building blocks that assemble your knowledge base and much more -- wiki, knowledge management, presentation and digital assets. It's a better alternative to Notion and Miro.\n\n# Features\n\nA true canvas for blocks in any form. Docs and whiteboard are now fully merged.",
    "readme_chars": 14381,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "Mobile·Desktop 앱",
+    "category_reason": "Notion과 Miro를 대체하는 올인원 워크스페이스 애플리케이션으로, 일반 사용자를 위한 데스크톱·웹 앱이 핵심이다. AI 기능은 보조적인 역할이므로 주 카테고리는 아니다.",
+    "summary_ko": "AFFiNE는 문서, 캔버스, 테이블을 하나의 플랫폼에서 통합한 오픈소스 올인원 워크스페이스다. Notion과 Miro를 대체할 수 있도록 설계되었으며, 개인정보 보호 중심, 로컬 우선, 실시간 협업을 지원한다.",
+    "description_ko": "Notion과 Miro를 넘어선 차세대 지식 베이스다. 계획, 정리, 창작을 모두 한 곳에서 가능하게 한다. 개인정보 보호 중심, 오픈소스, 커스터마이징 가능하며 바로 사용할 수 있다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -628,19 +587,16 @@
    "readme_excerpt": "> Swiftproxy – Premium Global Residential Proxy Network Swiftproxy provides 90M+ real residential IPs across 220+ locations worldwide, helping users access global content and manage location-specific network connections. With rotating and static residential proxies, flexible geo-targeting, and HTTP(S)/SOCKS5 support, Swiftproxy is ideal for cross-region downloads, network testing, and browser automation. Free testing available, with 10% off using code PROXY90.\n\n# The only downloader you need\n\n# Documentation · Watch Video · Report Bug · Request Feature\n\n# Features\n\n• Fast where it matters. Every downloader is fast on a good connection. The real test is a bad one. Smart chunking without file merging. Auto-detects bandwidth. Real-browser TLS fingerprints, invisible to anti-bot checks.",
    "readme_chars": 10964,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "Mobile·Desktop 앱",
+    "category_reason": "Windows, macOS, Linux, Android 네 플랫폼을 지원하는 일반 사용자용 다운로드 애플리케이션이다.",
+    "summary_ko": "HTTP, 자석링크/토렌트, FTP, M3U8, MPEG-DASH, YouTube, Bilibili 등 거의 모든 다운로드 프로토콜을 하나의 앱에서 지원하는 통합 다운로더다. 나쁜 네트워크 환경에서도 최적화되어 있으며, 브라우저 확장과 연동하고 aria2 호환 RPC API를 제공한다.",
+    "description_ko": "당신이 필요한 유일한 다운로더다. 다운로더의 집대성자.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   },
@@ -673,21 +629,19 @@
    "readme_excerpt": "# AutoClip\n\n# Turn any video, link, or live stream into ready-to-post clips.\n\nOpen-source, local-first AI clipping for podcasts, interviews, and gaming streams — with smart reframing, captions, covers, and titles built in.\n\nEnglish · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch\n\n⭐ Free, MIT-licensed, zero subscriptions — everything cuts and renders on your machine. Star the repo if you find it useful!\n\n# Overview\n\nDrop in a link, local video, or live stream replay — AutoClip finds the best moments, tracks the speaker, burns in captions, generates covers, and exports ready-to-post clips for TikTok, Shorts, Reels, YouTube, Douyin, Xiaohongshu, and Bilibili.\n\nLocal-first by design: cutting and rendering run directly on your computer with no upload queues and no monthly fee. Bring your own API key or run 100% offline with Ollama / LM Studio + Whisper / SenseVoice.",
    "readme_chars": 11486,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "category": "Mobile·Desktop 앱",
+    "category_reason": "데스크톱 애플리케이션이 핵심이며, AI 비디오 편집·클리핑 기능이 그 도구에 포함된 형태. AI/ML보다는 사용자가 직접 쓰는 완성된 앱이 주요 목적이다.",
+    "summary_ko": "장시간 영상(팟캐스트, 인터뷰, 라이브 스트림)을 AI가 자동으로 분석해 짧은 클립으로 자르고, 자막·썸네일·문안을 생성하는 오픈소스 데스크톱 앱입니다. 구독료 없이 로컬에서 모두 처리되며 TikTok, 쇼츠, 릴스, 유튜브 등 다양한 플랫폼에 맞춘 출력을 지원합니다.",
+    "description_ko": "AutoClip｜한 개의 링크로 한 번에 클립을 생성합니다. 오픈소스 AI 비디오 클리핑 데스크톱 도구로, 팟캐스트, 인터뷰, 강의 등 긴 영상을 자동으로 짧은 비디오로 편집하고, 자막, 커버 이미지, 발행 문안을 생성하며, 쇼츠, 소홍서, TikTok, 릴스, 유튜브 쇼츠에 대응합니다. 오픈소스 AI 비디오 편집 & 콘텐츠 재활용 도구입니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 404 - 지원하지 않는 경로입니다: POST /chat/completions"
-   ],
+   "warnings": [],
    "streak": 7,
    "is_new": false
   }
- ]
+ ],
+ "backfilled_at": "2026-11-28T13:16:44+09:00"
 }

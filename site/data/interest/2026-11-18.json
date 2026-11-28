@@ -4,14 +4,14 @@
  "status": "ok",
  "compared_with": "2026-11-17",
  "candidates": 723,
- "model": "anthropic/claude-haiku-4.5",
+ "model": "claude-haiku-4-5",
  "prompt_version": "v2",
  "category_counts": {
-  "재료 시뮬레이션": 0,
+  "재료 시뮬레이션": 1,
   "재료 데이터·ML": 0,
   "이차전지": 0,
   "분석기기·데이터 처리": 0,
-  "과학계산 일반": 0,
+  "과학계산 일반": 1,
   "기타": 0
  },
  "repos": [
@@ -32,18 +32,19 @@
    "readme_excerpt": "# Wireless Battery\n\nBattery levels of your wireless mouse, headset, keyboard and controller, right on the Windows taskbar.\n\n> Just want it working? Download WirelessBattery-Setup from the latest release, run it and click through. That's it. > Experienced users can grab the portable zip, use the command-line options, or build it from source with make or build.bat. > Like it? Wireless Battery is free and open source. If it saves you a trip into vendor software, you can support it on Ko-fi, PayPal or GitHub Sponsors. It helps me keep my apps free alongside my studies. Not able to donate? A ⭐ star, sharing it, or reporting an unsupported device with a --dump helps just as much.\n\n• Tiny: a ~350 KB app using about 2 MB of RAM. It's plain C++/Win32, with no runtime and no background service, and installs in seconds without admin rights.\n\n• No vendor software needed: it talks to the devices directly. G HUB, Synapse, iCUE, GG and NGenuity can stay closed (or keep running; they don't conflict).",
    "readme_chars": 69750,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "무선 기기의 배터리 잔량을 표시하는 소프트웨어로, '배터리'라는 단어는 겹치지만 재료공학, 이차전지 셀/소재/BMS, 분석기기, 과학계산과는 관련이 없는 일반 소비자용 유틸리티다.",
+    "category": "기타",
+    "category_reason": "과학·공학 관련 소프트웨어가 아닌 일상용 데스크톱 애플리케이션이므로 '기타'로 분류된다.",
+    "summary_ko": "Windows 10/11 작업 표시줄에 무선 마우스, 헤드셋, 키보드, 컨트롤러 등의 배터리 잔량을 표시하는 경량 트레이 앱입니다. Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox 및 Bluetooth 기기를 지원하며, 제조사 소프트웨어 설치가 필요하지 않습니다.",
+    "description_ko": "Windows 10/11 작업 표시줄에 무선 마우스, 헤드셋, 키보드, 컨트롤러의 배터리 잔량을 표시하는 경량 트레이 앱입니다. 제조사 소프트웨어가 필요하지 않습니다. Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox 및 Bluetooth 기기를 지원합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
    "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
+    "README 없음"
    ],
    "streak": 1,
    "is_new": true
@@ -83,19 +84,18 @@
    "readme_excerpt": "# Scientific Agent Skills\n\n> 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude.\n\n> New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here.",
    "readme_chars": 78749,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevant": true,
+    "relevance_reason": "과학 계산, 데이터 분석, 재료 과학(materials-science topic 포함), 화학 정보학(chemoinformatics) 등 과학 연구에 필요한 종합적인 도구와 데이터베이스를 제공한다.",
+    "category": "과학계산 일반",
+    "category_reason": "생물학, 화학, 의학, 약물 발견, 재료 과학, 단백질체학, 대사체학 등 다양한 과학 분야를 포괄하는 종합 과학 계산 플랫폼이기 때문이다.",
+    "summary_ko": "Scientific Agent Skills는 AI 에이전트가 과학 연구를 수행할 수 있도록 하는 177개의 검증된 기술(skill)과 100개 이상의 과학 데이터베이스를 제공한다. 생물정보학, 화학정보학, 약물 발견, 단백질체학, 재료 과학 등 다양한 분야를 지원하며, Cursor, Claude Code 등 여러 AI 에이전트 플랫폼과 호환된다.",
+    "description_ko": "모든 AI 에이전트를 AI 과학자로 변환하는, 전 세계 25만 명 이상의 과학자가 사용하는 최고의 에이전트 기술 라이브러리입니다. 177개의 사용 가능한 검증된 기술과 생물학, 화학, 의학, 약물 발견을 포함한 100개 이상의 과학 데이터베이스를 제공합니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 개방형 Agent Skills 표준을 지원하는 플랫폼과 호환됩니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -125,19 +125,18 @@
    "readme_excerpt": "The batteries-included agent harness.\n\nDeep Agents is an open source agent harness — an opinionated agent that runs out of the box. Extend, override, or replace any piece.\n\n• Opinionated — defaults tuned for long-horizon, multi-step work\n\n• Extensible — override or replace any piece without forking\n\n• Model-agnostic — works with any LLM that supports tool calling: frontier, open-weight, or local\n\n• Production-ready — built on LangGraph (streaming, persistence, checkpointing) with first-class tracing, evaluation, and deployment via LangSmith\n\n• Sub-agents — delegate tasks to agents with isolated context windows\n\n• Filesystem — read, write, edit, or search over pluggable local, sandboxed, or remote backends\n\n• Context management — summarize long threads and offload tool outputs to disk\n\n• Shell access — run commands in your sandbox of choice\n\n• Persistent memory — pluggable state and store backends for cross-session recall",
    "readme_chars": 6219,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Deep Agents는 LLM 기반의 AI 에이전트 프레임워크로, 재료공학·이차전지·분석기기·과학계산과 실제 관련이 없다.",
+    "category": "기타",
+    "category_reason": "소프트웨어 개발 도구(에이전트 프레임워크)로서 과학·공학 분야 소프트웨어와 무관하다.",
+    "summary_ko": "Deep Agents는 LangChain 기반의 오픈소스 AI 에이전트 프레임워크로, 장기적인 다단계 작업을 위해 최적화된 설정으로 즉시 사용 가능합니다. 파일시스템, 하위 에이전트, 문맥 관리, 셸 접근, 지속적 메모리 등의 기능을 제공하며, 도구 호출을 지원하는 모든 LLM과 호환됩니다.",
+    "description_ko": "완전히 갖춰진 에이전트 프레임워크",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -176,19 +175,18 @@
    "readme_excerpt": "Battery for your wireless mouse, headset, controller and keyboard, in the Windows tray.\n\nEnglish · Português · Français · Русский\n\nJoule is a small Windows 11 app that sits in the tray and shows how much battery your wireless devices have left. It is free, open source and in\n\n# What you get\n\n• Panel: click the tray icon to see every connected device, weakest first.\n\n• Edge widget: battery rings on the edge of the screen. It hides itself and\n\ngets out of the way of full-screen apps.\n\n• Tray icon: shows at a glance whether anything is running low; hover to\n\nsee each device's battery.\n\n• Connect notice: when a device turns on, Joule shows its battery, on the\n\nwidget or as a Windows notification, with sound if you want.\n\n• Low battery alert, with a limit you choose.\n\n• English, Portuguese, French and Russian: follows the Windows language, and you can\n\nswitch in Settings. French and Russian were translated by people who use Joule.",
    "readme_chars": 6583,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "무선 주변기기의 배터리 잔량을 모니터링하는 Windows 시스템 트레이 앱으로, 이차전지 재료·셀·BMS 개발이나 과학적 분석과 무관한 사용자 도구다.",
+    "category": "기타",
+    "category_reason": "과학·공학 분야가 아닌 일반 소프트웨어 유틸리티이므로 분류 대상 카테고리 외다.",
+    "summary_ko": "Joule은 Windows 11의 시스템 트레이에 앉아 무선 마우스, 헤드셋, 컨트롤러, 키보드 등 주변기기의 배터리 잔량을 표시하는 소형 앱입니다. 패널, 엣지 위젯, 트레이 아이콘을 통해 배터리 상태를 확인하고 저배터리 알림을 받을 수 있으며, 오픈소스 프로젝트로 무료로 사용 가능합니다.",
+    "description_ko": "Windows 트레이에서 무선 마우스, 헤드셋, 컨트롤러, 키보드의 배터리를 표시합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": true
   },
@@ -224,19 +222,18 @@
    "readme_excerpt": "# Stats\n\nmacOS system monitor in your menu bar\n\n# Installation\n\n# Manual\n\nYou can download the latest version here. This will download a file called Stats.dmg. Open it and move the app to the application folder.\n\n# Homebrew\n\nTo install it using Homebrew, open the Terminal app and type:\n\n# Headless (SSH)\n\nTo install Stats remotely over SSH and set it up as a remote monitoring agent, run:\n\nThe script installs the app, enables the Remote module and prints a URL with an authorization code - open it on any device and sign in to your System Stats account to authorize the machine. After that Stats starts streaming metrics to your account and is registered to launch automatically at login and restart if it stops. The Mac needs an active user session (a locked screen is fine) to run the app; on a fully headless machine Stats will start at the next login.\n\n# Uninstall\n\nRun the uninstall script bundled with the app (requires administrator privileges to remove the SMC helper):",
    "readme_chars": 11568,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "macOS 시스템 모니터링 애플리케이션으로, 배터리 잔량 표시 같은 단어만 겹치며 재료공학·이차전지·분석기기·과학계산과는 무관하다.",
+    "category": "기타",
+    "category_reason": "시스템 모니터링 도구이며 과학·기술 연구용 소프트웨어가 아니다.",
+    "summary_ko": "Stats는 macOS 메뉴바에서 시스템 리소스를 모니터링하는 애플리케이션입니다. CPU, GPU, 메모리, 디스크, 네트워크, 배터리, 센서, 블루투스 등 다양한 하드웨어 정보를 실시간으로 표시합니다.",
+    "description_ko": "macOS 메뉴바 시스템 모니터",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -277,19 +274,18 @@
    "readme_excerpt": "Three system signals. One native macOS status icon — in your menu bar or the Dock.\n\nWant to see it in action first? Open statustrio.lingai.net to simulate every icon state in your browser.\n\nStatus Trio is a native macOS status app that combines Wi-Fi, battery, and volume into one compact, configurable icon, shown in the menu bar, in the Dock, or in both. Its popover goes deeper than the icon: a Wi-Fi panel for nearby networks and link details, a Bluetooth panel for paired devices, a Battery Details page, and the audio devices that are playing. It is inspired by the iPhone Duo's combined status bar icon for Wi-Fi, Battery, and Cellular Data, adapted for Mac with Volume instead of Cellular Data.\n\n> Status Trio is an independent project and is not affiliated with Apple.\n\n# Highlights\n\n• One icon, three signals — battery, Wi-Fi, and volume share one icon in the menu bar, the Dock, or both, and a Bluetooth device that is playing can take the middle spot with its own symbol.",
    "readme_chars": 13729,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "macOS 메뉴 바 유틸리티 앱으로, 배터리 잔량 표시는 단순히 시스템 상태 모니터링 기능일 뿐 재료공학이나 이차전지 기술과는 무관하다.",
+    "category": "기타",
+    "category_reason": "이 레포는 macOS 시스템 유틸리티 애플리케이션으로, 과학 또는 공학 분야와 관련이 없다.",
+    "summary_ko": "Status Trio는 Wi-Fi, 배터리, 볼륨 상태를 하나의 컴팩트한 아이콘으로 통합하여 macOS 메뉴 바나 Dock에 표시하는 네이티브 앱이다. iPhone Duo의 통합 상태 표시줄에서 영감을 받아 설계되었으며, 각 상태에 대한 상세 정보를 확인할 수 있는 팝오버 패널을 제공한다.",
+    "description_ko": "Wi-Fi, 배터리, 볼륨을 하나의 컴팩트하고 설정 가능한 상태 아이콘으로 통합하는 네이티브 macOS 앱으로, 메뉴 바, Dock, 또는 둘 다에 표시할 수 있으며, iPhone Duo의 통합 상태 표시줄에서 영감을 받았다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -321,19 +317,18 @@
    "readme_excerpt": "# Halo Battery\n\nBattery levels of your wireless mouse, keyboard, headset and controller, right in the Windows tray. One icon per device. No vendor software.\n\n# ⬇ Download the latest version\n\nMaintained together with the community. To help, read Contributing. The pre-release build has fixes that are not released yet. It is rebuilt on every merge and may have bugs.\n\n# Features\n\n• One glance. A ring for each device fills with its level, turns amber near your alert level and red below it, and breathes green while charging.\n\n• No vendor apps. Close Synapse, G HUB, NGENUITY and the rest: Halo Battery talks to the receiver, the cable or Windows Bluetooth itself.\n\n• 30+ brands. Razer, Logitech, SteelSeries, HyperX, Corsair, ASUS ROG, Sony, Xbox, Nintendo, 8BitDo, Pulsar, Keychron and many more.\n\n• Stays out of the way. Alerts wait until your full-screen game closes, and devices are polled less often while you play.",
    "readme_chars": 4688,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Windows 트레이에서 무선 기기의 배터리 잔량을 모니터링하는 사용자 소프트웨어일 뿐, 배터리 셀·소재·BMS·분석 같은 재료공학이나 이차전지 기술과는 무관하다.",
+    "category": "기타",
+    "category_reason": "재료공학이나 이차전지 기술 분야와 관련 없는 순수 소프트웨어 모니터링 도구이다.",
+    "summary_ko": "Halo Battery는 Windows 트레이에서 마우스, 키보드, 헤드셋, 컨트롤러 등 무선 기기의 배터리 잔량을 시각적으로 표시하는 애플리케이션입니다. 각 기기별로 저배터리 알림을 설정할 수 있으며, Bluetooth나 2.4 GHz 수신기를 통해 직접 기기의 배터리 상태를 감지합니다.",
+    "description_ko": "Windows 트레이에서 마우스, 키보드, 헤드셋, 컨트롤러부터 건강 추적기와 스마트홈 기기까지 다양한 기기의 배터리 잔량을 표시합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 5,
    "is_new": false
   },
@@ -358,19 +353,18 @@
    "readme_excerpt": "[ Screencasts & Tutorials ]\n\n# What is this?\n\nZellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called \"Terminal Multiplexers\".\n\nZellij is designed around the philosophy that one must not sacrifice simplicity for power, taking pride in its great experience out of the box as well as the advanced features it places at its users' fingertips.\n\nZellij is geared toward beginner and power users alike - allowing deep customizability, personal automation through layouts, true multiplayer collaboration, unique UX features such as floating and stacked panes, and a plugin system allowing one to create plugins in any language that compiles to WebAssembly.\n\nZellij includes a built-in web-client, making a terminal optional.\n\nYou can get started by installing Zellij and checking out the Screencasts & Tutorials.\n\nFor more details about our future plans, read about upcoming features in our roadmap.",
    "readme_chars": 1966,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "터미널 멀티플렉서로서 소프트웨어 개발 도구이며, 재료공학·이차전지·분석기기·과학계산과는 관련이 없습니다.",
+    "category": "기타",
+    "category_reason": "이 레포는 개발자용 터미널 작업 공간 도구로, 과학·재료 분야와 무관한 순수 소프트웨어 프로젝트입니다.",
+    "summary_ko": "Zellij는 개발자와 터미널 애호가를 위한 터미널 멀티플렉서입니다. 사용자 친화적인 기본 기능과 함께 레이아웃 커스터마이징, 협업 기능, 플러그인 시스템 등 고급 기능을 제공합니다.",
+    "description_ko": "배터리 포함된 터미널 작업 공간",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 4,
    "is_new": false
   },
@@ -400,19 +394,18 @@
    "readme_excerpt": "# Universal Android Debloater Next Generation\n\n> DISCLAIMER: Use at your own risk. We're not responsible for anything that could happen to your devices.\n\nThis is a detached fork of the UAD project. This aims to improve privacy and efficiency (energy, speed, memory) by removing unnecessary and obscure system apps. This can also improve security by reducing the attack surface. Read the wiki for more details.\n\n# Documentation\n\nEverything about UAD-ng (and related stuff) can be found on the Wiki, such as:\n\n• Features of this app\n\n• Suggested Android app replacements\n\n• How to get the cutting-edge version by building the source-code\n\n• Weird things OEMs do\n\n• Suggested apps for analyzing APKs\n\n# Privacy\n\nUAD-ng does not collect or transmit any user data. The only external connections are GET requests to GitHub for fetching the package list (crates/uad-core/src/uad_lists.rs) and checking for updates (crates/uad-core/src/update.rs).",
    "readme_chars": 3364,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "안드로이드 디바이스의 불필요한 앱을 제거하는 소프트웨어로, 재료공학·이차전지·분석기기·과학계산과는 관련이 없다.",
+    "category": "기타",
+    "category_reason": "과학·기술 분야와 무관한 모바일 유틸리티 소프트웨어이다.",
+    "summary_ko": "Rust로 작성된 크로스플랫폼 GUI 애플리케이션으로, ADB를 사용하여 루팅하지 않은 안드로이드 기기에서 불필요한 시스템 앱을 제거한다. 개인정보 보호와 보안 개선, 배터리 수명 연장을 목표로 한다.",
+    "description_ko": "Rust로 작성된 크로스플랫폼 GUI이며 ADB를 사용하여 루팅되지 않은 안드로이드 기기의 블로트웨어를 제거한다. 기기의 개인정보 보호, 보안, 배터리 수명을 개선할 수 있다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -438,19 +431,18 @@
    "readme_excerpt": "Describe a materials research task. MatOS assembles the scientific assets it needs, runs them as a stateful, checkable workflow, and turns every run into better assets for the next one.\n\n# Contents\n\n• What's in This Edition\n\n# What is MatOS?\n\nMatOS is an agent operating system for materials research. Materials studies run for days, cross literature, computation and experiment, and keep changing as results arrive. Agents for this work have to take on new data and software, keep long tasks on track, and remember what earlier tasks taught them. MatOS builds these capabilities around versioned scientific assets: data, knowledge, tools, skills, roles and workflows.\n\nResearch tasks drive the stateful adaptive workflow, the layered scientific asset graph supplies composable capabilities, and execution traces and user feedback become reviewed asset revisions that return to the graph.",
    "readme_chars": 28744,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
-    "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevant": true,
+    "relevance_reason": "재료 연구의 계산 및 실험 작업을 자동화하고 관리하는 에이전트 운영 체제로, 재료공학 연구에 직접 관련된다.",
+    "category": "재료 시뮬레이션",
+    "category_reason": "재료 연구 작업을 위한 과학 자산 그래프, 상태 저장 워크플로우, 에이전트 기반 자동화를 중심으로 하며, 여러 연구 벤치마크(MatTools, SciAgentGym, ResearchClawBench)에서 성능을 평가하고 있다.",
+    "summary_ko": "MatOS는 재료 연구를 위한 에이전트 운영 체제로, 데이터·지식·도구·기술·역할·워크플로우 등의 과학 자산을 계층화된 그래프로 관리합니다. 사용자가 재료 연구 작업을 설명하면 필요한 자산을 조립하여 상태 저장 적응형 워크플로우로 실행하고, 실행 결과를 다음 작업에 더 나은 자산으로 발전시킵니다.",
+    "description_ko": "재료 연구용 에이전트 운영 체제로, 계층화된 과학 자산 그래프, 상태 저장 적응형 워크플로우, 그리고 증거 기반 자산 진화 기능을 갖추고 있습니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": true
   },
@@ -471,19 +463,18 @@
    "readme_excerpt": "The full full-stack framework for Rust\n\nTopcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See Learn Topcoat to get started, or the Roadmap for what's coming next.\n\nEarly-stage and experimental. Expect breaking changes.\n\n# What makes Topcoat different\n\n# Client reactivity without the boilerplate\n\nTopcoat renders all markup on the server: components can be async and query the database directly, eliminating all the traditional boilerplate needed for a separate API layer. Interactivity does not have to cost a round-trip, though. A $(...) expression is ordinary type-checked Rust that Topcoat evaluates on the server for the initial render and also translates to JavaScript, so it re-runs instantly in the browser. No wasm bundle, no client build step:",
    "readme_chars": 11699,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "웹 애플리케이션 프레임워크로, 재료공학·이차전지·분석기기·과학계산과 무관한 소프트웨어 개발 도구다.",
+    "category": "기타",
+    "category_reason": "과학·공학 분야와 관련 없는 일반 소프트웨어 프로젝트이므로 평가 대상 카테고리에 해당하지 않는다.",
+    "summary_ko": "Topcoat은 Rust로 작성된 풀스택 웹 애플리케이션 프레임워크다. 서버 렌더링, 클라이언트 반응성, 모듈 기반 라우팅을 통해 웹 개발의 보일러플레이트를 줄이고 생산성을 높이는 데 중점을 두고 있다.",
+    "description_ko": "웹 앱을 구축하기 위한 완전한 기능의 프레임워크",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -515,19 +506,18 @@
    "readme_excerpt": "Deine Energie auf einen Blick, auch in 3D. Energiefluss, Geräte, Statistik und Raum-Abrechnung für Home Assistant. Komplett deutsch und kostenlos. Ein Assistent richtet alles ein, du brauchst kein YAML. Neu: Die Karte erklärt sich selbst. Ein „?“ sagt dir, warum gerade Strom aus dem Netz kommt. Neu: Auch für ioBroker. Als Community-Projekt von Andreas ( Landixus ), mehr dazu unten .\n\nAlle Bilder zeigen Beispieldaten.\n\nGefällt dir die Karte? Ein ⭐ oben rechts hilft mehr, als du denkst. Warum mir das wichtig ist\n\nNeu: Warum? · Jedes Gerät · Die vier Karten · Installation · ioBroker · 3D-Ansicht · Kosten je Verbraucher · Wetter, Farben und mehr · Handy und Tablet · Anleitungen · English",
    "readme_chars": 26152,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Home Assistant용 에너지 모니터링 대시보드 카드로, 재료공학·이차전지 연구·분석기기·과학계산과 무관한 스마트홈 자동화 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "이 레포는 에너지 흐름 시각화 및 가정용 전력 관리 대시보드로, 과학·공학 연구 도구가 아닌 가정용 스마트홈 소프트웨어다.",
+    "summary_ko": "Energy-Cockpit은 Home Assistant를 위한 에너지 모니터링 카드로, 태양광·배터리·가정용 전기·가스·수도 흐름을 시각화하고 비용을 계산한다. 설정 마법사로 YAML 없이 설치할 수 있으며, 독일어·영어·네덜란드어를 지원하고 3D 뷰와 모바일 최적화 기능을 제공한다.",
+    "description_ko": "Home Assistant용 카드(HACS, 독일어): 여러 배터리와 2차 태양광 설치를 포함한 에너지 흐름, 기기 및 소비, 통계, 실내별 과금. 설정 마법사, 색상 체계, 휴대전화용 간단한 뷰 제공.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 5,
    "is_new": false
   },
@@ -563,19 +553,18 @@
    "readme_excerpt": "# evcc 🚘☀️\n\nevcc is an extensible EV Charge Controller and home energy management system.\n\nOur goal is to provide local energy management, without relying on cloud services. Featured in PV Magazine and c’t Magazin.\n\n# Features\n\n• simple and clean user interface\n\n• support for many EV chargers:",
    "readme_chars": 7528,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "EV 충전 제어 및 홈 에너지 관리 시스템으로, 배터리 셀·소재·BMS 연구나 재료공학과는 무관하며 전기차 충전 인프라 운영 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "이 레포는 에너지 관리 소프트웨어이며 과학기술 연구와 직접 관련이 없어 본 분류의 어느 카테고리에도 속하지 않는다.",
+    "summary_ko": "evcc는 클라우드 서비스 없이 로컬에서 전기차 충전을 제어하고 홈 에너지를 관리하는 오픈소스 시스템입니다. 수백 개의 EV 충전기, 태양광 인버터, 에너지 미터, 차량 모델을 지원하며, Modbus·MQTT·OCPP 등 다양한 프로토콜로 통합됩니다.",
+    "description_ko": "지능형 충전 ☀️🚘",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": false
   },
@@ -605,19 +594,18 @@
    "readme_excerpt": "# Linux on the ZTE F50 / MU300 and U30 Air\n\nNews and new releases are announced on the Telegram channel: t.me/mu300project. Follow it to hear\n\nThe ZTE F50 is a pocket 5G router. This project turns it into a small Linux computer: Ubuntu (24.04 or 26.04 LTS) or OpenWrt (plain, or with a control panel for the modem), with SSH, Wi-Fi, Bluetooth and its 5G modem working. Android stays on the device, and you can go back to it at any time.\n\nThink of it as a Raspberry Pi that already has a 5G modem, a Wi-Fi access point and 32 GB of storage inside.\n\nThe ZTE U30 Air is supported too: the same board and chip with a battery. The installer recognises which one it is talking to; see Supported devices.",
    "readme_chars": 103319,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "ZTE F50/MU300은 5G 핫스팟 기기이며, 이 프로젝트는 그 위에 Linux 운영체제를 설치하는 도구로서 임베디드 Linux 시스템 개발에 관한 것이지 재료공학이나 이차전지 소재/셀 개발과는 무관하다.",
+    "category": "기타",
+    "category_reason": "재료공학, 이차전지 개발, 분석기기, 과학계산 카테고리에 해당하지 않는 임베디드 Linux 시스템 프로젝트이다.",
+    "summary_ko": "ZTE F50/MU300 및 U30 Air 5G 핫스팟 기기에 Ubuntu 또는 OpenWrt를 설치하여 Linux 컴퓨터로 변환하는 프로젝트입니다. 설치 도구, 커널 패치, 5G 모뎀·Wi-Fi·배터리·LED·NFC 등의 드라이버와 펌웨어 지원을 포함합니다.",
+    "description_ko": "ZTE F50 / MU300 및 U30 Air 5G 핫스팟용 Linux(Ubuntu 24.04/26.04 또는 OpenWrt): 설치 도구, 벤더 5.4 커널 및 메인라인 6.18 / 7.2 커널, 5G 모뎀, Wi-Fi, 배터리, LED, NFC, 연구 자료",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 20,
    "is_new": false
   },
@@ -650,19 +638,18 @@
    "readme_excerpt": "The open-source browser API for AI agents & apps. The best way to build live web agents and browser automation tools.\n\n# ✨ Highlights\n\nSteel.dev is an open-source browser API that makes it easy to build AI apps and agents that interact with the web. Instead of building automation infrastructure from scratch, you can focus on your AI application while Steel handles the complexity.\n\nUnder the hood, it manages sessions, pages, and browser processes, allowing you to perform complex browsing tasks programmatically without any of the headaches:\n\n• Full Browser Control: Uses Puppeteer and CDP for complete control over Chrome instances -- allowing you to connect using Puppeteer, Playwright, or Selenium.\n\n• Session Management: Maintains browser state, cookies, and local storage across requests\n\n• Proxy Support: Built-in proxy chain management for IP rotation\n\n• Extension Support: Load custom Chrome extensions for enhanced functionality",
    "readme_chars": 13406,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "AI 에이전트를 위한 브라우저 자동화 API로, 재료공학·이차전지·분석기기·과학계산과는 무관한 웹 개발 도구입니다.",
+    "category": "기타",
+    "category_reason": "이 레포는 AI 에이전트 및 앱이 웹과 상호작용하도록 하는 브라우저 자동화 플랫폼으로, 대학 학과 분류 범주에 속하지 않습니다.",
+    "summary_ko": "Steel은 AI 에이전트와 앱이 웹을 자동으로 조작하고 상호작용할 수 있도록 하는 오픈소스 브라우저 API입니다. Puppeteer와 CDP를 기반으로 세션 관리, 프록시 지원, Chrome 확장 프로그램 로드, 디버깅 도구 등을 제공하며, 클라우드 또는 로컬에서 Docker로 배포할 수 있습니다.",
+    "description_ko": "AI 에이전트와 앱을 위한 오픈소스 브라우저 API입니다. Steel Browser는 인프라 걱정 없이 웹 자동화를 가능하게 하는 완전한 기능의 브라우저 샌드박스입니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": false
   },
@@ -694,19 +681,18 @@
    "readme_excerpt": "Enhance your AirPods experience on Windows\n\n# 🔍 Preview\n\n# ✨ Features\n\n• 🔋 Battery information in the notification area.\n\n• 👂 Automatic ear detection and media playback control.\n\n• 🚀 Low audio latency mode.\n\n• 🌈 Animated device popups and light, dark, or system themes.\n\n# 💻 System requirements\n\nOfficial builds support Windows 10 1809 or newer and Windows 11 on x64. 32-bit Windows and ARM64 are not supported. Existing Qt 5/Win32 users can migrate through the in-app updater while keeping\n\n# 🛠️ Build and test\n\nSee the Build Instructions for Windows prerequisites, build commands, and tests.\n\n# 🤝 Contribute\n\nAirPodsDesktop is an open source project, here are some ways you can contribute:\n\n• Open an issue to report bugs or suggest new features.\n\n• Submit a PR to fix bugs, improve documentation, or add features.\n\n• Translate to other languages or improve existing translations.",
    "readme_chars": 3045,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "AirPods 데스크톱 사용자 경험 향상 프로그램으로, 배터리 표시는 단순히 블루투스 기기의 배터리 잔량을 모니터링하는 기능일 뿐 재료공학이나 이차전지 기술 연구와는 무관하다.",
+    "category": "기타",
+    "category_reason": "배터리·블루투스 단어가 있지만 이는 소비자용 데스크톱 애플리케이션으로, 과학 연구나 기술 분석 도구가 아니다.",
+    "summary_ko": "Windows 및 Linux에서 AirPods의 사용 경험을 향상시키는 데스크톱 애플리케이션이다. 배터리 정보 표시, 자동 귀 감지, 미디어 제어, 저지연 오디오 모드 등의 기능을 제공한다.",
+    "description_ko": "⚡ AirPods 데스크톱 사용자 경험 향상 프로그램, Windows 및 Linux용 (개발 중)",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 3,
    "is_new": false
   },
@@ -740,19 +726,18 @@
    "readme_excerpt": "# HeadsetControl\n\nA cross-platform tool to control USB gaming headsets on Linux, macOS, and Windows. Manage sidetone, battery status, LED lights, equalizers, and more.\n\n# Features\n\n• Sidetone - Hear your own voice without latency (unlike software loopback)\n\n• Battery Status - Monitor charge level, voltage, and time remaining\n\n• LED Control - Toggle lights on/off and set their color\n\n• Equalizer - Presets and custom EQ curves (including parametric EQ)\n\n• Inactive Time - Auto power-off timer\n\n• Chat-Mix - Game/chat audio balance\n\n• Microphone - Volume, mute LED brightness, rotate-to-mute\n\n• Voice Prompts - Enable/disable audio cues\n\n• Bluetooth - Power-on behavior, call volume\n\nCheck the Supported Devices table below to confirm your headset is covered.",
    "readme_chars": 17931,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "USB 게이밍 헤드셋 제어 도구로, 배터리 단어가 포함되어 있지만 배터리 셀·소재·BMS 등 재료공학이나 이차전지 기술과는 무관하고 단순히 헤드셋 충전 상태 모니터링 기능일 뿐이다.",
+    "category": "기타",
+    "category_reason": "과학·재료 연구와 무관한 소비자 전자기기 제어 소프트웨어이다.",
+    "summary_ko": "HeadsetControl은 Linux, macOS, Windows에서 Logitech, SteelSeries, Corsair 등의 USB 게이밍 헤드셋을 제어하는 크로스플랫폼 도구입니다. Sidetone, 배터리 상태, LED 조명, 이퀄라이저, 마이크 설정 등 다양한 기능을 제공합니다.",
+    "description_ko": "Linux와 macOS에서 Logitech G930, G533, G633, G933, SteelSeries Arctis 7/PRO 2019, Corsair VOID (Pro) 헤드셋의 Sidetone과 배터리 상태를 제어하는 도구",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": true
   },
@@ -794,19 +779,18 @@
    "readme_excerpt": "# BatteryDock\n\nAll your wireless peripheral batteries in one clean, native Windows taskbar pill. Zero vendor bloat.\n\nDownload v1.0.0 · Report a Bug · Request Device Support · Changelog\n\nIf you use a wireless mouse from one brand, a headset from another, and a Bluetooth controller or headphones on top, checking your battery levels on Windows usually means juggling three heavy background apps or digging into Windows Settings.\n\nBatteryDock replaces all of that with a single ~4 MB native Rust app that sits quietly on your Windows 10/11 taskbar. No Electron, no telemetry, no accounts, and no manufacturer suites required.",
    "readme_chars": 8431,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Windows 운영체제의 무선 주변기기 배터리 잔량을 표시하는 유틸리티 앱으로, 이차전지 재료·셀·BMS나 재료 과학과는 무관한 데스크톱 소프트웨어다.",
+    "category": "기타",
+    "category_reason": "배터리라는 단어가 있지만 Bluetooth 주변기기(마우스, 헤드셋, 컨트롤러)의 배터리 잔량 모니터링 GUI 애플리케이션이므로 이차전지 연구·개발과는 관련이 없다.",
+    "summary_ko": "Windows 10/11 작업 표시줄에서 무선 주변기기(마우스, 헤드셋, 키보드, 컨트롤러 등)의 배터리 잔량을 한 곳에서 확인할 수 있는 가벼운 네이티브 데스크톱 앱이다. Rust로 개발되었으며 제조사 소프트웨어 없이도 모든 Bluetooth 기기의 배터리 상태를 모니터링할 수 있다.",
+    "description_ko": "Windows 10/11 작업 표시줄의 배터리 표시기 위젯으로, 무선 헤드셋, 마우스, 키보드 및 컨트롤러용이며 Rust로 구축되었다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 3,
    "is_new": false
   },
@@ -834,19 +818,18 @@
    "readme_excerpt": "# llama-swap\n\nRun multiple generative AI models on your machine and hot-swap between them on demand. llama-swap works with any OpenAI and Anthropic API compatible server and is used by thousands of people to power their local AI workflows.\n\nBuilt in Go for performance and simplicity, llama-swap has zero dependencies and is incredibly easy to set up. Get started in minutes - just one binary and one configuration file.\n\n> Got questions about configuring llama-swap? Try out the Chat agent on llama-swap.ai. > It runs entirely in your browser and is powered by LFM3-1.7B fine tuned on the docs.\n\n# Features:\n\n• ✅ Easy to deploy and configure: one binary, one configuration file. no external dependencies\n\n• ✅ On-demand model switching for many local AI servers (llama.cpp + forks, vllm, stable-diffusion.cpp, audio.cpp, ComfyUI, etc.)\n\n• future proof, upgrade your inference servers at any time.\n\n• ✅ OpenAI API supported endpoints:\n\n• v1/models - list available models",
    "readme_chars": 17413,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "AI 모델 관리 소프트웨어로, 재료공학·이차전지·분석기기·과학계산과 실제 관련이 없다.",
+    "category": "기타",
+    "category_reason": "생성형 AI 모델을 로컬에서 실행하고 전환하는 소프트웨어로, 과학·재료 분야와 무관한 AI 인프라 도구다.",
+    "summary_ko": "llama-swap은 로컬 머신에서 여러 생성형 AI 모델을 실행하고 필요에 따라 모델을 즉시 전환할 수 있는 도구다. OpenAI 및 Anthropic API 호환 서버와 llama.cpp, vllm 등 다양한 로컬 AI 추론 서버를 지원하며, Go로 작성되어 의존성이 없고 설정이 간단하다.",
+    "description_ko": "어떤 로컬 AI 서버에서도 안정적인 모델 전환을 지원하며, 수천 명의 사용자가 사용 중이다. 필요한 모든 것이 포함되어 있다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 6,
    "is_new": false
   },
@@ -874,19 +857,18 @@
    "readme_excerpt": "An ultra lightweight macOS system monitor.\n\nAirStats is a system monitor for the Mac menu bar. It reads CPU, memory, GPU, network, disk, battery, temperature, process and host statistics from the kernel and shows them in three places: the menu bar itself, a panel that drops down when you click the status item, and a desktop widget you can leave on screen.\n\nIt is built to be genuinely light. A menu bar monitor runs all day, every day, so AirStats holds a few megabytes and a fraction of a percent of one core rather than the tens of megabytes its peers take. It has no Dock icon, and reads the system through Mach, IOKit,\n\n# Requirements\n\n• macOS 14 or later\n\n• Intel or Apple silicon\n\n# Install\n\nDownload it from airstats.app, open the dmg and drag the app to Applications. The release includes both Intel (x86_64) and Apple silicon (arm64) builds in one app. It is signed and notarized, so it opens with no warning.",
    "readme_chars": 3512,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "macOS 시스템 모니터 앱으로, 재료공학·이차전지·분석기기·과학계산과는 무관하며 단어(배터리)만 겹친다.",
+    "category": "기타",
+    "category_reason": "소프트웨어 개발 도구(시스템 모니터링 유틸리티)로, 과학·공학 분야 소프트웨어가 아니다.",
+    "summary_ko": "AirStats는 macOS 메뉴 바에서 실행되는 시스템 모니터로, CPU, 메모리, GPU, 네트워크, 디스크, 배터리, 온도 등을 표시합니다. 매우 가벼운 성능(CPU 0.046%)으로 설계되었으며, 메뉴 바 패널과 데스크톱 위젯에서 정보를 확인할 수 있습니다.",
+    "description_ko": "macOS용 초경량 시스템 모니터. CPU, 메모리, GPU, 네트워크, 디스크, 배터리 및 온도를 CPU 사용량 0.046%로 표시합니다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": false
   },
@@ -915,19 +897,18 @@
    "readme_excerpt": "# BehaviorTree.CPP 4.9\n\nThis C++ 17 library provides a framework to create BehaviorTrees. It was designed to be flexible, easy to use, reactive and fast.\n\nEven if our main use-case is robotics, you can use this library to build AI for games, or to replace Finite State Machines.\n\nThere are a few features that make BehaviorTree.CPP unique, when compared to other implementations:\n\n• It makes asynchronous Actions, i.e. non-blocking, a first-class citizen.\n\n• You can build reactive behaviors that execute multiple Actions concurrently (orthogonality).\n\n• Trees are defined using a Domain Specific scripting language (based on XML), and can be loaded at run-time; in other words, even if written in C++, the morphology of the Trees is _not_ hard-coded.\n\n• You can statically link your custom TreeNodes or convert them into plugins\n\nand load them at run-time.\n\n• It provides a type-safe and flexible mechanism to do Dataflow between\n\nNodes of the Tree.",
    "readme_chars": 5740,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "행동 트리 라이브러리는 로봇 제어·게임 AI·상태 머신 구현에 사용되는 소프트웨어이며, 재료공학·이차전지·분석기기·과학계산과는 무관하다.",
+    "category": "기타",
+    "category_reason": "소프트웨어 엔지니어링 도메인(제어 시스템·AI 프레임워크)에 속하며, 평가 대상 카테고리와 맞지 않는다.",
+    "summary_ko": "C++ 17 기반의 행동 트리 라이브러리로, 로봇 제어, 게임 AI, 상태 머신 대체 등에 사용된다. 비동기 액션·반응형 동작·런타임 XML 스크립트·플러그인 로드·데이터플로우 등 다양한 기능을 제공한다.",
+    "description_ko": "C++로 작성한 행동 트리 라이브러리. 필요한 것을 모두 포함하고 있다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": false
   },
@@ -964,18 +945,19 @@
    "readme_excerpt": "# Fedora 45 Post Install Guide\n\nThings to do after installing Fedora 45\n\n# RPM Fusion\n\n• Fedora has disabled the repositories for a lot of free and non-free .rpm packages by default. Follow this if you want to use non-free software like Steam, Discord and some multimedia codecs etc. As a general rule of thumb it is advised to do this to get access to many mainstream useful programs.\n\n• Enable third party repositories by pasting the following into the terminal:\n\n• sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm\n\n• also while you're at it, install app-stream metadata by:\n\n• sudo dnf install -y rpmfusion-free-appstream-data rpmfusion-nonfree-appstream-data\n\n# Update\n\n• Go into the software center and click on update. Alternatively, you can do:\n\n• sudo dnf -y update",
    "readme_chars": 12874,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Fedora 45 설치 후 설정 가이드로, 배터리 단어가 topics에만 있을 뿐 실제 이차전지·재료·분석기기와는 무관한 Linux 운영체제 사용 설명서다.",
+    "category": "기타",
+    "category_reason": "과학·공학 소프트웨어와 무관한 Linux 배포판 설치 후 설정 가이드이므로 과학계산이나 재료 관련 카테고리에 해당하지 않는다.",
+    "summary_ko": "Fedora 45 Linux 배포판을 설치한 후 필요한 초기 설정 단계들을 안내하는 가이드다. RPM Fusion 저장소 활성화, 시스템 업데이트, NVIDIA 드라이버 설치, 미디어 코덱 설정 등의 절차를 담고 있다.",
+    "description_ko": "Fedora 45 설치 후 할 일들",
+    "confidence": "low",
+    "confidence_reason": "이 레포는 과학·공학 분야와 무관한 순수 Linux 시스템 관리 가이드로, 심사 대상 범위 밖의 콘텐츠다.",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
    "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
+    "AI 확신 낮음: 이 레포는 과학·공학 분야와 무관한 순수 Linux 시스템 관리 가이드로, 심사 대상 범위 밖의 콘텐츠다."
    ],
    "streak": 1,
    "is_new": false
@@ -1007,19 +989,18 @@
    "readme_excerpt": "> Feb 17, 2026 UPDATE: > Finally, after more than 5 years, macOS 26.4 and later supports charge limiting natively (adjustable from 80% to 100%), so batt is not needed if the built-in range meets your needs. batt remains useful on older releases and when you want a limit below 80%. On macOS 27, batt can set native limits from 10% to 99% when direct SMC control is unavailable.\n\n# Batt\n\nbatt is a tool to control battery charging on Apple Silicon MacBooks.\n\n# Why do you need this?\n\nThis article might be helpful.\n\n> keep your battery at 80% or lower when plugged in, and discharge it as shallowly as feasible.\n\nPreviously, before optimized battery charging was introduced, MacBooks are known to suffer from battery swelling when they are kept at 100% all the time, especially the 2015s. Even with optimized battery charging, the effect is not optimal (described here)",
    "readme_chars": 9201,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Apple Silicon MacBook의 배터리 충전 제어 소프트웨어로, 이차전지 재료·셀·BMS 기술이나 재료공학과 직접 관련이 없다.",
+    "category": "기타",
+    "category_reason": "MacBook 사용자를 위한 시스템 유틸리티로, 과학·기술 소프트웨어 카테고리와 무관하다.",
+    "summary_ko": "batt는 Apple Silicon MacBook에서 배터리 충전 수준을 제어하고 제한하는 도구다. 배터리 수명을 연장하기 위해 최대 충전 수준을 설정(예: 80%)할 수 있으며, 고급 기능으로 MagSafe LED 제어, 전력 어댑터 제어, 자동 배터리 보정 등을 지원한다.",
+    "description_ko": "Apple Silicon MacBook의 배터리 충전을 제어하고 제한한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 2,
    "is_new": false
   },
@@ -1054,19 +1035,18 @@
    "readme_excerpt": "# MiniWatts\n\nAn iPhone and iPad battery and charging monitor built on Apple's private APIs. It reads the device's own power-management sensors — the ones iOS uses to run the charge — and shows what the charger is delivering, how much of it reaches the cell, where the rest goes as heat, and what every temperature sensor in the device is doing while it happens.\n\n> Sideload only. Private APIs mean this can never be on the App Store — you sign > and install it yourself. There is no network code of any kind: nothing it reads > leaves your phone.\n\n# Install\n\nDownload the latest MiniWatts-unsigned.ipa from Releases and sign it with your own Apple ID — Sideloadly, AltStore, SideStore and Xcode all do this. A free Apple ID works; the app then expires after seven days and you re-sign it.\n\nRequires iPhone or iPad, iOS 17 or later.\n\nOr add the source to SideStore or AltStore — including the SideStore bundled with LiveContainer — and install from there, so new versions show up as updates:",
    "readme_chars": 4676,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "iPhone 배터리 잔량·충전·온도를 실시간으로 모니터링하는 iOS 앱으로, 배터리 셀·재료·BMS 개발이나 재료 과학과는 무관한 사용자 도구이다.",
+    "category": "기타",
+    "category_reason": "소비자용 iOS 애플리케이션으로, 과학 연구나 재료 분석을 목적으로 하지 않는다.",
+    "summary_ko": "MiniWatts는 Apple의 비공개 API를 이용하여 iPhone과 iPad의 배터리 상태, 충전 전력, 온도 센서 데이터를 실시간으로 표시하는 iOS 앱이다. 사이드로드 방식으로만 설치 가능하며, 충전기에서 공급하는 전력, 배터리 셀에 도달하는 실제 전력, 열로 소산되는 전력, 그리고 기기 내 모든 온도 센서의 데이터를 모니터링한다.",
+    "description_ko": "Apple의 비공개 iOS API를 기반으로 구축한 iPhone 배터리, 충전 및 열 모니터링 도구로, 실제 충전기 와트 수, 배터리 셀에 실제로 도달하는 전력, 모든 30개 온도 센서, USB-PD 핸드셰이크를 표시한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 4,
    "is_new": false
   },
@@ -1097,21 +1077,21 @@
    "readme_excerpt": "# Omnibattery for Home Assistant\n\nOmnibattery is your one stop Home Assistant integration designed to monitor and control pluggable solar batteries, as of today, the following ones are supported:\n\n• Marstek Venus E and C (v2 and v3), Venus D and Venus A via Modbus TCP\n\n• Zendure SolarFlow 4000 Mix Pro, 4000 Mix AC+, 3000 Mix AC+, 2400 AC+, 2400 AC Pro, 1600 AC+, 800 Pro, 800 Plus and 800 (Local API)\n\n• Anker SOLIX Solarbank Max AC and Solarbank 4 E5000 Pro via Modbus TCP (thanks @wouterbouvy!)\n\n• Sessy Home Battery (Looking for testers!!!)\n\n• Hoymiles MS-A2 and HiBattery MQTT models\n\n• Indevolt SolidFlex 1200, 2000, 3000 and 3600, and PowerFlex 1200, 2000 and 3000 (Local HTTP API)\n\n# Key Features\n\n• Mix and match different battery brands: Marstek, Zendure, Anker Solix, Sessy, Hoymiles MQTT, Indevolt and more to come!\n\n• Zero Export/Import PD Controller: Keeps grid exchange near zero using a Proportional-Derivative algorithm.",
    "readme_chars": 8435,
    "ai": {
-    "category": "기타",
-    "summary_ko": "",
-    "description_ko": "",
-    "confidence": "low",
-    "confidence_reason": "AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md",
     "relevant": false,
-    "relevance_reason": "AI 처리 실패",
-    "category_reason": "",
-    "llm_issues": []
+    "relevance_reason": "Home Assistant 스마트홈 통합으로서 태양광 배터리 모니터링·제어 소프트웨어이며, 배터리 셀·재료·소재·BMS 개발이나 재료과학 연구와는 무관하다.",
+    "category": "기타",
+    "category_reason": "IoT/스마트홈 소프트웨어 통합이므로 재료공학이나 과학계산 카테고리에 해당하지 않는다.",
+    "summary_ko": "Omnibattery는 Home Assistant용 커스텀 통합으로, Marstek, Zendure, Anker Solix, Sessy, Hoymiles, Indevolt 등 여러 브랜드의 태양광 배터리를 한 곳에서 모니터링하고 제어할 수 있다. Zero Export 제어, 그리드 충전 예측, 시간대별 충방전 설정, 첨두 차단 등 고급 에너지 관리 기능을 제공한다.",
+    "description_ko": "Home Assistant용 커스텀 통합으로, Marstek Venus, Zendure, Anker Solix, Sessy, Hoymiles 배터리를 모니터링하고 제어한다.",
+    "confidence": "high",
+    "confidence_reason": "",
+    "llm_issues": [],
+    "backfilled_at": "2026-11-28T13:16:44+09:00"
    },
-   "warnings": [
-    "AI 확신 낮음: AI 처리 실패: Error code: 410 - 이 주소(OpenAI 호환 브리지)는 종료되었습니다. Timely API 로 옮겨 주세요: https://github.com/timely-hub/timely-gpt-sdk/blob/master/DIRECT_API_GUIDE.md"
-   ],
+   "warnings": [],
    "streak": 1,
    "is_new": false
   }
- ]
+ ],
+ "backfilled_at": "2026-11-28T13:16:44+09:00"
 }
